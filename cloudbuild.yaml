@@ -1,0 +1,24 @@
+steps:
+  # Build the container image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', '$_REGION-docker.pkg.dev/$PROJECT_ID/$_REPOSITORY/aoe2de-coach:$COMMIT_SHA', '.']
+
+  # Push the container image to Artifact Registry
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', '$_REGION-docker.pkg.dev/$PROJECT_ID/$_REPOSITORY/aoe2de-coach:$COMMIT_SHA']
+
+  # Optional: Tag as latest
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['tag', '$_REGION-docker.pkg.dev/$PROJECT_ID/$_REPOSITORY/aoe2de-coach:$COMMIT_SHA', '$_REGION-docker.pkg.dev/$PROJECT_ID/$_REPOSITORY/aoe2de-coach:latest']
+  
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', '$_REGION-docker.pkg.dev/$PROJECT_ID/$_REPOSITORY/aoe2de-coach:latest']
+
+images:
+  - '$_REGION-docker.pkg.dev/$PROJECT_ID/$_REPOSITORY/aoe2de-coach:$COMMIT_SHA'
+  - '$_REGION-docker.pkg.dev/$PROJECT_ID/$_REPOSITORY/aoe2de-coach:latest'
+
+substitutions:
+  _REGION: us-central1
+  _REPOSITORY: aoe2de-coach
+  _PROJECT_ID: fsiordia-cloud
