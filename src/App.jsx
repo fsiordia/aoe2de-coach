@@ -107,6 +107,5 @@ return (
         </footer>
     </div>
 );
-}
 
 export default App;
