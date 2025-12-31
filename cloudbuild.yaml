@@ -19,6 +19,6 @@ images:
   - '$_REGION-docker.pkg.dev/$PROJECT_ID/$_REPOSITORY/aoe2de-coach:latest'
 
 substitutions:
-  _REGION: us-central1
+  _REGION: us-east1
   _REPOSITORY: aoe2de-coach
   _PROJECT_ID: fsiordia-cloud
