@@ -22,3 +22,6 @@ substitutions:
   _REGION: us-east1
   _REPOSITORY: aoe2de-coach
   _PROJECT_ID: fsiordia-cloud
+
+options:
+  logging: CLOUD_LOGGING_ONLY
