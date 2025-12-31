@@ -1,0 +1,170 @@
+[
+    {
+        "id": "chinese",
+        "name": "Chinese",
+        "style": "Archer",
+        "summary": "Archer and Gunpowder civilization",
+        "bonuses": [
+            "Start with +3 villagers, -200 food, -50 wood",
+            "Town Center supports 10 population",
+            "Technologies cost -10% Feudal, -15% Castle, -20% Imperial",
+            "Demolition ships +50% HP"
+        ],
+        "uniqueUnits": [
+            "unique_chu_ko_nu"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Great Wall",
+                "effect": "Walls and Towers +30% HP"
+            },
+            {
+                "name": "Rocketry",
+                "effect": "Chu Ko Nu +2, Scorpions +4 attack"
+            }
+        ],
+        "roster": [
+            "arbalester",
+            "halberdier",
+            "cavalier",
+            "heavy_camel_rider",
+            "champion",
+            "heavy_scorpion",
+            "onager",
+            "elite_skirmisher"
+        ]
+    },
+    {
+        "id": "lithuanians",
+        "name": "Lithuanians",
+        "style": "Cavalry",
+        "summary": "Cavalry and Monk civilization",
+        "bonuses": [
+            "Start with +150 food",
+            "Spearman-line and Skirmishes move 10% faster",
+            "Knights and Leitis ignore armor (Leitis)",
+            "Relics give +1 attack to Knights/Leitis (max +4)"
+        ],
+        "uniqueUnits": [
+            "unique_leitis"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Hill Forts",
+                "effect": "Town Centers +3 range"
+            },
+            {
+                "name": "Tower Shields",
+                "effect": "Spearmen/Skirmishers +2 pierce armor"
+            }
+        ],
+        "roster": [
+            "paladin",
+            "halberdier",
+            "elite_skirmisher",
+            "hand_cannoneer",
+            "champion",
+            "hussar",
+            "onager"
+        ]
+    },
+    {
+        "id": "britons",
+        "name": "Britons",
+        "style": "Archer",
+        "summary": "Foot Archer civilization",
+        "bonuses": [
+            "Town Centers cost -50% wood",
+            "Archers +1 range (Castle), +1 range (Imperial)",
+            "Shepherds work 25% faster"
+        ],
+        "uniqueUnits": [
+            "unique_longbowman"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Yeomen",
+                "effect": "Foot archers +1 range, Towers +2 attack"
+            },
+            {
+                "name": "Warwolf",
+                "effect": "Trebuchets do blast damage and 100% accuracy"
+            }
+        ],
+        "roster": [
+            "arbalester",
+            "halberdier",
+            "cavalier",
+            "champion",
+            "onager",
+            "elite_skirmisher"
+        ]
+    },
+    {
+        "id": "franks",
+        "name": "Franks",
+        "style": "Cavalry",
+        "summary": "Cavalry civilization",
+        "bonuses": [
+            "Castles cost -25%",
+            "Cavalry +20% HP",
+            "Farm upgrades free",
+            "Foragers work 15% faster"
+        ],
+        "uniqueUnits": [
+            "unique_throwing_axeman"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Chivalry",
+                "effect": "Stables work 40% faster"
+            },
+            {
+                "name": "Bearded Axe",
+                "effect": "Throwing Axeman +1 range"
+            }
+        ],
+        "roster": [
+            "paladin",
+            "halberdier",
+            "hand_cannoneer",
+            "champion",
+            "onager",
+            "elite_skirmisher"
+        ]
+    },
+    {
+        "id": "goths",
+        "name": "Goths",
+        "style": "Infantry",
+        "summary": "Infantry civilization",
+        "bonuses": [
+            "Infantry cost -20% (Dark), -25% (Feudal), -30% (Castle), -35% (Imperial)",
+            "Infantry +1 attack vs buildings",
+            "Villagers +5 attack vs Wild Boar",
+            "+10 population cap in Imperial Age"
+        ],
+        "uniqueUnits": [
+            "unique_huskarl"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Anarchy",
+                "effect": "Huskarls created at Barracks"
+            },
+            {
+                "name": "Perfusion",
+                "effect": "Barracks work 100% faster"
+            }
+        ],
+        "roster": [
+            "halberdier",
+            "champion",
+            "hand_cannoneer",
+            "cavalier",
+            "hussar",
+            "onager",
+            "elite_skirmisher"
+        ]
+    }
+]

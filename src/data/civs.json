@@ -1,0 +1,1628 @@
+[
+    {
+        "id": "armenians",
+        "name": "Armenians",
+        "style": "Infantry and Naval",
+        "summary": "Infantry and Naval civilization",
+        "bonuses": [
+            "Mule Carts cost -25%",
+            "Mule Carts 40% more effective",
+            "First Fortified Church free",
+            "Barracks units +1 HP per age"
+        ],
+        "uniqueUnits": [
+            "unique_composite_bowman"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Cilician Fleet",
+                "effect": "Demolition Ships +33% blast radius"
+            },
+            {
+                "name": "Fereters",
+                "effect": "Infantry +30 HP, +2 armor"
+            }
+        ],
+        "roster": [
+            "champion",
+            "halberdier",
+            "arbalester",
+            "elite_skirmisher",
+            "onager",
+            "hand_cannoneer"
+        ]
+    },
+    {
+        "id": "aztecs",
+        "name": "Aztecs",
+        "style": "Infantry",
+        "summary": "Infantry and Monk civilization",
+        "bonuses": [
+            "Villagers carry +3 resources",
+            "Military units created faster",
+            "Monks gain +5 HP for every Monastery tech",
+            "Start with +50 gold"
+        ],
+        "uniqueUnits": [
+            "unique_jaguar_warrior"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Atlatl",
+                "effect": "Skirmishers +1 attack, +1 range"
+            },
+            {
+                "name": "Garland Wars",
+                "effect": "Infantry +4 attack"
+            }
+        ],
+        "roster": [
+            "arbalester",
+            "elite_eagle_warrior",
+            "elite_skirmisher",
+            "champion",
+            "pikeman",
+            "onager",
+            "monk"
+        ]
+    },
+    {
+        "id": "bengalis",
+        "name": "Bengalis",
+        "style": "Naval and Elephant",
+        "summary": "Naval and Elephant civilization",
+        "bonuses": [
+            "Elephant units receive 25% less bonus damage",
+            "Town Centers spawn 2 Villagers when Age up",
+            "Ships regenerate HP"
+        ],
+        "uniqueUnits": [
+            "unique_ratha"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Paiks",
+                "effect": "Rathas and Elephants attack faster"
+            },
+            {
+                "name": "Mahayana",
+                "effect": "Villagers take less population space"
+            }
+        ],
+        "roster": [
+            "arbalester",
+            "elite_skirmisher",
+            "halberdier",
+            "onager",
+            "heavy_scorpion",
+            "monk"
+        ]
+    },
+    {
+        "id": "berbers",
+        "name": "Berbers",
+        "style": "Cavalry",
+        "summary": "Cavalry and Naval civilization",
+        "bonuses": [
+            "Villagers move 10% faster",
+            "Stable units cost -15%/-20% in Castle/Imperial",
+            "Ships move 10% faster"
+        ],
+        "uniqueUnits": [
+            "unique_camel_archer",
+            "unique_genitour"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Kasbah",
+                "effect": "Team Castles work 25% faster"
+            },
+            {
+                "name": "Maghrebi Camels",
+                "effect": "Camel troops regenerate"
+            }
+        ],
+        "roster": [
+            "heavy_camel_rider",
+            "hussar",
+            "cavalier",
+            "champion",
+            "hand_cannoneer",
+            "bombard_cannon",
+            "elite_skirmisher",
+            "cavalry_archer"
+        ]
+    },
+    {
+        "id": "bohemians",
+        "name": "Bohemians",
+        "style": "Gunpowder and Monk",
+        "summary": "Gunpowder and Monk civilization",
+        "bonuses": [
+            "Blacksmith, Monk, University techs cost -50%",
+            "Gunpowder units move 15% faster",
+            "Spear-line deals +25% bonus damage"
+        ],
+        "uniqueUnits": [
+            "unique_hussite_wagon",
+            "unique_houfnice"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Wagenburg Tactics",
+                "effect": "Gunpowder units move faster"
+            },
+            {
+                "name": "Hussite Reforms",
+                "effect": "Monks and Monasteries cost -gold"
+            }
+        ],
+        "roster": [
+            "hand_cannoneer",
+            "halberdier",
+            "bombard_cannon",
+            "champion",
+            "elite_skirmisher",
+            "onager",
+            "monk"
+        ]
+    },
+    {
+        "id": "britons",
+        "name": "Britons",
+        "style": "Archer",
+        "summary": "Foot Archer civilization",
+        "bonuses": [
+            "Town Centers cost -50% wood",
+            "Archers +1 range (Castle), +1 range (Imperial)",
+            "Shepherds work 25% faster"
+        ],
+        "uniqueUnits": [
+            "unique_longbowman"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Yeomen",
+                "effect": "Foot archers +1 range, Towers +2 attack"
+            },
+            {
+                "name": "Warwolf",
+                "effect": "Trebuchets do blast damage and 100% accuracy"
+            }
+        ],
+        "roster": [
+            "arbalester",
+            "halberdier",
+            "cavalier",
+            "champion",
+            "onager",
+            "elite_skirmisher"
+        ]
+    },
+    {
+        "id": "bulgarians",
+        "name": "Bulgarians",
+        "style": "Infantry and Cavalry",
+        "summary": "Infantry and Cavalry civilization",
+        "bonuses": [
+            "Militia-line upgrades free",
+            "Town Centers cost -50% stone",
+            "Blacksmith works 80% faster"
+        ],
+        "uniqueUnits": [
+            "unique_konnik"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Stirrups",
+                "effect": "Light Cavalry and Konniks attack faster"
+            },
+            {
+                "name": "Bagains",
+                "effect": "Militia-line +5 armor"
+            }
+        ],
+        "roster": [
+            "two_handed_swordsman",
+            "cavalier",
+            "hussar",
+            "onager",
+            "halberdier",
+            "elite_skirmisher"
+        ]
+    },
+    {
+        "id": "burgundians",
+        "name": "Burgundians",
+        "style": "Cavalry",
+        "summary": "Cavalry civilization",
+        "bonuses": [
+            "Economic upgrades available one age earlier",
+            "Stable technologies cost -50%",
+            "Gunpowder units +25% attack"
+        ],
+        "uniqueUnits": [
+            "unique_coustillier",
+            "unique_flemish_militia"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Burgundian Vineyards",
+                "effect": "Farmers generate gold"
+            },
+            {
+                "name": "Flemish Revolution",
+                "effect": "Villagers become Flemish Militia"
+            }
+        ],
+        "roster": [
+            "paladin",
+            "halberdier",
+            "hand_cannoneer",
+            "bombard_cannon",
+            "onager",
+            "hussar",
+            "elite_skirmisher"
+        ]
+    },
+    {
+        "id": "burmese",
+        "name": "Burmese",
+        "style": "Monk and Elephant",
+        "summary": "Monk and Elephant civilization",
+        "bonuses": [
+            "Lumber Camp upgrades free",
+            "Infantry +1/+2/+3 attack per age",
+            "Monastery techs cost -50%"
+        ],
+        "uniqueUnits": [
+            "unique_arambai"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Howdah",
+                "effect": "Battle Elephants +1/+1 armor"
+            },
+            {
+                "name": "Manipur Cavalry",
+                "effect": "Cavalry +6 attack vs buildings"
+            }
+        ],
+        "roster": [
+            "hussar",
+            "cavalier",
+            "halberdier",
+            "champion",
+            "elite_skirmisher",
+            "onager",
+            "monk",
+            "bombard_cannon"
+        ]
+    },
+    {
+        "id": "byzantines",
+        "name": "Byzantines",
+        "style": "Defensive",
+        "summary": "Defensive civilization",
+        "bonuses": [
+            "Buildings +10/20/30/40% HP",
+            "Camel Riders, Skirmishers, Pikemen cost -25%",
+            "Fire Ships attack faster",
+            "Town Watch is free"
+        ],
+        "uniqueUnits": [
+            "unique_cataphract"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Greek Fire",
+                "effect": "Fire ships +1 range"
+            },
+            {
+                "name": "Logistica",
+                "effect": "Cataphracts cause trample damage"
+            }
+        ],
+        "roster": [
+            "paladin",
+            "arbalester",
+            "halberdier",
+            "heavy_camel_rider",
+            "hand_cannoneer",
+            "champion",
+            "hussar",
+            "elite_skirmisher",
+            "monk"
+        ]
+    },
+    {
+        "id": "celts",
+        "name": "Celts",
+        "style": "Infantry and Siege",
+        "summary": "Infantry and Siege civilization",
+        "bonuses": [
+            "Infantry move 15% faster",
+            "Lumberjacks work 15% faster",
+            "Siege weapons fire 25% faster"
+        ],
+        "uniqueUnits": [
+            "unique_woad_raider"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Stronghold",
+                "effect": "Castles/Towers fire 25% faster"
+            },
+            {
+                "name": "Furor Celtica",
+                "effect": "Siege Workshop units +40% HP"
+            }
+        ],
+        "roster": [
+            "paladin",
+            "halberdier",
+            "champion",
+            "hussar",
+            "onager",
+            "heavy_scorpion",
+            "elite_skirmisher"
+        ]
+    },
+    {
+        "id": "chinese",
+        "name": "Chinese",
+        "style": "Archer",
+        "summary": "Archer and Gunpowder civilization",
+        "bonuses": [
+            "Start with +3 villagers, -200 food, -50 wood",
+            "Town Center supports 10 population",
+            "Technologies cost -10% Feudal, -15% Castle, -20% Imperial",
+            "Demolition ships +50% HP"
+        ],
+        "uniqueUnits": [
+            "unique_chu_ko_nu"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Great Wall",
+                "effect": "Walls and Towers +30% HP"
+            },
+            {
+                "name": "Rocketry",
+                "effect": "Chu Ko Nu +2, Scorpions +4 attack"
+            }
+        ],
+        "roster": [
+            "arbalester",
+            "halberdier",
+            "cavalier",
+            "champion",
+            "heavy_scorpion",
+            "onager",
+            "elite_skirmisher"
+        ]
+    },
+    {
+        "id": "cumans",
+        "name": "Cumans",
+        "style": "Cavalry",
+        "summary": "Cavalry civilization",
+        "bonuses": [
+            "Additional Town Center can be built in Feudal Age",
+            "Siege Workshops and Battering Rams available in Feudal Age",
+            "Cavalry 5%/10%/15% faster"
+        ],
+        "uniqueUnits": [
+            "unique_kipchak"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Steppe Husbandry",
+                "effect": "Scout lines train 100% faster"
+            },
+            {
+                "name": "Cuman Mercenaries",
+                "effect": "Team members can create free Elite Kipchaks"
+            }
+        ],
+        "roster": [
+            "hussar",
+            "paladin",
+            "champion",
+            "halberdier",
+            "heavy_camel_rider",
+            "onager",
+            "elite_skirmisher",
+            "cavalry_archer"
+        ]
+    },
+    {
+        "id": "dravidians",
+        "name": "Dravidians",
+        "style": "Infantry and Naval",
+        "summary": "Infantry and Naval civilization",
+        "bonuses": [
+            "Receive +200 wood when advancing age",
+            "Fishermen/Fishing Ships carry +15",
+            "Skirmishers and Elephant Archers attack 25% faster",
+            "Barracks technologies cost -50%"
+        ],
+        "uniqueUnits": [
+            "unique_urumi_swordsman"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Medical Corps",
+                "effect": "Elephant units regenerate HP"
+            },
+            {
+                "name": "Wootz Steel",
+                "effect": "Infantry attacks ignore armor"
+            }
+        ],
+        "roster": [
+            "halberdier",
+            "arbalester",
+            "champion",
+            "elite_skirmisher",
+            "heavy_scorpion",
+            "onager"
+        ]
+    },
+    {
+        "id": "ethiopians",
+        "name": "Ethiopians",
+        "style": "Archer",
+        "summary": "Archer civilization",
+        "bonuses": [
+            "Archers fire 15% faster",
+            "Receive +100 gold/food when advancing to next age",
+            "Pikeman upgrades free"
+        ],
+        "uniqueUnits": [
+            "unique_shotel_warrior"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Royal Heirs",
+                "effect": "Shotel Warriors train instantly"
+            },
+            {
+                "name": "Torsion Engines",
+                "effect": "Siege Workshop units blast radius increased"
+            }
+        ],
+        "roster": [
+            "arbalester",
+            "halberdier",
+            "hussar",
+            "cavalier",
+            "heavy_scorpion",
+            "onager",
+            "elite_skirmisher",
+            "bombard_cannon"
+        ]
+    },
+    {
+        "id": "franks",
+        "name": "Franks",
+        "style": "Cavalry",
+        "summary": "Cavalry civilization",
+        "bonuses": [
+            "Castles cost -25%",
+            "Cavalry +20% HP",
+            "Farm upgrades free",
+            "Foragers work 15% faster"
+        ],
+        "uniqueUnits": [
+            "unique_throwing_axeman"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Chivalry",
+                "effect": "Stables work 40% faster"
+            },
+            {
+                "name": "Bearded Axe",
+                "effect": "Throwing Axeman +1 range"
+            }
+        ],
+        "roster": [
+            "paladin",
+            "halberdier",
+            "hand_cannoneer",
+            "champion",
+            "onager",
+            "elite_skirmisher"
+        ]
+    },
+    {
+        "id": "georgians",
+        "name": "Georgians",
+        "style": "Cavalry",
+        "summary": "Cavalry and Defensive civilization",
+        "bonuses": [
+            "Start with a Mule Cart, -50 food",
+            "Fortified Churches boost villagers work rate",
+            "Units on high ground take -15% damage"
+        ],
+        "uniqueUnits": [
+            "unique_monaspa"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Svan Towers",
+                "effect": "Defensive buildings +2 attack"
+            },
+            {
+                "name": "Aznauri Cavalry",
+                "effect": "Cavalry units take -15% population"
+            }
+        ],
+        "roster": [
+            "champion",
+            "halberdier",
+            "hussar",
+            "cavalier",
+            "hand_cannoneer",
+            "heavy_scorpion",
+            "onager",
+            "elite_skirmisher"
+        ]
+    },
+    {
+        "id": "goths",
+        "name": "Goths",
+        "style": "Infantry",
+        "summary": "Infantry civilization",
+        "bonuses": [
+            "Infantry cost -20% (Dark), -25% (Feudal), -30% (Castle), -35% (Imperial)",
+            "Infantry +1 attack vs buildings",
+            "Villagers +5 attack vs Wild Boar",
+            "+10 population cap in Imperial Age"
+        ],
+        "uniqueUnits": [
+            "unique_huskarl"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Anarchy",
+                "effect": "Huskarls created at Barracks"
+            },
+            {
+                "name": "Perfusion",
+                "effect": "Barracks work 100% faster"
+            }
+        ],
+        "roster": [
+            "halberdier",
+            "champion",
+            "hand_cannoneer",
+            "cavalier",
+            "hussar",
+            "onager",
+            "elite_skirmisher"
+        ]
+    },
+    {
+        "id": "gurjaras",
+        "name": "Gurjaras",
+        "style": "Cavalry and Camel",
+        "summary": "Cavalry and Camel civilization",
+        "bonuses": [
+            "Start with 2 forage bushes",
+            "Can garrison livestock in Mill for food",
+            "Mounted units deal +50% bonus damage",
+            "Can train Camel Scouts in Feudal Age"
+        ],
+        "uniqueUnits": [
+            "unique_chakram_thrower",
+            "unique_shrivamsha_rider"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Kshatriyas",
+                "effect": "Military units cost -25% food"
+            },
+            {
+                "name": "Frontier Guards",
+                "effect": "Camel Riders and Elephant Archers +4 melee armor"
+            }
+        ],
+        "roster": [
+            "heavy_camel_rider",
+            "hussar",
+            "two_handed_swordsman",
+            "elite_skirmisher",
+            "hand_cannoneer",
+            "onager",
+            "bombard_cannon"
+        ]
+    },
+    {
+        "id": "hindustanis",
+        "name": "Hindustanis",
+        "style": "Camel and Gunpowder",
+        "summary": "Camel and Gunpowder civilization",
+        "bonuses": [
+            "Villagers cost -10%/-15%/-20% in Feudal/Castle/Imperial",
+            "Camel Riders attack 20% faster",
+            "Gunpowder units +1/+1 armor"
+        ],
+        "uniqueUnits": [
+            "unique_ghulam",
+            "unique_imperial_camel_rider"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Grand Trunk Road",
+                "effect": "Gold income 10% faster"
+            },
+            {
+                "name": "Shatagni",
+                "effect": "Hand Cannoneers +2 range"
+            }
+        ],
+        "roster": [
+            "hand_cannoneer",
+            "champion",
+            "hussar",
+            "onager",
+            "elite_skirmisher",
+            "bombard_cannon"
+        ]
+    },
+    {
+        "id": "huns",
+        "name": "Huns",
+        "style": "Cavalry",
+        "summary": "Cavalry civilization",
+        "bonuses": [
+            "Do not need houses, but start with -100 wood",
+            "Cavalry Archers cost -10% Castle, -20% Imperial",
+            "Trebuchets +30% accuracy"
+        ],
+        "uniqueUnits": [
+            "unique_tarkan"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Marauders",
+                "effect": "Create Tarkans at Stables"
+            },
+            {
+                "name": "Atheism",
+                "effect": "+100 years Relic/Wonder victory time"
+            }
+        ],
+        "roster": [
+            "paladin",
+            "halberdier",
+            "cavalry_archer",
+            "hussar",
+            "onager",
+            "elite_skirmisher"
+        ]
+    },
+    {
+        "id": "incas",
+        "name": "Incas",
+        "style": "Infantry",
+        "summary": "Infantry civilization",
+        "bonuses": [
+            "Start with a free Llama",
+            "Villagers benefit from Blacksmith upgrades",
+            "Houses support 10 population",
+            "Buildings cost -15% stone"
+        ],
+        "uniqueUnits": [
+            "unique_kamayuk",
+            "unique_slinger"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Andean Sling",
+                "effect": "Slingers/Skirmishers no minimum range"
+            },
+            {
+                "name": "Fabric Shields",
+                "effect": "Kamayuks/Slingers/Eagles +1/+2 armor"
+            }
+        ],
+        "roster": [
+            "arbalester",
+            "elite_eagle_warrior",
+            "halberdier",
+            "elite_skirmisher",
+            "champion",
+            "onager",
+            "monk"
+        ]
+    },
+    {
+        "id": "italians",
+        "name": "Italians",
+        "style": "Archer and Naval",
+        "summary": "Archer and Naval civilization",
+        "bonuses": [
+            "Advancing to next age costs -15%",
+            "Dock technologies cost -50%",
+            "Fishing Ships cost -15%",
+            "Gunpowder units cost -20%"
+        ],
+        "uniqueUnits": [
+            "unique_genoese_crossbowman",
+            "unique_condottiero"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Pavise",
+                "effect": "Foot Archers and Condottieri +1/+1 armor"
+            },
+            {
+                "name": "Silk Road",
+                "effect": "Trade units cost -50%"
+            }
+        ],
+        "roster": [
+            "arbalester",
+            "hand_cannoneer",
+            "cavalier",
+            "bombard_cannon",
+            "hussar",
+            "champion",
+            "onager",
+            "elite_skirmisher"
+        ]
+    },
+    {
+        "id": "japanese",
+        "name": "Japanese",
+        "style": "Infantry",
+        "summary": "Infantry civilization",
+        "bonuses": [
+            "Infantry attack 33% faster",
+            "Fishing Ships 2x HP, +2 armor, work faster",
+            "Mills, Lumber Camps, Mining Camps cost -50%",
+            "Galley-line +50% LoS"
+        ],
+        "uniqueUnits": [
+            "unique_samurai"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Yasama",
+                "effect": "Towers shoot extra arrows"
+            },
+            {
+                "name": "Kataparuto",
+                "effect": "Trebuchets fire/pack faster"
+            }
+        ],
+        "roster": [
+            "arbalester",
+            "halberdier",
+            "hand_cannoneer",
+            "champion",
+            "cavalier",
+            "onager",
+            "elite_skirmisher",
+            "monk"
+        ]
+    },
+    {
+        "id": "khmer",
+        "name": "Khmer",
+        "style": "Siege and Elephant",
+        "summary": "Siege and Elephant civilization",
+        "bonuses": [
+            "No buildings required to advance age or unlock buildings",
+            "Farmers do not require drop sites",
+            "Battle Elephants move 10% faster"
+        ],
+        "uniqueUnits": [
+            "unique_ballista_elephant"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Tusk Swords",
+                "effect": "Battle Elephants +3 attack"
+            },
+            {
+                "name": "Double Crossbow",
+                "effect": "Ballista Elephants/Scorpions fire 2 bolts"
+            }
+        ],
+        "roster": [
+            "arbalester",
+            "halberdier",
+            "hussar",
+            "cavalier",
+            "heavy_scorpion",
+            "onager",
+            "elite_skirmisher"
+        ]
+    },
+    {
+        "id": "koreans",
+        "name": "Koreans",
+        "style": "Tower and Naval",
+        "summary": "Tower and Naval civilization",
+        "bonuses": [
+            "Villagers +3 LoS",
+            "Stone miners work 20% faster",
+            "Tower upgrades free",
+            "Archers armor upgrades free"
+        ],
+        "uniqueUnits": [
+            "unique_war_wagon"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Eupseong",
+                "effect": "Watch Towers +2 range"
+            },
+            {
+                "name": "Shinkichon",
+                "effect": "Onagers +1 range"
+            }
+        ],
+        "roster": [
+            "arbalester",
+            "halberdier",
+            "hand_cannoneer",
+            "onager",
+            "elite_skirmisher",
+            "champion"
+        ]
+    },
+    {
+        "id": "lithuanians",
+        "name": "Lithuanians",
+        "style": "Cavalry",
+        "summary": "Cavalry and Monk civilization",
+        "bonuses": [
+            "Start with +150 food",
+            "Spearman-line and Skirmishes move 10% faster",
+            "Knights and Leitis ignore armor (Leitis)",
+            "Relics give +1 attack to Knights/Leitis (max +4)"
+        ],
+        "uniqueUnits": [
+            "unique_leitis"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Hill Forts",
+                "effect": "Town Centers +3 range"
+            },
+            {
+                "name": "Tower Shields",
+                "effect": "Spearmen/Skirmishers +2 pierce armor"
+            }
+        ],
+        "roster": [
+            "paladin",
+            "halberdier",
+            "elite_skirmisher",
+            "hand_cannoneer",
+            "champion",
+            "hussar",
+            "onager"
+        ]
+    },
+    {
+        "id": "magyars",
+        "name": "Magyars",
+        "style": "Cavalry",
+        "summary": "Cavalry civilization",
+        "bonuses": [
+            "Forging, Iron Casting, Blast Furnace free",
+            "Scout Cavalry line costs -15%",
+            "Kill wolves with 1 strike"
+        ],
+        "uniqueUnits": [
+            "unique_magyar_huszar"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Corvinian Army",
+                "effect": "Magyar Huszars cost no gold"
+            },
+            {
+                "name": "Recurve Bow",
+                "effect": "Cavalry Archers +1 range, +1 attack"
+            }
+        ],
+        "roster": [
+            "paladin",
+            "halberdier",
+            "cavalry_archer",
+            "hussar",
+            "onager",
+            "elite_skirmisher",
+            "arbalester"
+        ]
+    },
+    {
+        "id": "malians",
+        "name": "Malians",
+        "style": "Infantry",
+        "summary": "Infantry civilization",
+        "bonuses": [
+            "Buildings cost -15% wood",
+            "Barracks units +1 pierce armor per age",
+            "Gold Mining upgrades free"
+        ],
+        "uniqueUnits": [
+            "unique_gbeto"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Tigui",
+                "effect": "Town Centers fire arrows without garrison"
+            },
+            {
+                "name": "Farimba",
+                "effect": "Cavalry +5 attack"
+            }
+        ],
+        "roster": [
+            "arbalester",
+            "pikeman",
+            "heavy_camel_rider",
+            "cavalier",
+            "champion",
+            "onager",
+            "elite_skirmisher",
+            "hand_cannoneer",
+            "bombard_cannon"
+        ]
+    },
+    {
+        "id": "malay",
+        "name": "Malay",
+        "style": "Naval",
+        "summary": "Naval civilization",
+        "bonuses": [
+            "Advancing to next age is 66% faster",
+            "Fish Traps cost -33% and provide unlimited food",
+            "Battle Elephants cost -30%/ -40%"
+        ],
+        "uniqueUnits": [
+            "unique_karambit_warrior"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Thalassocracy",
+                "effect": "Harbors (upgraded Docks) shoot arrows"
+            },
+            {
+                "name": "Forced Levy",
+                "effect": "Militia-line costs no gold"
+            }
+        ],
+        "roster": [
+            "arbalester",
+            "halberdier",
+            "two_handed_swordsman",
+            "elite_skirmisher",
+            "bombard_cannon",
+            "onager"
+        ]
+    },
+    {
+        "id": "mayans",
+        "name": "Mayans",
+        "style": "Archer",
+        "summary": "Archer civilization",
+        "bonuses": [
+            "Start with +1 villager, -50 food",
+            "Resources last 15% longer",
+            "Archers cost -10% Feudal, -20% Castle, -30% Imperial"
+        ],
+        "uniqueUnits": [
+            "unique_plumed_archer"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Obsidian Arrows",
+                "effect": "Archers +6 attack vs buildings"
+            },
+            {
+                "name": "El Dorado",
+                "effect": "Eagle Warriors +40 HP"
+            }
+        ],
+        "roster": [
+            "arbalester",
+            "elite_eagle_warrior",
+            "halberdier",
+            "elite_skirmisher",
+            "onager",
+            "monk"
+        ]
+    },
+    {
+        "id": "mongols",
+        "name": "Mongols",
+        "style": "Cavalry Archer",
+        "summary": "Cavalry Archer civilization",
+        "bonuses": [
+            "Cavalry Archers fire 25% faster",
+            "Light Cavalry, Hussars, Steppe Lancers +30% HP",
+            "Hunters work 40% faster"
+        ],
+        "uniqueUnits": [
+            "unique_mangudai"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Nomads",
+                "effect": "Houses not lost if destroyed"
+            },
+            {
+                "name": "Drill",
+                "effect": "Siege Workshop units move 50% faster"
+            }
+        ],
+        "roster": [
+            "hussar",
+            "cavalier",
+            "champion",
+            "heavy_camel_rider",
+            "onager",
+            "elite_skirmisher",
+            "arbalester",
+            "cavalry_archer"
+        ]
+    },
+    {
+        "id": "persians",
+        "name": "Persians",
+        "style": "Cavalry",
+        "summary": "Cavalry civilization",
+        "bonuses": [
+            "Start with +50 food and +50 wood",
+            "Town Centers and Docks 2x HP",
+            "Town Centers and Docks work faster",
+            "Knights +2 attack vs Archers"
+        ],
+        "uniqueUnits": [
+            "unique_war_elephant",
+            "unique_savar"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Kamandaran",
+                "effect": "Archer-line costs wood instead of gold"
+            },
+            {
+                "name": "Mahouts",
+                "effect": "War Elephants move 30% faster"
+            }
+        ],
+        "roster": [
+            "halberdier",
+            "hand_cannoneer",
+            "heavy_camel_rider",
+            "hussar",
+            "elite_skirmisher",
+            "crossbowman"
+        ]
+    },
+    {
+        "id": "poles",
+        "name": "Poles",
+        "style": "Cavalry",
+        "summary": "Cavalry civilization",
+        "bonuses": [
+            "Villagers regenerate HP in Dark Age",
+            "Folwarks replace Mills",
+            "Stone miners generate gold"
+        ],
+        "uniqueUnits": [
+            "unique_obuch"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Szlachta Privileges",
+                "effect": "Knights cost -60% gold"
+            },
+            {
+                "name": "Lechitic Legacy",
+                "effect": "Scout Cavalry deals trample damage"
+            }
+        ],
+        "roster": [
+            "cavalier",
+            "halberdier",
+            "arbalester",
+            "champion",
+            "bombard_cannon",
+            "onager",
+            "hussar",
+            "elite_skirmisher"
+        ]
+    },
+    {
+        "id": "portuguese",
+        "name": "Portuguese",
+        "style": "Naval and Gunpowder",
+        "summary": "Naval and Gunpowder civilization",
+        "bonuses": [
+            "All units cost -20% gold",
+            "Ships +10% HP",
+            "Feitoria built in Imperial Age"
+        ],
+        "uniqueUnits": [
+            "unique_organ_gun"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Carrack",
+                "effect": "Ships +1/+1 armor"
+            },
+            {
+                "name": "Arquebus",
+                "effect": "Gunpowder units traverse shots"
+            }
+        ],
+        "roster": [
+            "cavalier",
+            "halberdier",
+            "hand_cannoneer",
+            "champion",
+            "bombard_cannon",
+            "onager",
+            "elite_skirmisher"
+        ]
+    },
+    {
+        "id": "romans",
+        "name": "Romans",
+        "style": "Infantry",
+        "summary": "Infantry civilization",
+        "bonuses": [
+            "Villagers gather/build/repair 5% faster",
+            "Galley-line +1 attack",
+            "Infantry receive double effect from Blacksmith armor upg",
+            "Scorpions cost -60% gold"
+        ],
+        "uniqueUnits": [
+            "unique_centurion"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Ballistas",
+                "effect": "Scorpions/Galleys fire faster"
+            },
+            {
+                "name": "Comitatenses",
+                "effect": "Militia/Knight/Centurion +50% training speed"
+            }
+        ],
+        "roster": [
+            "champion",
+            "halberdier",
+            "cavalier",
+            "arbalester",
+            "heavy_scorpion",
+            "onager",
+            "elite_skirmisher"
+        ]
+    },
+    {
+        "id": "saracens",
+        "name": "Saracens",
+        "style": "Camel and Naval",
+        "summary": "Camel and Naval civilization",
+        "bonuses": [
+            "Market trade cost is only 5%",
+            "Markets cost -75 wood",
+            "Transport Ships 2x HP and +5 carry capacity",
+            "Galleys attack 20% faster",
+            "Camels +10 HP"
+        ],
+        "uniqueUnits": [
+            "unique_mameluke"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Madrasah",
+                "effect": "Monks return 33% gold when killed"
+            },
+            {
+                "name": "Zealotry",
+                "effect": "Camel units +30 HP"
+            }
+        ],
+        "roster": [
+            "arbalester",
+            "halberdier",
+            "hussar",
+            "heavy_camel_rider",
+            "champion",
+            "onager",
+            "elite_skirmisher",
+            "hand_cannoneer",
+            "bombard_cannon",
+            "monk"
+        ]
+    },
+    {
+        "id": "sicilians",
+        "name": "Sicilians",
+        "style": "Infantry",
+        "summary": "Infantry civilization",
+        "bonuses": [
+            "Castles and Town Centers built 100% faster",
+            "Land military units absorb 33% of bonus damage",
+            "Transport ships +5 LoS"
+        ],
+        "uniqueUnits": [
+            "unique_serjeant"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "First Crusade",
+                "effect": "Each TC spawns 7 Serjeants"
+            },
+            {
+                "name": "Hauberk",
+                "effect": "Knights +1/+2 armor"
+            }
+        ],
+        "roster": [
+            "cavalier",
+            "arbalester",
+            "halberdier",
+            "champion",
+            "siege_ram",
+            "onager",
+            "elite_skirmisher"
+        ]
+    },
+    {
+        "id": "slavs",
+        "name": "Slavs",
+        "style": "Infantry",
+        "summary": "Infantry civilization",
+        "bonuses": [
+            "Farmers work 10% faster",
+            "Supplies free",
+            "Siege Workshop units cost -15%"
+        ],
+        "uniqueUnits": [
+            "unique_boyar"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Orthodoxy",
+                "effect": "+3/+4 armor for Monks"
+            },
+            {
+                "name": "Druzhina",
+                "effect": "Infantry damage adjacent units"
+            }
+        ],
+        "roster": [
+            "halberdier",
+            "champion",
+            "cavalier",
+            "hussar",
+            "onager",
+            "elite_skirmisher",
+            "siege_ram"
+        ]
+    },
+    {
+        "id": "spanish",
+        "name": "Spanish",
+        "style": "Gunpowder and Monk",
+        "summary": "Gunpowder and Monk civilization",
+        "bonuses": [
+            "Builders work 30% faster",
+            "Blacksmith upgrades cost no gold",
+            "Cannon Galleons benefit from Ballistics",
+            "Gunpowder units fire 18% faster"
+        ],
+        "uniqueUnits": [
+            "unique_conquistador",
+            "unique_missionary"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Inquisition",
+                "effect": "Monks convert faster"
+            },
+            {
+                "name": "Supremacy",
+                "effect": "Villagers stronger in combat"
+            }
+        ],
+        "roster": [
+            "paladin",
+            "halberdier",
+            "hand_cannoneer",
+            "champion",
+            "hussar",
+            "onager",
+            "elite_skirmisher",
+            "bombard_cannon",
+            "monk"
+        ]
+    },
+    {
+        "id": "tatars",
+        "name": "Tatars",
+        "style": "Cavalry Archer",
+        "summary": "Cavalry Archer civilization",
+        "bonuses": [
+            "Herdables contain +50% food",
+            "Units do +25% damage from higher ground",
+            "Parthian Tactics free"
+        ],
+        "uniqueUnits": [
+            "unique_keshik",
+            "unique_flaming_camel"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Silk Armor",
+                "effect": "Scout Cavalry/Cavalry Archers +1/+1 armor"
+            },
+            {
+                "name": "Timurid Siegecraft",
+                "effect": "Trebuchets +2 range"
+            }
+        ],
+        "roster": [
+            "hussar",
+            "heavy_camel_rider",
+            "cavalier",
+            "cavalry_archer",
+            "halberdier",
+            "onager"
+        ]
+    },
+    {
+        "id": "teutons",
+        "name": "Teutons",
+        "style": "Infantry",
+        "summary": "Infantry and Cavalry civilization",
+        "bonuses": [
+            "Monks heal 2x range",
+            "Towers garrison 2x units",
+            "Murder Holes free",
+            "Farms cost -40%"
+        ],
+        "uniqueUnits": [
+            "unique_teutonic_knight"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Ironclad",
+                "effect": "Siege weapons +4 melee armor"
+            },
+            {
+                "name": "Crenellations",
+                "effect": "Castles +3 range, garrisoned infantry fire arrows"
+            }
+        ],
+        "roster": [
+            "paladin",
+            "halberdier",
+            "hand_cannoneer",
+            "champion",
+            "onager",
+            "elite_skirmisher",
+            "bombard_cannon"
+        ]
+    },
+    {
+        "id": "turks",
+        "name": "Turks",
+        "style": "Gunpowder",
+        "summary": "Gunpowder civilization",
+        "bonuses": [
+            "Gunpowder units +25% HP",
+            "Gunpowder technologies cost -50%",
+            "Chemistry free",
+            "Gold miners work 20% faster"
+        ],
+        "uniqueUnits": [
+            "unique_janissary"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Sipahi",
+                "effect": "Cavalry Archers +20 HP"
+            },
+            {
+                "name": "Artillery",
+                "effect": "+2 range for Bombard Towers, Cannon Galleons, Bombard Cannons"
+            }
+        ],
+        "roster": [
+            "hand_cannoneer",
+            "cavalier",
+            "hussar",
+            "heavy_camel_rider",
+            "champion",
+            "onager",
+            "elite_skirmisher",
+            "bombard_cannon",
+            "cavalry_archer"
+        ]
+    },
+    {
+        "id": "vietnamese",
+        "name": "Vietnamese",
+        "style": "Archer",
+        "summary": "Archer civilization",
+        "bonuses": [
+            "Reveal enemy positions at start",
+            "Archers +20% HP",
+            "Conscription free"
+        ],
+        "uniqueUnits": [
+            "unique_rattan_archer",
+            "unique_imperial_skirmisher"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Chatras",
+                "effect": "Battle Elephants +50 HP"
+            },
+            {
+                "name": "Paper Money",
+                "effect": "Sells wood for gold"
+            }
+        ],
+        "roster": [
+            "arbalester",
+            "halberdier",
+            "cavalier",
+            "champion",
+            "onager",
+            "elite_skirmisher",
+            "bombard_cannon"
+        ]
+    },
+    {
+        "id": "vikings",
+        "name": "Vikings",
+        "style": "Infantry and Naval",
+        "summary": "Infantry and Naval civilization",
+        "bonuses": [
+            "Warships cost -15% Feudal, -15% Castle, -20% Imperial",
+            "Infantry +10% HP Feudal, +15% Castle, +20% Imperial",
+            "Wheelbarrow and Hand Cart free"
+        ],
+        "uniqueUnits": [
+            "unique_berserk"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Chieftains",
+                "effect": "Infantry +5 attack vs Cavalry"
+            },
+            {
+                "name": "Berserkergang",
+                "effect": "Berserks regenerate faster"
+            }
+        ],
+        "roster": [
+            "arbalester",
+            "pikeman",
+            "champion",
+            "onager",
+            "elite_skirmisher",
+            "cavalier",
+            "hand_cannoneer"
+        ]
+    },
+    {
+        "id": "jurchens",
+        "name": "Jurchens",
+        "style": "Cavalry",
+        "summary": "Cavalry and Gunpowder civilization",
+        "bonuses": [
+            "Start with +2 forage bushes",
+            "Mule Carts cost -50%",
+            "Cavalry armor upgrades free",
+            "Gunpowder units 15% cheaper"
+        ],
+        "uniqueUnits": [
+            "unique_iron_pagoda"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Great Jin",
+                "effect": "Cavalry +2 attack vs Archers"
+            },
+            {
+                "name": "Garrison System",
+                "effect": "Towers and Castles +3 range"
+            }
+        ],
+        "roster": [
+            "cavalier",
+            "hussar",
+            "hand_cannoneer",
+            "bombard_cannon",
+            "halberdier",
+            "elite_skirmisher",
+            "onager"
+        ]
+    },
+    {
+        "id": "shu",
+        "name": "Shu",
+        "style": "Archer",
+        "summary": "Archer and Siege civilization",
+        "bonuses": [
+            "Farms cost -33%",
+            "Archers move 10% faster",
+            "Siege Workshop units cost -20% wood",
+            "Town Centers work 15% faster"
+        ],
+        "uniqueUnits": [
+            "unique_white_feather_guard",
+            "unique_chu_ko_nu"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Repeater Crossbow",
+                "effect": "Chu Ko Nu fire faster"
+            },
+            {
+                "name": "Eight Array",
+                "effect": "Infantry +2 melee armor"
+            }
+        ],
+        "roster": [
+            "arbalester",
+            "heavy_scorpion",
+            "onager",
+            "champion",
+            "halberdier",
+            "elite_skirmisher",
+            "cavalier"
+        ]
+    },
+    {
+        "id": "khitans",
+        "name": "Khitans",
+        "style": "Cavalry Archer",
+        "summary": "Cavalry Archer civilization",
+        "bonuses": [
+            "Cavalry Archers fire 20% faster",
+            "Pastures available in Dark Age",
+            "Light Cavalry line +20% HP",
+            "Hunters work 50% faster"
+        ],
+        "uniqueUnits": [
+            "unique_liao_dao"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Steel Armor",
+                "effect": "Cavalry +1/+2 armor"
+            },
+            {
+                "name": "Qara-Khitai",
+                "effect": "Cavalry Archers +2 attack vs buildings"
+            }
+        ],
+        "roster": [
+            "cavalry_archer",
+            "hussar",
+            "heavy_camel_rider",
+            "champion",
+            "onager",
+            "elite_skirmisher",
+            "trebuchet"
+        ]
+    }
+]

@@ -1,0 +1,310 @@
+[
+    {
+        "id": "archer",
+        "name": "Archer",
+        "type": "Archer",
+        "counteredBy": [
+            "skirmisher",
+            "scout_cavalry",
+            "eagle_warrior"
+        ]
+    },
+    {
+        "id": "crossbowman",
+        "name": "Crossbowman",
+        "type": "Archer",
+        "counteredBy": [
+            "elite_skirmisher",
+            "knight",
+            "mangonel",
+            "eagle_warrior"
+        ]
+    },
+    {
+        "id": "arbalester",
+        "name": "Arbalester",
+        "type": "Archer",
+        "counteredBy": [
+            "elite_skirmisher",
+            "cavalier",
+            "onager",
+            "hussar"
+        ]
+    },
+    {
+        "id": "skirmisher",
+        "name": "Skirmisher",
+        "type": "Archer",
+        "counteredBy": [
+            "scout_cavalry",
+            "man_at_arms",
+            "knight"
+        ]
+    },
+    {
+        "id": "elite_skirmisher",
+        "name": "Elite Skirmisher",
+        "type": "Archer",
+        "counteredBy": [
+            "light_cavalry",
+            "long_swordsman",
+            "knight"
+        ]
+    },
+    {
+        "id": "spearman",
+        "name": "Spearman",
+        "type": "Infantry",
+        "counteredBy": [
+            "archer",
+            "skirmisher",
+            "man_at_arms",
+            "scorpion"
+        ]
+    },
+    {
+        "id": "pikeman",
+        "name": "Pikeman",
+        "type": "Infantry",
+        "counteredBy": [
+            "crossbowman",
+            "elite_skirmisher",
+            "long_swordsman",
+            "scorpion"
+        ]
+    },
+    {
+        "id": "halberdier",
+        "name": "Halberdier",
+        "type": "Infantry",
+        "counteredBy": [
+            "arbalester",
+            "elite_skirmisher",
+            "two_handed_swordsman",
+            "hand_cannoneer"
+        ]
+    },
+    {
+        "id": "militia",
+        "name": "Militia",
+        "type": "Infantry",
+        "counteredBy": [
+            "archer"
+        ]
+    },
+    {
+        "id": "man_at_arms",
+        "name": "Man-at-Arms",
+        "type": "Infantry",
+        "counteredBy": [
+            "archer"
+        ]
+    },
+    {
+        "id": "long_swordsman",
+        "name": "Long Swordsman",
+        "type": "Infantry",
+        "counteredBy": [
+            "crossbowman",
+            "knight",
+            "scorpion"
+        ]
+    },
+    {
+        "id": "two_handed_swordsman",
+        "name": "Two-Handed Swordsman",
+        "type": "Infantry",
+        "counteredBy": [
+            "arbalester",
+            "cavalier",
+            "hand_cannoneer",
+            "heavy_scorpion"
+        ]
+    },
+    {
+        "id": "champion",
+        "name": "Champion",
+        "type": "Infantry",
+        "counteredBy": [
+            "arbalester",
+            "hand_cannoneer",
+            "heavy_scorpion",
+            "paladin"
+        ]
+    },
+    {
+        "id": "scout_cavalry",
+        "name": "Scout Cavalry",
+        "type": "Cavalry",
+        "counteredBy": [
+            "spearman",
+            "man_at_arms"
+        ]
+    },
+    {
+        "id": "light_cavalry",
+        "name": "Light Cavalry",
+        "type": "Cavalry",
+        "counteredBy": [
+            "pikeman",
+            "long_swordsman",
+            "knight"
+        ]
+    },
+    {
+        "id": "hussar",
+        "name": "Hussar",
+        "type": "Cavalry",
+        "counteredBy": [
+            "halberdier",
+            "two_handed_swordsman",
+            "paladin"
+        ]
+    },
+    {
+        "id": "knight",
+        "name": "Knight",
+        "type": "Cavalry",
+        "counteredBy": [
+            "pikeman",
+            "camel_rider",
+            "monk"
+        ]
+    },
+    {
+        "id": "cavalier",
+        "name": "Cavalier",
+        "type": "Cavalry",
+        "counteredBy": [
+            "halberdier",
+            "heavy_camel_rider",
+            "monk"
+        ]
+    },
+    {
+        "id": "paladin",
+        "name": "Paladin",
+        "type": "Cavalry",
+        "counteredBy": [
+            "halberdier",
+            "heavy_camel_rider",
+            "monk"
+        ]
+    },
+    {
+        "id": "camel_rider",
+        "name": "Camel Rider",
+        "type": "Cavalry",
+        "counteredBy": [
+            "pikeman",
+            "long_swordsman",
+            "monk"
+        ]
+    },
+    {
+        "id": "heavy_camel_rider",
+        "name": "Heavy Camel Rider",
+        "type": "Cavalry",
+        "counteredBy": [
+            "halberdier",
+            "two_handed_swordsman",
+            "arbalester"
+        ]
+    },
+    {
+        "id": "eagle_scout",
+        "name": "Eagle Scout",
+        "type": "Infantry",
+        "counteredBy": [
+            "man_at_arms"
+        ]
+    },
+    {
+        "id": "eagle_warrior",
+        "name": "Eagle Warrior",
+        "type": "Infantry",
+        "counteredBy": [
+            "long_swordsman",
+            "knight"
+        ]
+    },
+    {
+        "id": "elite_eagle_warrior",
+        "name": "Elite Eagle Warrior",
+        "type": "Infantry",
+        "counteredBy": [
+            "two_handed_swordsman",
+            "paladin",
+            "hand_cannoneer"
+        ]
+    },
+    {
+        "id": "hand_cannoneer",
+        "name": "Hand Cannoneer",
+        "type": "Gunpowder",
+        "counteredBy": [
+            "skirmisher",
+            "light_cavalry",
+            "onager",
+            "condottiero"
+        ]
+    },
+    {
+        "id": "unique_chu_ko_nu",
+        "name": "Chu Ko Nu",
+        "type": "Archer",
+        "unique": true,
+        "counteredBy": [
+            "onager",
+            "siege_ram",
+            "huskarl",
+            "skirmisher"
+        ]
+    },
+    {
+        "id": "unique_leitis",
+        "name": "Leitis",
+        "type": "Cavalry",
+        "unique": true,
+        "counteredBy": [
+            "halberdier",
+            "monk",
+            "heavy_camel_rider",
+            "arbalester"
+        ]
+    },
+    {
+        "id": "unique_longbowman",
+        "name": "Longbowman",
+        "type": "Archer",
+        "unique": true,
+        "counteredBy": [
+            "huskarl",
+            "eagle_warrior",
+            "siege_ram",
+            "skirmisher"
+        ]
+    },
+    {
+        "id": "unique_throwing_axeman",
+        "name": "Throwing Axeman",
+        "type": "Infantry",
+        "unique": true,
+        "counteredBy": [
+            "arbalester",
+            "hand_cannoneer",
+            "onager"
+        ]
+    },
+    {
+        "id": "unique_huskarl",
+        "name": "Huskarl",
+        "type": "Infantry",
+        "unique": true,
+        "counteredBy": [
+            "champion",
+            "paladin",
+            "samurai"
+        ]
+    }
+]
