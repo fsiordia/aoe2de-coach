@@ -1,0 +1,20 @@
+Loading units.json...
+Fetching Mameluke from https://ageofempires.fandom.com/wiki/Mameluke_(Age_of_Empires_II)...
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Mameluke_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 552156 bytes
+Weak vs: [
+  'Foot archers',
+  'Camel Riders',
+  'Monks',
+  'Teutonic Knights',
+  'Camel Archers'
+]
+Strong vs: [ 'Siege weapons', 'Elite Skirmishers', 'mounted archers', 'cavalry' ]
+Mapped IDs: [
+  'Foot archers -> ???',
+  'Camel Riders -> camel_rider',
+  'Monks -> monk',
+  'Teutonic Knights -> unique_teutonic_knight',
+  'Camel Archers -> unique_camel_archer'
+]

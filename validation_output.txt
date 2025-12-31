@@ -1,0 +1,6 @@
+
+> aoe2de-coach@0.0.0 validate-data
+> node scripts/validate-json.js
+
+Starting Data Validation...
+Validation Successful!
