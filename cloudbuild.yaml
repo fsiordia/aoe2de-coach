@@ -14,6 +14,21 @@ steps:
   - name: 'gcr.io/cloud-builders/docker'
     args: ['push', '$_REGION-docker.pkg.dev/$PROJECT_ID/$_REPOSITORY/aoe2de-coach:latest']
 
+  # Deploy to Cloud Run
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: gcloud
+    args:
+      - 'run'
+      - 'deploy'
+      - 'aoe2de-coach'
+      - '--image'
+      - '$_REGION-docker.pkg.dev/$PROJECT_ID/$_REPOSITORY/aoe2de-coach:latest'
+      - '--region'
+      - '$_REGION'
+      - '--platform'
+      - 'managed'
+      - '--allow-unauthenticated'
+
 images:
   - '$_REGION-docker.pkg.dev/$PROJECT_ID/$_REPOSITORY/aoe2de-coach:$COMMIT_SHA'
   - '$_REGION-docker.pkg.dev/$PROJECT_ID/$_REPOSITORY/aoe2de-coach:latest'
