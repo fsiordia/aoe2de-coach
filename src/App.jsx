@@ -25,7 +25,7 @@ function App() {
                         <h1 className="text-2xl md:text-3xl font-bold text-amber-500 drop-shadow-md tracking-wider">
                             AoE2DE Coach
                         </h1>
-                        <div className="text-xs text-amber-700 font-mono hidden md:block">v1.1 - Fast Castle Edition</div>
+                        <div className="text-xs text-amber-700 font-mono hidden md:block">v1.2 - Fast Castle Edition (and baidot's version)</div>
                     </div>
 
                     {/* Mode Toggle Button */}
@@ -97,7 +97,7 @@ function App() {
             {/* Footer */}
             <footer className="bg-slate-950 text-slate-600 text-center p-4 text-xs">
                 <p>Age of Empires II DE © Microsoft Corporation.</p>
-                <p>AoE2DE Coach was created under Microsoft's Game Content Usage Rules.</p>
+                <p>AoE2DE Coach v1.2 was created under Microsoft's Game Content Usage Rules.</p>
                 <DataUpdater />
             </footer>
         </div>

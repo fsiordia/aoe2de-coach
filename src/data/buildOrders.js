@@ -17,3 +17,22 @@ export const fastCastle = [
     { id: 16, text: "Research Castle Age", note: "Requires 800 Food, 200 Gold", distribution: { food: 13, wood: 10, gold: 2, stone: 0, total: 29 } },
     { id: 17, text: "Castle Age Researching!", note: "You made it! Plan your military transition.", distribution: { food: 13, wood: 10, gold: 2, stone: 0, total: 29 } }
 ];
+
+export const baidotFastCastle = [
+    { id: 1, text: "Queue Villagers in TC", note: "Maintain production. Start with 3 on Food (Sheep).", distribution: { food: 3, wood: 0, gold: 0, stone: 0, total: 3 } },
+    { id: 2, text: "1 Villager builds House", note: "Then send to Food. (Pop 4/10)", distribution: { food: 3, wood: 0, gold: 0, stone: 0, total: 4 } },
+    { id: 3, text: "Next 2 Villagers to Food", note: "Target: 5 on Food (Hunt/Sheep).", distribution: { food: 5, wood: 0, gold: 0, stone: 0, total: 6 } },
+    { id: 4, text: "Next 5 Villagers on Wood", note: "Build Lumber Camp first. (Pop 11).", distribution: { food: 5, wood: 5, gold: 0, stone: 0, total: 11 } },
+    { id: 5, text: "Build House", note: "Use a Wood villager briefly if needed. Prevent supply block.", distribution: { food: 5, wood: 5, gold: 0, stone: 0, total: 11 } },
+    { id: 6, text: "Next 7 Villagers to Food", note: "Target: 12 on Food. Build Mill during this phase.", distribution: { food: 12, wood: 5, gold: 0, stone: 0, total: 18 } },
+    { id: 7, text: "Build House & Mill", note: "Ensure housing for up to 25 pop.", distribution: { food: 12, wood: 5, gold: 0, stone: 0, total: 18 } },
+    { id: 8, text: "Next 7 Villagers to Wood", note: "Target: 12 on Wood. Build 2nd Lumber Camp if efficient.", distribution: { food: 12, wood: 12, gold: 0, stone: 0, total: 25 } },
+    { id: 9, text: "Build Houses", note: "Ensure housing for 30+ pop.", distribution: { food: 12, wood: 12, gold: 0, stone: 0, total: 25 } },
+    { id: 10, text: "Next 5 Villagers to Gold", note: "Build Mining Camp. Target: 5 on Gold.", distribution: { food: 12, wood: 12, gold: 5, stone: 0, total: 30 } },
+    { id: 11, text: "Research Feudal Age", note: "You should have ~30 Villagers.", distribution: { food: 12, wood: 12, gold: 5, stone: 0, total: 30 } },
+    { id: 12, text: "Build Barracks", note: "Use a builder (from Wood/Food) while advancing.", distribution: { food: 12, wood: 12, gold: 5, stone: 0, total: 30 } },
+    { id: 13, text: "Arrive Feudal: Build Blacksmith & Stable", note: "Queue Stable immediately.", distribution: { food: 12, wood: 12, gold: 5, stone: 0, total: 30 } },
+    { id: 14, text: "Research Castle Age", note: "Requires 800 Food, 200 Gold.", distribution: { food: 12, wood: 12, gold: 5, stone: 0, total: 30 } },
+    { id: 15, text: "Research Upgrades", note: "Wood (Double-Bit Axe), Food (Horse Collar), Gold (Mining), Blacksmith (Atk/Def)", distribution: { food: 12, wood: 12, gold: 5, stone: 0, total: 30 } },
+    { id: 16, text: "Arrive Castle: Mass Knights", note: "Chingos de caballos!", distribution: { food: 12, wood: 12, gold: 5, stone: 0, total: 30 } }
+];

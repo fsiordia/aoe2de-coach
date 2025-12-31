@@ -522,7 +522,9 @@
             "cavalry_archer",
             "mangonel",
             "scorpion",
-            "unique_flaming_camel"
+            "unique_flaming_camel",
+            "pikeman",
+            "unique_genoese_crossbowman"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/War_Elephant_(Age_of_Empires_II)"
     },
@@ -585,7 +587,8 @@
             "unique_mameluke",
             "unique_camel_archer",
             "unique_genitour",
-            "unique_rattan_archer"
+            "unique_rattan_archer",
+            "unique_genoese_crossbowman"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Mangudai_(Age_of_Empires_II)"
     },
@@ -724,7 +727,8 @@
             "knight",
             "scorpion",
             "unique_cataphract",
-            "unique_war_elephant"
+            "unique_war_elephant",
+            "unique_janissary"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Shotel_Warrior_(Age_of_Empires_II)"
     },
@@ -839,7 +843,10 @@
             "unique_mameluke",
             "unique_war_elephant",
             "unique_samurai",
-            "unique_obuch"
+            "unique_obuch",
+            "pikeman",
+            "unique_genoese_crossbowman",
+            "unique_composite_bowman"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Boyar_(Age_of_Empires_II)"
     },
@@ -963,7 +970,9 @@
             "unique_jaguar_warrior",
             "unique_obuch",
             "unique_war_elephant",
-            "battle_elephant"
+            "battle_elephant",
+            "unique_leitis",
+            "unique_composite_bowman"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Serjeant_(Age_of_Empires_II)"
     },
@@ -1091,7 +1100,10 @@
             "unique_berserk",
             "unique_teutonic_knight",
             "unique_mameluke",
-            "unique_samurai"
+            "unique_samurai",
+            "pikeman",
+            "unique_genoese_crossbowman",
+            "unique_leitis"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Centurion_(Age_of_Empires_II)"
     },
@@ -1125,7 +1137,9 @@
             "monk",
             "unique_war_elephant",
             "knight",
-            "unique_samurai"
+            "unique_samurai",
+            "pikeman",
+            "unique_genoese_crossbowman"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Keshik_(Age_of_Empires_II)"
     },

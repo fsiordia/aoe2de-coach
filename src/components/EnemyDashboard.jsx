@@ -22,7 +22,8 @@ function EnemyDashboard({ enemyCiv, userCiv }) {
 
     // Add standard threats based on style
     if (enemyCiv.style === "Archer" || enemyCiv.style.includes("Archer")) {
-        threats.push(getUnitById("arbalester"));
+        if (enemyCiv.roster.includes("arbalester")) threats.push(getUnitById("arbalester"));
+        else if (enemyCiv.roster.includes("crossbowman")) threats.push(getUnitById("crossbowman"));
     }
     if (enemyCiv.style === "Cavalry" || enemyCiv.style.includes("Cavalry")) {
         // Check if they have Paladin or Cavalier in roster
@@ -31,10 +32,12 @@ function EnemyDashboard({ enemyCiv, userCiv }) {
         else threats.push(getUnitById("knight"));
     }
     if (enemyCiv.style === "Infantry" || enemyCiv.style.includes("Infantry")) {
-        threats.push(getUnitById("champion"));
+        if (enemyCiv.roster.includes("champion")) threats.push(getUnitById("champion"));
+        else if (enemyCiv.roster.includes("two_handed_swordsman")) threats.push(getUnitById("two_handed_swordsman"));
     }
     if (enemyCiv.summary.includes("Gunpowder")) {
-        threats.push(getUnitById("hand_cannoneer"));
+        if (enemyCiv.roster.includes("hand_cannoneer")) threats.push(getUnitById("hand_cannoneer"));
+        else if (enemyCiv.roster.includes("bombard_cannon")) threats.push(getUnitById("bombard_cannon"));
     }
 
     // Deduplicate by ID

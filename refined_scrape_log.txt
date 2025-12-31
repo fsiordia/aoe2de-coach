@@ -1,0 +1,238 @@
+Loading units.json...
+Found 55 units to check.
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Imperial_Skirmisher_(Age_of_Empires_II)
+[Response] Status: 404
+[Response] Completed. Size: 206102 bytes
+[Success] Found Imperial Skirmisher at https://ageofempires.fandom.com/wiki/Imperial_Skirmisher_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Genitour_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 672213 bytes
+[Success] Found Genitour at https://ageofempires.fandom.com/wiki/Genitour_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Condottiero_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 592650 bytes
+[Success] Found Condottiero at https://ageofempires.fandom.com/wiki/Condottiero_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Missionary_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 521776 bytes
+[Success] Found Missionary at https://ageofempires.fandom.com/wiki/Missionary_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Flemish_Militia_(Age_of_Empires_II)
+[Response] Status: 404
+[Response] Completed. Size: 205979 bytes
+[Success] Found Flemish Militia at https://ageofempires.fandom.com/wiki/Flemish_Militia_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Houfnice_(Age_of_Empires_II)
+[Response] Status: 404
+[Response] Completed. Size: 205633 bytes
+[Success] Found Houfnice at https://ageofempires.fandom.com/wiki/Houfnice_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Imperial_Camel_Rider_(Age_of_Empires_II)
+[Response] Status: 404
+[Response] Completed. Size: 206146 bytes
+[Success] Found Imperial Camel Rider at https://ageofempires.fandom.com/wiki/Imperial_Camel_Rider_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Chu_Ko_Nu_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 523923 bytes
+[Success] Found Chu Ko Nu at https://ageofempires.fandom.com/wiki/Chu_Ko_Nu_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Leitis_(Age_of_Empires_II)
+[Response] Status: 404
+[Response] Completed. Size: 205592 bytes
+[Success] Found Leitis at https://ageofempires.fandom.com/wiki/Leitis_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Longbowman_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 541936 bytes
+[Success] Found Longbowman at https://ageofempires.fandom.com/wiki/Longbowman_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Throwing_Axeman_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 551160 bytes
+[Success] Found Throwing Axeman at https://ageofempires.fandom.com/wiki/Throwing_Axeman_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Huskarl_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 528944 bytes
+[Success] Found Huskarl at https://ageofempires.fandom.com/wiki/Huskarl_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/War_Elephant_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 551992 bytes
+[Success] Found War Elephant at https://ageofempires.fandom.com/wiki/War_Elephant_(Age_of_Empires_II)
+   + Added counter: Pikemen (title: Pikeman (Age of Empires II)) -> pikeman
+   + Added counter: Genoese Crossbowmen (title: Genoese Crossbowman (Age of Empires II)) -> unique_genoese_crossbowman
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Jaguar_Warrior_(Age_of_Empires_II)
+[Response] Status: 404
+[Response] Completed. Size: 205939 bytes
+[Success] Found Jaguar Warrior at https://ageofempires.fandom.com/wiki/Jaguar_Warrior_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Cataphract_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 549226 bytes
+[Success] Found Cataphract at https://ageofempires.fandom.com/wiki/Cataphract_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Samurai_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 538543 bytes
+[Success] Found Samurai at https://ageofempires.fandom.com/wiki/Samurai_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Mangudai_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 566444 bytes
+[Success] Found Mangudai at https://ageofempires.fandom.com/wiki/Mangudai_(Age_of_Empires_II)
+   + Added counter: Genoese Crossbowmen (title: Genoese Crossbowman (Age of Empires II)) -> unique_genoese_crossbowman
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Conquistador_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 524928 bytes
+[Success] Found Conquistador at https://ageofempires.fandom.com/wiki/Conquistador_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Plumed_Archer_(Age_of_Empires_II)
+[Response] Status: 404
+[Response] Completed. Size: 205845 bytes
+[Success] Found Plumed Archer at https://ageofempires.fandom.com/wiki/Plumed_Archer_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Tarkan_(Age_of_Empires_II)
+[Response] Status: 404
+[Response] Completed. Size: 205543 bytes
+[Success] Found Tarkan at https://ageofempires.fandom.com/wiki/Tarkan_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Berserk_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 536296 bytes
+[Success] Found Berserk at https://ageofempires.fandom.com/wiki/Berserk_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Janissary_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 534921 bytes
+[Success] Found Janissary at https://ageofempires.fandom.com/wiki/Janissary_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Kamayuk_(Age_of_Empires_II)
+[Response] Status: 404
+[Response] Completed. Size: 205589 bytes
+[Success] Found Kamayuk at https://ageofempires.fandom.com/wiki/Kamayuk_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Slinger_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 525165 bytes
+[Success] Found Slinger at https://ageofempires.fandom.com/wiki/Slinger_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Ballista_Elephant_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 534848 bytes
+[Success] Found Ballista Elephant at https://ageofempires.fandom.com/wiki/Ballista_Elephant_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Shotel_Warrior_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 505474 bytes
+[Success] Found Shotel Warrior at https://ageofempires.fandom.com/wiki/Shotel_Warrior_(Age_of_Empires_II)
+   + Added counter: Janissaries (title: Janissary (Age of Empires II)) -> unique_janissary
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Mameluke_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 552156 bytes
+[Success] Found Mameluke at https://ageofempires.fandom.com/wiki/Mameluke_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Gbeto_(Age_of_Empires_II)
+[Response] Status: 404
+[Response] Completed. Size: 205550 bytes
+[Success] Found Gbeto at https://ageofempires.fandom.com/wiki/Gbeto_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Teutonic_Knight_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 555168 bytes
+[Success] Found Teutonic Knight at https://ageofempires.fandom.com/wiki/Teutonic_Knight_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/War_Wagon_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 543613 bytes
+[Success] Found War Wagon at https://ageofempires.fandom.com/wiki/War_Wagon_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Genoese_Crossbowman_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 541978 bytes
+[Success] Found Genoese Crossbowman at https://ageofempires.fandom.com/wiki/Genoese_Crossbowman_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Magyar_Huszar_(Age_of_Empires_II)
+[Response] Status: 404
+[Response] Completed. Size: 205894 bytes
+[Success] Found Magyar Huszar at https://ageofempires.fandom.com/wiki/Magyar_Huszar_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Boyar_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 528660 bytes
+[Success] Found Boyar at https://ageofempires.fandom.com/wiki/Boyar_(Age_of_Empires_II)
+   + Added counter: Pikemen (title: Pikeman (Age of Empires II)) -> pikeman
+   + Added counter: Genoese Crossbowmen (title: Genoese Crossbowman (Age of Empires II)) -> unique_genoese_crossbowman
+   + Added counter: Composite Bowmen (title: Composite Bowman (Age of Empires II)) -> unique_composite_bowman
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Woad_Raider_(Age_of_Empires_II)
+[Response] Status: 404
+[Response] Completed. Size: 205813 bytes
+[Success] Found Woad Raider at https://ageofempires.fandom.com/wiki/Woad_Raider_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Arambai_(Age_of_Empires_II)
+[Response] Status: 404
+[Response] Completed. Size: 205589 bytes
+[Success] Found Arambai at https://ageofempires.fandom.com/wiki/Arambai_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Organ_Gun_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 520903 bytes
+[Success] Found Organ Gun at https://ageofempires.fandom.com/wiki/Organ_Gun_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Rattan_Archer_(Age_of_Empires_II)
+[Response] Status: 404
+[Response] Completed. Size: 205845 bytes
+[Success] Found Rattan Archer at https://ageofempires.fandom.com/wiki/Rattan_Archer_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Camel_Archer_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 563904 bytes
+[Success] Found Camel Archer at https://ageofempires.fandom.com/wiki/Camel_Archer_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Obuch_(Age_of_Empires_II)
+[Response] Status: 404
+[Response] Completed. Size: 205502 bytes
+[Success] Found Obuch at https://ageofempires.fandom.com/wiki/Obuch_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Hussite_Wagon_(Age_of_Empires_II)
+[Response] Status: 404
+[Response] Completed. Size: 205845 bytes
+[Success] Found Hussite Wagon at https://ageofempires.fandom.com/wiki/Hussite_Wagon_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Coustillier_(Age_of_Empires_II)
+[Response] Status: 404
+[Response] Completed. Size: 205764 bytes
+[Success] Found Coustillier at https://ageofempires.fandom.com/wiki/Coustillier_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Serjeant_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 541638 bytes
+[Success] Found Serjeant at https://ageofempires.fandom.com/wiki/Serjeant_(Age_of_Empires_II)
+   + Added counter: Leiciai (title: Leitis) -> unique_leitis
+   + Added counter: Composite Bowmen (title: Composite Bowman (Age of Empires II)) -> unique_composite_bowman
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Konnik_(Age_of_Empires_II)
+[Response] Status: 404
+[Response] Completed. Size: 205544 bytes
+[Success] Found Konnik at https://ageofempires.fandom.com/wiki/Konnik_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Ratha_(Age_of_Empires_II)
+[Response] Status: 404
+[Response] Completed. Size: 205503 bytes
+[Success] Found Ratha at https://ageofempires.fandom.com/wiki/Ratha_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Kipchak_(Age_of_Empires_II)
+[Response] Status: 404
+[Response] Completed. Size: 205637 bytes
+[Success] Found Kipchak at https://ageofempires.fandom.com/wiki/Kipchak_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Urumi_Swordsman_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 513944 bytes
+[Success] Found Urumi Swordsman at https://ageofempires.fandom.com/wiki/Urumi_Swordsman_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Monaspa_(Age_of_Empires_II)
+[Response] Status: 404
+[Response] Completed. Size: 205588 bytes
+[Success] Found Monaspa at https://ageofempires.fandom.com/wiki/Monaspa_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Chakram_Thrower_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 522966 bytes
+[Success] Found Chakram Thrower at https://ageofempires.fandom.com/wiki/Chakram_Thrower_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Ghulam_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 507693 bytes
+[Success] Found Ghulam at https://ageofempires.fandom.com/wiki/Ghulam_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Karambit_Warrior_(Age_of_Empires_II)
+[Response] Status: 404
+[Response] Completed. Size: 206024 bytes
+[Success] Found Karambit Warrior at https://ageofempires.fandom.com/wiki/Karambit_Warrior_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Centurion_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 520946 bytes
+[Success] Found Centurion at https://ageofempires.fandom.com/wiki/Centurion_(Age_of_Empires_II)
+   + Added counter: Pikemen (title: Pikeman (Age of Empires II)) -> pikeman
+   + Added counter: Genoese Crossbowmen (title: Genoese Crossbowman (Age of Empires II)) -> unique_genoese_crossbowman
+   + Added counter: Leiciai (title: Leitis) -> unique_leitis
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Shrivamsha_Rider_(Age_of_Empires_II)
+[Response] Status: 404
+[Response] Completed. Size: 206024 bytes
+[Success] Found Shrivamsha Rider at https://ageofempires.fandom.com/wiki/Shrivamsha_Rider_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Keshik_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 525048 bytes
+[Success] Found Keshik at https://ageofempires.fandom.com/wiki/Keshik_(Age_of_Empires_II)
+   + Added counter: Pikemen (title: Pikeman (Age of Empires II)) -> pikeman
+   + Added counter: Genoese Crossbowmen (title: Genoese Crossbowman (Age of Empires II)) -> unique_genoese_crossbowman
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Flaming_Camel_(Age_of_Empires_II)
+[Response] Status: 404
+[Response] Completed. Size: 205846 bytes
+[Success] Found Flaming Camel at https://ageofempires.fandom.com/wiki/Flaming_Camel_(Age_of_Empires_II)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Composite_Bowman_(Age_of_Empires_II)
+[Response] Status: 200
+[Response] Completed. Size: 506228 bytes
+[Success] Found Composite Bowman at https://ageofempires.fandom.com/wiki/Composite_Bowman_(Age_of_Empires_II)
+Updated 7 units.
+Saved units.json

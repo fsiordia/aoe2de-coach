@@ -1,11 +1,15 @@
 import { useState, useEffect } from 'react';
-import { fastCastle } from '../data/buildOrders';
+import { fastCastle, baidotFastCastle } from '../data/buildOrders';
 
 function InteractiveGuide({ onExit }) {
+    const [selectedStrategy, setSelectedStrategy] = useState('standard');
     const [stepIndex, setStepIndex] = useState(0);
     const [time, setTime] = useState(0);
     const [isRunning, setIsRunning] = useState(false);
     const [finished, setFinished] = useState(false);
+
+    // Get current steps based on selection
+    const steps = selectedStrategy === 'baidot' ? baidotFastCastle : fastCastle;
 
     useEffect(() => {
         let interval = null;
@@ -41,24 +45,22 @@ function InteractiveGuide({ onExit }) {
     };
 
     const handleNextStep = () => {
-        if (stepIndex < fastCastle.length - 1) {
+        if (stepIndex < steps.length - 1) {
             setStepIndex(stepIndex + 1);
         } else {
             setFinished(true);
-            setIsRunning(false); // Stop timer on finish
+            setIsRunning(false);
         }
     };
 
-    const currentStep = fastCastle[stepIndex];
-
-    // Calculate progress percentage
-    const progress = ((stepIndex + (finished ? 1 : 0)) / fastCastle.length) * 100;
+    const currentStep = steps[stepIndex];
+    const progress = ((stepIndex + (finished ? 1 : 0)) / steps.length) * 100;
 
     // Spacebar listener
     useEffect(() => {
         const handleKeyDown = (e) => {
             if (e.code === 'Space') {
-                e.preventDefault(); // Prevent scrolling
+                e.preventDefault();
                 if (!isRunning && time === 0) {
                     handleStartAndAdvance();
                 } else if (isRunning && !finished) {
@@ -69,11 +71,10 @@ function InteractiveGuide({ onExit }) {
 
         window.addEventListener('keydown', handleKeyDown);
         return () => window.removeEventListener('keydown', handleKeyDown);
-    }, [isRunning, finished, time, stepIndex]); // Dependencies for closure state
+    }, [isRunning, finished, time, stepIndex, steps]);
 
     const handleStartAndAdvance = () => {
         setIsRunning(true);
-        // User requested to show second task immediately upon starting
         if (stepIndex === 0) {
             setStepIndex(1);
         }
@@ -81,6 +82,24 @@ function InteractiveGuide({ onExit }) {
 
     return (
         <div className="flex flex-col items-center justify-start p-4 h-full w-full max-w-6xl mx-auto md:justify-center transition-all">
+
+            {/* Strategy Selector (Only visible at start) */}
+            {!isRunning && time === 0 && stepIndex === 0 && (
+                <div className="mb-8 flex gap-4 bg-slate-800/50 p-2 rounded-lg border border-slate-700">
+                    <button
+                        onClick={() => setSelectedStrategy('standard')}
+                        className={`px-4 py-2 rounded-md transition-colors ${selectedStrategy === 'standard' ? 'bg-yellow-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'}`}
+                    >
+                        Standard Fast Castle
+                    </button>
+                    <button
+                        onClick={() => setSelectedStrategy('baidot')}
+                        className={`px-4 py-2 rounded-md transition-colors ${selectedStrategy === 'baidot' ? 'bg-yellow-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'}`}
+                    >
+                        Baidot Fast Castle
+                    </button>
+                </div>
+            )}
 
             <div className="flex flex-col landscape:flex-row lg:landscape:!flex-col w-full gap-8 md:items-center landscape:items-center lg:items-center justify-center">
 
@@ -138,7 +157,7 @@ function InteractiveGuide({ onExit }) {
                             <>
                                 <div className="flex justify-between items-start mb-4">
                                     <h2 className="text-slate-400 text-sm uppercase tracking-widest font-bold">
-                                        Task {stepIndex + 1}/{fastCastle.length}
+                                        Task {stepIndex + 1}/{steps.length}
                                     </h2>
                                     {!isRunning && time === 0 && (
                                         <span className="animate-pulse text-green-400 text-xs font-bold uppercase border border-green-400 px-3 py-1 rounded-full">
@@ -182,16 +201,16 @@ function InteractiveGuide({ onExit }) {
                     {!finished && (
                         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
                             {/* Up Next - Takes less space on wide screens */}
-                            {stepIndex < fastCastle.length - 1 && (
+                            {stepIndex < steps.length - 1 && (
                                 <div className="lg:col-span-4 p-4 rounded-xl bg-slate-800/40 border border-slate-700/50 flex flex-col justify-center">
                                     <span className="text-slate-500 text-[10px] uppercase font-bold mb-2 tracking-wider">Up Next</span>
-                                    <p className="text-slate-300 text-sm md:text-base font-medium truncate">{fastCastle[stepIndex + 1].text}</p>
+                                    <p className="text-slate-300 text-sm md:text-base font-medium truncate">{steps[stepIndex + 1].text}</p>
                                 </div>
                             )}
 
                             {/* Villager Stats - Takes more space */}
                             {currentStep.distribution && (
-                                <div className={`${stepIndex < fastCastle.length - 1 ? 'lg:col-span-8' : 'lg:col-span-12'}`}>
+                                <div className={`${stepIndex < steps.length - 1 ? 'lg:col-span-8' : 'lg:col-span-12'}`}>
                                     <div className="bg-slate-900/60 rounded-xl p-3 border border-slate-800 backdrop-blur-sm">
                                         <div className="text-[10px] text-slate-500 uppercase font-bold mb-2 text-center tracking-widest">Villager Distribution</div>
                                         <div className="grid grid-cols-5 gap-2 text-center font-mono">
@@ -231,5 +250,4 @@ function InteractiveGuide({ onExit }) {
         </div>
     );
 }
-
 export default InteractiveGuide;

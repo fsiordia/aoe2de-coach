@@ -59,9 +59,11 @@ function extractCounterLinks(html, label) {
     let linkMatch;
 
     while ((linkMatch = linkRegex.exec(content)) !== null) {
-        // We generally want the link text (e.g., "Camel Archer")
-        // But exclude likely non-unit links if possible, though strict mapping later is better.
-        counters.push(linkMatch[2].trim());
+        // Capture both title (likely singular/canonical) and text (visible)
+        counters.push({
+            title: linkMatch[1].trim(),
+            text: linkMatch[2].trim()
+        });
     }
 
     return counters;
@@ -129,24 +131,33 @@ async function main() {
             const weakVs = extractCounterLinks(html, "Weak vs.");
 
             // Map and update counters
-            const mapToId = (name) => {
-                const lower = name.toLowerCase();
-                let id = unitMapping[lower];
+            const mapToId = (item) => {
+                // Try mapping by Title first (most consistent)
+                let lowerTitle = item.title.toLowerCase().replace(/ \(age of empires ii\)/g, ''); // Remove common suffix
+                let id = unitMapping[lowerTitle];
                 if (id) return id;
-                if (lower.endsWith('s') && unitMapping[lower.slice(0, -1)]) return unitMapping[lower.slice(0, -1)];
-                if (lower.endsWith('es') && unitMapping[lower.slice(0, -2)]) return unitMapping[lower.slice(0, -2)];
+
+                // Try mapping by Text
+                let lowerText = item.text.toLowerCase();
+                id = unitMapping[lowerText];
+                if (id) return id;
+
+                // Simple singularization on Text
+                if (lowerText.endsWith('s') && unitMapping[lowerText.slice(0, -1)]) return unitMapping[lowerText.slice(0, -1)];
+                if (lowerText.endsWith('es') && unitMapping[lowerText.slice(0, -2)]) return unitMapping[lowerText.slice(0, -2)];
+
                 return null;
             };
 
             const originalCounters = new Set(unit.counteredBy || []);
             let addedForUnit = 0;
 
-            weakVs.forEach(name => {
-                const id = mapToId(name);
+            weakVs.forEach(item => {
+                const id = mapToId(item);
                 if (id && id !== unit.id && !originalCounters.has(id)) { // Don't counter self
                     originalCounters.add(id);
                     addedForUnit++;
-                    console.log(`   + Added counter: ${name} -> ${id}`);
+                    console.log(`   + Added counter: ${item.text} (title: ${item.title}) -> ${id}`);
                 }
             });
 
