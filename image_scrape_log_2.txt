@@ -1,0 +1,293 @@
+Loading units.json...
+Found 102 units to check.
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Archer_(Age_of_Empires_II)
+[Success] Found Archer
+   + Updated counters (1 new)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Crossbowman_(Age_of_Empires_II)
+[Success] Found Crossbowman
+   + Updated counters (2 new)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Arbalester_(Age_of_Empires_II)
+[Success] Found Arbalester
+[Checkpoint] Saving units.json...
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Skirmisher_(Age_of_Empires_II)
+[Success] Found Skirmisher
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Elite_Skirmisher_(Age_of_Empires_II)
+[Success] Found Elite Skirmisher
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Spearman_(Age_of_Empires_II)
+[Success] Found Spearman
+[Checkpoint] Saving units.json...
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Pikeman_(Age_of_Empires_II)
+[Success] Found Pikeman
+   + Updated counters (2 new)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Halberdier_(Age_of_Empires_II)
+[Success] Found Halberdier
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Militia_(Age_of_Empires_II)
+[Success] Found Militia
+[Checkpoint] Saving units.json...
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Man-at-Arms_(Age_of_Empires_II)
+[Success] Found Man-at-Arms
+   + Updated counters (1 new)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Long_Swordsman_(Age_of_Empires_II)
+[Success] Found Long Swordsman
+   + Updated counters (5 new)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Two-Handed_Swordsman_(Age_of_Empires_II)
+[Success] Found Two-Handed Swordsman
+[Checkpoint] Saving units.json...
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Champion_(Age_of_Empires_II)
+[Success] Found Champion
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Scout_Cavalry_(Age_of_Empires_II)
+[Success] Found Scout Cavalry
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Light_Cavalry_(Age_of_Empires_II)
+[Success] Found Light Cavalry
+[Checkpoint] Saving units.json...
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Hussar_(Age_of_Empires_II)
+[Success] Found Hussar
+   + Updated counters (1 new)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Knight_(Age_of_Empires_II)
+[Success] Found Knight
+   + Updated counters (8 new)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Cavalier_(Age_of_Empires_II)
+[Success] Found Cavalier
+[Checkpoint] Saving units.json...
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Paladin_(Age_of_Empires_II)
+[Success] Found Paladin
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Camel_Rider_(Age_of_Empires_II)
+[Success] Found Camel Rider
+   + Downloaded image
+   + Updated counters (1 new)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Heavy_Camel_Rider_(Age_of_Empires_II)
+[Success] Found Heavy Camel Rider
+[Checkpoint] Saving units.json...
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Monk_(Age_of_Empires_II)
+[Success] Found Monk
+   + Downloaded image
+   + Updated counters (1 new)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Eagle_Scout_(Age_of_Empires_II)
+[Success] Found Eagle Scout
+   + Downloaded image
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Eagle_Warrior_(Age_of_Empires_II)
+[Success] Found Eagle Warrior
+[Checkpoint] Saving units.json...
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Elite_Eagle_Warrior_(Age_of_Empires_II)
+[Success] Found Elite Eagle Warrior
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Hand_Cannoneer_(Age_of_Empires_II)
+[Success] Found Hand Cannoneer
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Cavalry_Archer_(Age_of_Empires_II)
+[Success] Found Cavalry Archer
+   + Downloaded image
+   + Updated counters (12 new)
+[Checkpoint] Saving units.json...
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Bombard_Cannon_(Age_of_Empires_II)
+[Success] Found Bombard Cannon
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Siege_Ram_(Age_of_Empires_II)
+[Success] Found Siege Ram
+   + Downloaded image
+   + Updated counters (4 new)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Onager_(Age_of_Empires_II)
+[Success] Found Onager
+   + Downloaded image
+   + Updated counters (4 new)
+[Checkpoint] Saving units.json...
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Heavy_Scorpion_(Age_of_Empires_II)
+[Success] Found Heavy Scorpion
+   + Downloaded image
+   + Updated counters (5 new)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Imperial_Skirmisher_(Age_of_Empires_II)
+[Success] Found Imperial Skirmisher
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Genitour_(Age_of_Empires_II)
+[Success] Found Genitour
+   + Downloaded image
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Condottiero_(Age_of_Empires_II)
+[Success] Found Condottiero
+   + Downloaded image
+[Checkpoint] Saving units.json...
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Missionary_(Age_of_Empires_II)
+[Success] Found Missionary
+   + Downloaded image
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Flemish_Militia_(Age_of_Empires_II)
+[Success] Found Flemish Militia
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Houfnice_(Age_of_Empires_II)
+[Success] Found Houfnice
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Imperial_Camel_Rider_(Age_of_Empires_II)
+[Success] Found Imperial Camel Rider
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Chu_Ko_Nu_(Age_of_Empires_II)
+[Success] Found Chu Ko Nu
+   + Downloaded image
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Leitis_(Age_of_Empires_II)
+[Success] Found Leitis
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Longbowman_(Age_of_Empires_II)
+[Success] Found Longbowman
+   + Downloaded image
+[Checkpoint] Saving units.json...
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Throwing_Axeman_(Age_of_Empires_II)
+[Success] Found Throwing Axeman
+   + Downloaded image
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Huskarl_(Age_of_Empires_II)
+[Success] Found Huskarl
+   + Downloaded image
+[Request] Fetching: https://ageofempires.fandom.com/wiki/War_Elephant_(Age_of_Empires_II)
+[Success] Found War Elephant
+   + Downloaded image
+[Checkpoint] Saving units.json...
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Jaguar_Warrior_(Age_of_Empires_II)
+[Success] Found Jaguar Warrior
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Cataphract_(Age_of_Empires_II)
+[Success] Found Cataphract
+   + Downloaded image
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Samurai_(Age_of_Empires_II)
+[Success] Found Samurai
+   + Downloaded image
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Mangudai_(Age_of_Empires_II)
+[Success] Found Mangudai
+   + Downloaded image
+[Checkpoint] Saving units.json...
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Conquistador_(Age_of_Empires_II)
+[Success] Found Conquistador
+   + Downloaded image
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Plumed_Archer_(Age_of_Empires_II)
+[Success] Found Plumed Archer
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Tarkan_(Age_of_Empires_II)
+[Success] Found Tarkan
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Berserk_(Age_of_Empires_II)
+[Success] Found Berserk
+   + Downloaded image
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Janissary_(Age_of_Empires_II)
+[Success] Found Janissary
+   + Downloaded image
+[Checkpoint] Saving units.json...
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Kamayuk_(Age_of_Empires_II)
+[Success] Found Kamayuk
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Slinger_(Age_of_Empires_II)
+[Success] Found Slinger
+   + Downloaded image
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Ballista_Elephant_(Age_of_Empires_II)
+[Success] Found Ballista Elephant
+   + Downloaded image
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Shotel_Warrior_(Age_of_Empires_II)
+[Success] Found Shotel Warrior
+   + Downloaded image
+[Checkpoint] Saving units.json...
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Mameluke_(Age_of_Empires_II)
+[Success] Found Mameluke
+   + Downloaded image
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Gbeto_(Age_of_Empires_II)
+[Success] Found Gbeto
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Teutonic_Knight_(Age_of_Empires_II)
+[Success] Found Teutonic Knight
+   + Downloaded image
+[Request] Fetching: https://ageofempires.fandom.com/wiki/War_Wagon_(Age_of_Empires_II)
+[Success] Found War Wagon
+   + Downloaded image
+[Checkpoint] Saving units.json...
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Genoese_Crossbowman_(Age_of_Empires_II)
+[Success] Found Genoese Crossbowman
+   + Downloaded image
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Magyar_Huszar_(Age_of_Empires_II)
+[Success] Found Magyar Huszar
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Boyar_(Age_of_Empires_II)
+[Success] Found Boyar
+   + Downloaded image
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Woad_Raider_(Age_of_Empires_II)
+[Success] Found Woad Raider
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Arambai_(Age_of_Empires_II)
+[Success] Found Arambai
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Organ_Gun_(Age_of_Empires_II)
+[Success] Found Organ Gun
+   + Downloaded image
+[Checkpoint] Saving units.json...
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Rattan_Archer_(Age_of_Empires_II)
+[Success] Found Rattan Archer
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Camel_Archer_(Age_of_Empires_II)
+[Success] Found Camel Archer
+   + Downloaded image
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Obuch_(Age_of_Empires_II)
+[Success] Found Obuch
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Hussite_Wagon_(Age_of_Empires_II)
+[Success] Found Hussite Wagon
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Coustillier_(Age_of_Empires_II)
+[Success] Found Coustillier
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Serjeant_(Age_of_Empires_II)
+[Success] Found Serjeant
+   + Downloaded image
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Konnik_(Age_of_Empires_II)
+[Success] Found Konnik
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Ratha_(Age_of_Empires_II)
+[Success] Found Ratha
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Kipchak_(Age_of_Empires_II)
+[Success] Found Kipchak
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Urumi_Swordsman_(Age_of_Empires_II)
+[Success] Found Urumi Swordsman
+   + Downloaded image
+[Checkpoint] Saving units.json...
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Monaspa_(Age_of_Empires_II)
+[Success] Found Monaspa
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Chakram_Thrower_(Age_of_Empires_II)
+[Success] Found Chakram Thrower
+   + Downloaded image
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Ghulam_(Age_of_Empires_II)
+[Success] Found Ghulam
+   + Downloaded image
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Karambit_Warrior_(Age_of_Empires_II)
+[Success] Found Karambit Warrior
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Centurion_(Age_of_Empires_II)
+[Success] Found Centurion
+   + Downloaded image
+[Checkpoint] Saving units.json...
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Shrivamsha_Rider_(Age_of_Empires_II)
+[Success] Found Shrivamsha Rider
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Keshik_(Age_of_Empires_II)
+[Success] Found Keshik
+   + Downloaded image
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Flaming_Camel_(Age_of_Empires_II)
+[Success] Found Flaming Camel
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Composite_Bowman_(Age_of_Empires_II)
+[Success] Found Composite Bowman
+   + Downloaded image
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Savar_(Age_of_Empires_II)
+[Success] Found Savar
+[Checkpoint] Saving units.json...
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Iron_Pagoda_(Age_of_Empires_II)
+[Success] Found Iron Pagoda
+[Request] Fetching: https://ageofempires.fandom.com/wiki/White_Feather_Guard_(Age_of_Empires_II)
+[Success] Found White Feather Guard
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Liao_Dao_(Age_of_Empires_II)
+[Success] Found Liao Dao
+[Checkpoint] Saving units.json...
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Tiger_Cavalry_(Age_of_Empires_II)
+[Success] Found Tiger Cavalry
+   + Downloaded image
+   + Updated counters (10 new)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Xianbei_Raider_(Age_of_Empires_II)
+[Success] Found Xianbei Raider
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Cao_Cao_(Age_of_Empires_II)
+[Success] Found Cao Cao
+[Checkpoint] Saving units.json...
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Fire_Archer_(Age_of_Empires_II)
+[Success] Found Fire Archer
+   + Downloaded image
+   + Updated counters (2 new)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Jian_Swordsman_(Age_of_Empires_II)
+[Success] Found Jian Swordsman
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Sun_Jian_(Age_of_Empires_II)
+[Success] Found Sun Jian
+[Checkpoint] Saving units.json...
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Scorpion_(Age_of_Empires_II)
+[Success] Found Scorpion
+   + Downloaded image
+   + Updated counters (6 new)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Mangonel_(Age_of_Empires_II)
+[Success] Found Mangonel
+   + Downloaded image
+   + Updated counters (4 new)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Trebuchet_(Age_of_Empires_II)
+[Success] Found Trebuchet
+[Checkpoint] Saving units.json...
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Camel_Scout_(Age_of_Empires_II)
+[Success] Found Camel Scout
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Shrivamsha_Rider_(Age_of_Empires_II)
+[Success] Found Shrivamsha Rider
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Battle_Elephant_(Age_of_Empires_II)
+[Success] Found Battle Elephant
+[Checkpoint] Saving units.json...
+Updated 78 units.
+Saved units.json

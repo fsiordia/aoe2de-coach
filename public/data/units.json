@@ -8,8 +8,11 @@
             "skirmisher",
             "scout_cavalry",
             "eagle_warrior",
-            "shrivamsha_rider"
-        ]
+            "unique_shrivamsha_rider",
+            "eagle_scout"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Archer_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/archer.png"
     },
     {
         "id": "crossbowman",
@@ -21,8 +24,12 @@
             "knight",
             "mangonel",
             "eagle_warrior",
-            "shrivamsha_rider"
-        ]
+            "unique_shrivamsha_rider",
+            "unique_huskarl",
+            "unique_rattan_archer"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Crossbowman_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/crossbowman.png"
     },
     {
         "id": "arbalester",
@@ -33,8 +40,10 @@
             "cavalier",
             "onager",
             "hussar",
-            "shrivamsha_rider"
-        ]
+            "unique_shrivamsha_rider"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Arbalester_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/arbalester.png"
     },
     {
         "id": "skirmisher",
@@ -45,7 +54,9 @@
             "scout_cavalry",
             "man_at_arms",
             "knight"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Skirmisher_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/skirmisher.png"
     },
     {
         "id": "elite_skirmisher",
@@ -56,7 +67,9 @@
             "light_cavalry",
             "long_swordsman",
             "knight"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Elite_Skirmisher_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/elite_skirmisher.png"
     },
     {
         "id": "spearman",
@@ -68,7 +81,9 @@
             "skirmisher",
             "man_at_arms",
             "scorpion"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Spearman_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/spearman.png"
     },
     {
         "id": "pikeman",
@@ -79,8 +94,12 @@
             "crossbowman",
             "elite_skirmisher",
             "long_swordsman",
-            "scorpion"
-        ]
+            "scorpion",
+            "archer",
+            "unique_cataphract"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Pikeman_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/pikeman.png"
     },
     {
         "id": "halberdier",
@@ -91,7 +110,9 @@
             "elite_skirmisher",
             "two_handed_swordsman",
             "hand_cannoneer"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Halberdier_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/halberdier.png"
     },
     {
         "id": "militia",
@@ -100,7 +121,9 @@
         "upgradesTo": "man_at_arms",
         "counteredBy": [
             "archer"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Militia_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/militia.png"
     },
     {
         "id": "man_at_arms",
@@ -109,8 +132,11 @@
         "upgradesTo": "long_swordsman",
         "counteredBy": [
             "archer",
-            "scout_cavalry"
-        ]
+            "scout_cavalry",
+            "scorpion"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Man-at-Arms_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/man_at_arms.png"
     },
     {
         "id": "long_swordsman",
@@ -120,8 +146,15 @@
         "counteredBy": [
             "crossbowman",
             "knight",
-            "scorpion"
-        ]
+            "scorpion",
+            "archer",
+            "unique_cataphract",
+            "unique_jaguar_warrior",
+            "unique_boyar",
+            "unique_teutonic_knight"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Long_Swordsman_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/long_swordsman.png"
     },
     {
         "id": "two_handed_swordsman",
@@ -133,7 +166,8 @@
             "cavalier",
             "hand_cannoneer",
             "heavy_scorpion"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Two-Handed_Swordsman_(Age_of_Empires_II)"
     },
     {
         "id": "champion",
@@ -144,7 +178,9 @@
             "hand_cannoneer",
             "heavy_scorpion",
             "paladin"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Champion_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/champion.png"
     },
     {
         "id": "scout_cavalry",
@@ -155,7 +191,9 @@
             "spearman",
             "man_at_arms",
             "camel_scout"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Scout_Cavalry_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/scout_cavalry.png"
     },
     {
         "id": "light_cavalry",
@@ -166,7 +204,9 @@
             "pikeman",
             "long_swordsman",
             "knight"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Light_Cavalry_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/light_cavalry.png"
     },
     {
         "id": "hussar",
@@ -175,8 +215,11 @@
         "counteredBy": [
             "halberdier",
             "two_handed_swordsman",
-            "paladin"
-        ]
+            "paladin",
+            "unique_genoese_crossbowman"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Hussar_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/hussar.png"
     },
     {
         "id": "knight",
@@ -186,8 +229,18 @@
         "counteredBy": [
             "pikeman",
             "camel_rider",
-            "monk"
-        ]
+            "monk",
+            "unique_boyar",
+            "unique_kamayuk",
+            "unique_berserk",
+            "unique_genoese_crossbowman",
+            "unique_teutonic_knight",
+            "unique_mameluke",
+            "unique_war_elephant",
+            "battle_elephant"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Knight_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/knight.png"
     },
     {
         "id": "cavalier",
@@ -198,7 +251,9 @@
             "halberdier",
             "heavy_camel_rider",
             "monk"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Cavalier_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/cavalier.png"
     },
     {
         "id": "paladin",
@@ -208,7 +263,9 @@
             "halberdier",
             "heavy_camel_rider",
             "monk"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Paladin_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/paladin.png"
     },
     {
         "id": "camel_rider",
@@ -218,8 +275,11 @@
         "counteredBy": [
             "pikeman",
             "long_swordsman",
-            "monk"
-        ]
+            "monk",
+            "unique_cataphract"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Camel_Rider_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/camel_rider.png"
     },
     {
         "id": "heavy_camel_rider",
@@ -230,7 +290,8 @@
             "halberdier",
             "two_handed_swordsman",
             "arbalester"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Heavy_Camel_Rider_(Age_of_Empires_II)"
     },
     {
         "id": "monk",
@@ -240,8 +301,11 @@
             "scout_cavalry",
             "light_cavalry",
             "hussar",
-            "eagle_warrior"
-        ]
+            "eagle_warrior",
+            "archer"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Monk_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/monk.png"
     },
     {
         "id": "eagle_scout",
@@ -251,7 +315,9 @@
         "counteredBy": [
             "man_at_arms",
             "champion"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Eagle_Scout_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/eagle_scout.png"
     },
     {
         "id": "eagle_warrior",
@@ -261,7 +327,8 @@
         "counteredBy": [
             "long_swordsman",
             "knight"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Eagle_Warrior_(Age_of_Empires_II)"
     },
     {
         "id": "elite_eagle_warrior",
@@ -271,7 +338,8 @@
             "two_handed_swordsman",
             "paladin",
             "hand_cannoneer"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Elite_Eagle_Warrior_(Age_of_Empires_II)"
     },
     {
         "id": "hand_cannoneer",
@@ -281,8 +349,10 @@
             "skirmisher",
             "light_cavalry",
             "onager",
-            "condottiero"
-        ]
+            "unique_condottiero"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Hand_Cannoneer_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/hand_cannoneer.png"
     },
     {
         "id": "cavalry_archer",
@@ -291,8 +361,22 @@
         "counteredBy": [
             "skirmisher",
             "camel_rider",
-            "eagle_warrior"
-        ]
+            "eagle_warrior",
+            "unique_genoese_crossbowman",
+            "unique_huskarl",
+            "elite_skirmisher",
+            "unique_genitour",
+            "mangonel",
+            "scorpion",
+            "unique_rattan_archer",
+            "unique_camel_archer",
+            "unique_war_wagon",
+            "unique_hussite_wagon",
+            "unique_shrivamsha_rider",
+            "unique_ghulam"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Cavalry_Archer_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/cavalry_archer.png"
     },
     {
         "id": "bombard_cannon",
@@ -300,19 +384,25 @@
         "type": "Siege/Gunpowder",
         "counteredBy": [
             "hussar",
-            "magyar_huszar",
-            "culverin"
-        ]
+            "unique_magyar_huszar"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Bombard_Cannon_(Age_of_Empires_II)"
     },
     {
         "id": "siege_ram",
         "name": "Siege Ram",
         "type": "Siege",
         "counteredBy": [
-            "magonel",
+            "mangonel",
             "bombard_cannon",
-            "knight"
-        ]
+            "knight",
+            "unique_mangudai",
+            "unique_chu_ko_nu",
+            "unique_kipchak",
+            "unique_magyar_huszar"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Siege_Ram_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/siege_ram.png"
     },
     {
         "id": "onager",
@@ -321,8 +411,14 @@
         "counteredBy": [
             "bombard_cannon",
             "hussar",
-            "knight"
-        ]
+            "knight",
+            "unique_magyar_huszar",
+            "elite_eagle_warrior",
+            "unique_mangudai",
+            "monk"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Onager_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/onager.png"
     },
     {
         "id": "heavy_scorpion",
@@ -331,8 +427,15 @@
         "counteredBy": [
             "bombard_cannon",
             "hussar",
-            "onager"
-        ]
+            "onager",
+            "unique_ghulam",
+            "elite_eagle_warrior",
+            "unique_woad_raider",
+            "unique_mangudai",
+            "unique_huskarl"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Heavy_Scorpion_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/heavy_scorpion.png"
     },
     {
         "id": "unique_imperial_skirmisher",
@@ -343,7 +446,8 @@
             "knight",
             "onager",
             "champion"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Imperial_Skirmisher_(Age_of_Empires_II)"
     },
     {
         "id": "unique_genitour",
@@ -353,8 +457,14 @@
         "counteredBy": [
             "skirmisher",
             "camel_rider",
-            "halberdier"
-        ]
+            "halberdier",
+            "unique_huskarl",
+            "eagle_warrior",
+            "unique_woad_raider",
+            "unique_ghulam"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Genitour_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_genitour.png"
     },
     {
         "id": "unique_condottiero",
@@ -364,8 +474,11 @@
         "counteredBy": [
             "arbalester",
             "heavy_scorpion",
-            "patrician"
-        ]
+            "archer",
+            "scorpion"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Condottiero_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_condottiero.png"
     },
     {
         "id": "unique_missionary",
@@ -375,8 +488,12 @@
         "counteredBy": [
             "hussar",
             "eagle_warrior",
-            "light_cavalry"
-        ]
+            "light_cavalry",
+            "archer",
+            "halberdier"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Missionary_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_missionary.png"
     },
     {
         "id": "unique_flemish_militia",
@@ -387,7 +504,8 @@
             "arbalester",
             "hand_cannoneer",
             "champion"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Flemish_Militia_(Age_of_Empires_II)"
     },
     {
         "id": "unique_houfnice",
@@ -396,9 +514,9 @@
         "unique": true,
         "counteredBy": [
             "hussar",
-            "magyar_huszar",
-            "culverin"
-        ]
+            "unique_magyar_huszar"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Houfnice_(Age_of_Empires_II)"
     },
     {
         "id": "unique_imperial_camel_rider",
@@ -409,7 +527,8 @@
             "halberdier",
             "two_handed_swordsman",
             "arbalester"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Imperial_Camel_Rider_(Age_of_Empires_II)"
     },
     {
         "id": "unique_chu_ko_nu",
@@ -419,10 +538,17 @@
         "counteredBy": [
             "onager",
             "siege_ram",
-            "huskarl",
+            "unique_huskarl",
             "skirmisher",
-            "eagle_warrior"
-        ]
+            "eagle_warrior",
+            "elite_skirmisher",
+            "scorpion",
+            "mangonel",
+            "unique_genitour",
+            "unique_ghulam"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Chu_Ko_Nu_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_chu_ko_nu.png"
     },
     {
         "id": "unique_leitis",
@@ -433,8 +559,10 @@
             "halberdier",
             "monk",
             "heavy_camel_rider",
-            "arbalester"
-        ]
+            "arbalester",
+            "unique_samurai"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Leitis_(Age_of_Empires_II)"
     },
     {
         "id": "unique_longbowman",
@@ -442,11 +570,18 @@
         "type": "Archer",
         "unique": true,
         "counteredBy": [
-            "huskarl",
+            "unique_huskarl",
             "eagle_warrior",
             "siege_ram",
-            "skirmisher"
-        ]
+            "skirmisher",
+            "elite_skirmisher",
+            "unique_coustillier",
+            "unique_genitour",
+            "unique_rattan_archer",
+            "unique_ghulam"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Longbowman_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_longbowman.png"
     },
     {
         "id": "unique_throwing_axeman",
@@ -456,8 +591,20 @@
         "counteredBy": [
             "arbalester",
             "hand_cannoneer",
-            "onager"
-        ]
+            "onager",
+            "archer",
+            "scorpion",
+            "mangonel",
+            "unique_jaguar_warrior",
+            "unique_boyar",
+            "unique_cataphract",
+            "unique_samurai",
+            "unique_teutonic_knight",
+            "paladin",
+            "unique_slinger"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Throwing_Axeman_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_throwing_axeman.png"
     },
     {
         "id": "unique_huskarl",
@@ -467,8 +614,11 @@
         "counteredBy": [
             "champion",
             "paladin",
-            "samurai"
-        ]
+            "unique_samurai",
+            "mangonel"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Huskarl_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_huskarl.png"
     },
     {
         "id": "unique_war_elephant",
@@ -478,8 +628,17 @@
         "counteredBy": [
             "halberdier",
             "monk",
-            "kamayuk"
-        ]
+            "unique_kamayuk",
+            "unique_mameluke",
+            "cavalry_archer",
+            "mangonel",
+            "scorpion",
+            "unique_flaming_camel",
+            "pikeman",
+            "unique_genoese_crossbowman"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/War_Elephant_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_war_elephant.png"
     },
     {
         "id": "unique_jaguar_warrior",
@@ -489,8 +648,9 @@
         "counteredBy": [
             "arbalester",
             "hand_cannoneer",
-            "cataphract"
-        ]
+            "unique_cataphract"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Jaguar_Warrior_(Age_of_Empires_II)"
     },
     {
         "id": "unique_cataphract",
@@ -501,8 +661,15 @@
             "paladin",
             "battle_elephant",
             "arbalester",
-            "halberdier"
-        ]
+            "halberdier",
+            "knight",
+            "archer",
+            "monk",
+            "unique_war_elephant",
+            "unique_boyar"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Cataphract_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_cataphract.png"
     },
     {
         "id": "unique_samurai",
@@ -512,8 +679,14 @@
         "counteredBy": [
             "arbalester",
             "hand_cannoneer",
-            "cavalier"
-        ]
+            "cavalier",
+            "archer",
+            "scorpion",
+            "paladin",
+            "battle_elephant"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Samurai_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_samurai.png"
     },
     {
         "id": "unique_mangudai",
@@ -523,8 +696,16 @@
         "counteredBy": [
             "skirmisher",
             "camel_rider",
-            "huskarl"
-        ]
+            "unique_huskarl",
+            "elite_skirmisher",
+            "unique_mameluke",
+            "unique_camel_archer",
+            "unique_genitour",
+            "unique_rattan_archer",
+            "unique_genoese_crossbowman"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Mangudai_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_mangudai.png"
     },
     {
         "id": "unique_conquistador",
@@ -534,8 +715,15 @@
         "counteredBy": [
             "skirmisher",
             "halberdier",
-            "camel_rider"
-        ]
+            "camel_rider",
+            "monk",
+            "elite_skirmisher",
+            "unique_genitour",
+            "unique_camel_archer",
+            "unique_mameluke"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Conquistador_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_conquistador.png"
     },
     {
         "id": "unique_plumed_archer",
@@ -545,8 +733,9 @@
         "counteredBy": [
             "skirmisher",
             "knight",
-            "huskarl"
-        ]
+            "unique_huskarl"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Plumed_Archer_(Age_of_Empires_II)"
     },
     {
         "id": "unique_tarkan",
@@ -557,7 +746,8 @@
             "halberdier",
             "paladin",
             "camel_rider"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Tarkan_(Age_of_Empires_II)"
     },
     {
         "id": "unique_berserk",
@@ -567,8 +757,15 @@
         "counteredBy": [
             "hand_cannoneer",
             "arbalester",
-            "scorpion"
-        ]
+            "scorpion",
+            "unique_cataphract",
+            "unique_jaguar_warrior",
+            "unique_boyar",
+            "unique_samurai",
+            "unique_teutonic_knight"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Berserk_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_berserk.png"
     },
     {
         "id": "unique_janissary",
@@ -579,8 +776,15 @@
             "skirmisher",
             "knight",
             "onager",
-            "condottiero"
-        ]
+            "unique_condottiero",
+            "elite_skirmisher",
+            "scorpion",
+            "mangonel",
+            "unique_huskarl",
+            "bombard_cannon"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Janissary_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_janissary.png"
     },
     {
         "id": "unique_kamayuk",
@@ -591,7 +795,8 @@
             "hand_cannoneer",
             "arbalester",
             "scorpion"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Kamayuk_(Age_of_Empires_II)"
     },
     {
         "id": "unique_slinger",
@@ -599,10 +804,15 @@
         "type": "Archer",
         "unique": true,
         "counteredBy": [
-            "huskarl",
+            "unique_huskarl",
             "eagle_warrior",
-            "knight"
-        ]
+            "knight",
+            "elite_skirmisher",
+            "unique_genitour",
+            "unique_rattan_archer"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Slinger_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_slinger.png"
     },
     {
         "id": "unique_ballista_elephant",
@@ -613,8 +823,18 @@
             "mangonel",
             "onager",
             "bombard_cannon",
-            "hussar"
-        ]
+            "hussar",
+            "eagle_warrior",
+            "monk",
+            "unique_kamayuk",
+            "unique_huskarl",
+            "unique_mameluke",
+            "unique_magyar_huszar",
+            "unique_mangudai",
+            "unique_flaming_camel"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Ballista_Elephant_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_ballista_elephant.png"
     },
     {
         "id": "unique_shotel_warrior",
@@ -624,8 +844,14 @@
         "counteredBy": [
             "arbalester",
             "hand_cannoneer",
-            "knight"
-        ]
+            "knight",
+            "scorpion",
+            "unique_cataphract",
+            "unique_war_elephant",
+            "unique_janissary"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Shotel_Warrior_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_shotel_warrior.png"
     },
     {
         "id": "unique_mameluke",
@@ -635,8 +861,14 @@
         "counteredBy": [
             "halberdier",
             "skirmisher",
-            "arbalester"
-        ]
+            "arbalester",
+            "unique_camel_archer",
+            "camel_rider",
+            "monk",
+            "unique_teutonic_knight"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Mameluke_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_mameluke.png"
     },
     {
         "id": "unique_gbeto",
@@ -647,7 +879,8 @@
             "arbalester",
             "hand_cannoneer",
             "onager"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Gbeto_(Age_of_Empires_II)"
     },
     {
         "id": "unique_teutonic_knight",
@@ -658,8 +891,18 @@
             "arbalester",
             "hand_cannoneer",
             "scorpion",
-            "mangonel"
-        ]
+            "mangonel",
+            "unique_leitis",
+            "unique_samurai",
+            "archer",
+            "monk",
+            "unique_cataphract",
+            "unique_obuch",
+            "unique_jaguar_warrior",
+            "unique_war_elephant"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Teutonic_Knight_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_teutonic_knight.png"
     },
     {
         "id": "unique_war_wagon",
@@ -670,8 +913,15 @@
             "skirmisher",
             "halberdier",
             "mangonel",
-            "onager"
-        ]
+            "onager",
+            "unique_huskarl",
+            "unique_mameluke",
+            "camel_rider",
+            "eagle_warrior",
+            "monk"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/War_Wagon_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_war_wagon.png"
     },
     {
         "id": "unique_genoese_crossbowman",
@@ -681,8 +931,15 @@
         "counteredBy": [
             "siege_ram",
             "skirmisher",
-            "eagle_warrior"
-        ]
+            "eagle_warrior",
+            "elite_skirmisher",
+            "unique_huskarl",
+            "unique_rattan_archer",
+            "unique_ghulam",
+            "unique_shrivamsha_rider"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Genoese_Crossbowman_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_genoese_crossbowman.png"
     },
     {
         "id": "unique_magyar_huszar",
@@ -692,7 +949,8 @@
         "counteredBy": [
             "halberdier",
             "paladin"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Magyar_Huszar_(Age_of_Empires_II)"
     },
     {
         "id": "unique_boyar",
@@ -702,8 +960,21 @@
         "counteredBy": [
             "halberdier",
             "monk",
-            "heavy_camel_rider"
-        ]
+            "heavy_camel_rider",
+            "unique_leitis",
+            "camel_rider",
+            "unique_kamayuk",
+            "unique_teutonic_knight",
+            "unique_mameluke",
+            "unique_war_elephant",
+            "unique_samurai",
+            "unique_obuch",
+            "pikeman",
+            "unique_genoese_crossbowman",
+            "unique_composite_bowman"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Boyar_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_boyar.png"
     },
     {
         "id": "unique_woad_raider",
@@ -714,7 +985,8 @@
             "hand_cannoneer",
             "arbalester",
             "champion"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Woad_Raider_(Age_of_Empires_II)"
     },
     {
         "id": "unique_arambai",
@@ -725,7 +997,8 @@
             "skirmisher",
             "camel_rider",
             "arbalester"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Arambai_(Age_of_Empires_II)"
     },
     {
         "id": "unique_organ_gun",
@@ -737,7 +1010,9 @@
             "bombard_cannon",
             "hussar",
             "knight"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Organ_Gun_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_organ_gun.png"
     },
     {
         "id": "unique_rattan_archer",
@@ -748,7 +1023,8 @@
             "skirmisher",
             "eagle_warrior",
             "siege_ram"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Rattan_Archer_(Age_of_Empires_II)"
     },
     {
         "id": "unique_camel_archer",
@@ -758,8 +1034,14 @@
         "counteredBy": [
             "skirmisher",
             "camel_rider",
-            "eagle_warrior"
-        ]
+            "eagle_warrior",
+            "elite_skirmisher",
+            "unique_rattan_archer",
+            "mangonel",
+            "unique_shrivamsha_rider"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Camel_Archer_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_camel_archer.png"
     },
     {
         "id": "unique_obuch",
@@ -770,7 +1052,8 @@
             "arbalester",
             "hand_cannoneer",
             "heavy_scorpion"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Obuch_(Age_of_Empires_II)"
     },
     {
         "id": "unique_hussite_wagon",
@@ -782,7 +1065,8 @@
             "bombard_cannon",
             "hussar",
             "knight"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Hussite_Wagon_(Age_of_Empires_II)"
     },
     {
         "id": "unique_coustillier",
@@ -793,7 +1077,8 @@
             "halberdier",
             "heavy_camel_rider",
             "monk"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Coustillier_(Age_of_Empires_II)"
     },
     {
         "id": "unique_serjeant",
@@ -803,8 +1088,22 @@
         "counteredBy": [
             "hand_cannoneer",
             "arbalester",
-            "scorpion"
-        ]
+            "scorpion",
+            "unique_slinger",
+            "monk",
+            "unique_cataphract",
+            "unique_samurai",
+            "unique_teutonic_knight",
+            "unique_boyar",
+            "unique_jaguar_warrior",
+            "unique_obuch",
+            "unique_war_elephant",
+            "battle_elephant",
+            "unique_leitis",
+            "unique_composite_bowman"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Serjeant_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_serjeant.png"
     },
     {
         "id": "unique_konnik",
@@ -815,7 +1114,8 @@
             "halberdier",
             "camel_rider",
             "arbalester"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Konnik_(Age_of_Empires_II)"
     },
     {
         "id": "unique_ratha",
@@ -826,7 +1126,8 @@
             "skirmisher",
             "camel_rider",
             "halberdier"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Ratha_(Age_of_Empires_II)"
     },
     {
         "id": "unique_kipchak",
@@ -837,7 +1138,8 @@
             "skirmisher",
             "camel_rider",
             "eagle_warrior"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Kipchak_(Age_of_Empires_II)"
     },
     {
         "id": "unique_urumi_swordsman",
@@ -847,8 +1149,18 @@
         "counteredBy": [
             "hand_cannoneer",
             "arbalester",
-            "heavy_scorpion"
-        ]
+            "heavy_scorpion",
+            "archer",
+            "scorpion",
+            "unique_cataphract",
+            "unique_war_elephant",
+            "battle_elephant",
+            "monk",
+            "unique_ballista_elephant",
+            "unique_organ_gun"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Urumi_Swordsman_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_urumi_swordsman.png"
     },
     {
         "id": "unique_monaspa",
@@ -858,8 +1170,9 @@
         "counteredBy": [
             "halberdier",
             "heavy_camel_rider",
-            "boyar"
-        ]
+            "unique_boyar"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Monaspa_(Age_of_Empires_II)"
     },
     {
         "id": "unique_chakram_thrower",
@@ -869,19 +1182,11 @@
         "counteredBy": [
             "arbalester",
             "hand_cannoneer",
-            "onager"
-        ]
-    },
-    {
-        "id": "unique_shrivamsha_rider",
-        "name": "Shrivamsha Rider",
-        "type": "Cavalry",
-        "unique": true,
-        "counteredBy": [
-            "pikeman",
-            "heavy_camel_rider",
-            "champion"
-        ]
+            "onager",
+            "unique_shrivamsha_rider"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Chakram_Thrower_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_chakram_thrower.png"
     },
     {
         "id": "unique_ghulam",
@@ -891,8 +1196,13 @@
         "counteredBy": [
             "champion",
             "hand_cannoneer",
-            "samurai"
-        ]
+            "unique_samurai",
+            "unique_jaguar_warrior",
+            "unique_teutonic_knight",
+            "monk"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Ghulam_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_ghulam.png"
     },
     {
         "id": "unique_karambit_warrior",
@@ -901,9 +1211,9 @@
         "unique": true,
         "counteredBy": [
             "champion",
-            "hand_cannoneer",
-            "mass_archers"
-        ]
+            "hand_cannoneer"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Karambit_Warrior_(Age_of_Empires_II)"
     },
     {
         "id": "unique_centurion",
@@ -913,8 +1223,34 @@
         "counteredBy": [
             "halberdier",
             "heavy_camel_rider",
+            "monk",
+            "unique_war_elephant",
+            "battle_elephant",
+            "camel_rider",
+            "unique_boyar",
+            "unique_kamayuk",
+            "unique_berserk",
+            "unique_teutonic_knight",
+            "unique_mameluke",
+            "unique_samurai",
+            "pikeman",
+            "unique_genoese_crossbowman",
+            "unique_leitis"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Centurion_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_centurion.png"
+    },
+    {
+        "id": "unique_shrivamsha_rider",
+        "name": "Shrivamsha Rider",
+        "type": "Cavalry",
+        "unique": true,
+        "counteredBy": [
+            "halberdier",
+            "heavy_camel_rider",
             "monk"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Shrivamsha_Rider_(Age_of_Empires_II)"
     },
     {
         "id": "unique_keshik",
@@ -924,8 +1260,22 @@
         "counteredBy": [
             "halberdier",
             "heavy_camel_rider",
-            "arbalester"
-        ]
+            "arbalester",
+            "unique_boyar",
+            "unique_kamayuk",
+            "unique_berserk",
+            "unique_teutonic_knight",
+            "unique_mameluke",
+            "camel_rider",
+            "monk",
+            "unique_war_elephant",
+            "knight",
+            "unique_samurai",
+            "pikeman",
+            "unique_genoese_crossbowman"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Keshik_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_keshik.png"
     },
     {
         "id": "unique_flaming_camel",
@@ -936,7 +1286,8 @@
             "arbalester",
             "onager",
             "halberdier"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Flaming_Camel_(Age_of_Empires_II)"
     },
     {
         "id": "unique_composite_bowman",
@@ -946,8 +1297,12 @@
         "counteredBy": [
             "skirmisher",
             "onager",
-            "eagle_warrior"
-        ]
+            "eagle_warrior",
+            "archer",
+            "unique_shrivamsha_rider"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Composite_Bowman_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_composite_bowman.png"
     },
     {
         "id": "unique_savar",
@@ -960,7 +1315,8 @@
             "unique_boyar",
             "unique_leitis",
             "unique_konnik"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Savar_(Age_of_Empires_II)"
     },
     {
         "id": "unique_iron_pagoda",
@@ -970,7 +1326,8 @@
             "halberdier",
             "heavy_camel_rider",
             "unique_kamayuk"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Iron_Pagoda_(Age_of_Empires_II)"
     },
     {
         "id": "unique_white_feather_guard",
@@ -980,7 +1337,8 @@
             "arbalester",
             "hand_cannoneer",
             "heavy_scorpion"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/White_Feather_Guard_(Age_of_Empires_II)"
     },
     {
         "id": "unique_liao_dao",
@@ -990,6 +1348,166 @@
             "arbalester",
             "hand_cannoneer",
             "unique_jaguar_warrior"
-        ]
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Liao_Dao_(Age_of_Empires_II)"
+    },
+    {
+        "id": "unique_tiger_cavalry",
+        "name": "Tiger Cavalry",
+        "type": "Cavalry",
+        "counteredBy": [
+            "halberdier",
+            "heavy_camel_rider",
+            "unique_kamayuk",
+            "pikeman",
+            "camel_rider",
+            "monk",
+            "battle_elephant",
+            "unique_boyar",
+            "unique_berserk",
+            "unique_genoese_crossbowman",
+            "unique_teutonic_knight",
+            "unique_mameluke",
+            "unique_war_elephant"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Tiger_Cavalry_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_tiger_cavalry.png"
+    },
+    {
+        "id": "unique_xianbei_raider",
+        "name": "Xianbei Raider",
+        "type": "Cavalry Archer",
+        "counteredBy": [
+            "elite_skirmisher",
+            "unique_camel_archer",
+            "unique_huskarl"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Xianbei_Raider_(Age_of_Empires_II)"
+    },
+    {
+        "id": "unique_cao_cao",
+        "name": "Cao Cao",
+        "type": "Cavalry",
+        "counteredBy": [
+            "halberdier",
+            "heavy_camel_rider",
+            "monk"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Cao_Cao_(Age_of_Empires_II)"
+    },
+    {
+        "id": "unique_fire_archer",
+        "name": "Fire Archer",
+        "type": "Archer",
+        "counteredBy": [
+            "elite_skirmisher",
+            "onager",
+            "unique_huskarl",
+            "archer",
+            "eagle_warrior"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Fire_Archer_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_fire_archer.png"
+    },
+    {
+        "id": "unique_jian_swordsman",
+        "name": "Jian Swordsman",
+        "type": "Infantry",
+        "counteredBy": [
+            "hand_cannoneer",
+            "arbalester",
+            "heavy_scorpion"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Jian_Swordsman_(Age_of_Empires_II)"
+    },
+    {
+        "id": "unique_sun_jian",
+        "name": "Sun Jian",
+        "type": "Cavalry",
+        "counteredBy": [
+            "halberdier",
+            "heavy_camel_rider",
+            "monk"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Sun_Jian_(Age_of_Empires_II)"
+    },
+    {
+        "id": "scorpion",
+        "name": "Scorpion",
+        "type": "Siege",
+        "upgradesTo": "heavy_scorpion",
+        "counteredBy": [
+            "bombard_cannon",
+            "onager",
+            "knight",
+            "unique_ghulam",
+            "eagle_warrior",
+            "unique_woad_raider",
+            "unique_mangudai",
+            "mangonel",
+            "unique_huskarl"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Scorpion_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/scorpion.png"
+    },
+    {
+        "id": "mangonel",
+        "name": "Mangonel",
+        "type": "Siege",
+        "upgradesTo": "onager",
+        "counteredBy": [
+            "bombard_cannon",
+            "knight",
+            "light_cavalry",
+            "unique_magyar_huszar",
+            "eagle_warrior",
+            "unique_mangudai",
+            "monk"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Mangonel_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/mangonel.png"
+    },
+    {
+        "id": "trebuchet",
+        "name": "Trebuchet",
+        "type": "Siege",
+        "counteredBy": [
+            "bombard_cannon",
+            "hussar",
+            "mangonel"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Trebuchet_(Age_of_Empires_II)"
+    },
+    {
+        "id": "camel_scout",
+        "name": "Camel Scout",
+        "type": "Cavalry",
+        "upgradesTo": "camel_rider",
+        "counteredBy": [
+            "spearman",
+            "archer"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Camel_Scout_(Age_of_Empires_II)"
+    },
+    {
+        "id": "unique_shrivamsha_rider",
+        "name": "Shrivamsha Rider",
+        "type": "Cavalry",
+        "counteredBy": [
+            "pikeman",
+            "knight"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Shrivamsha_Rider_(Age_of_Empires_II)"
+    },
+    {
+        "id": "battle_elephant",
+        "name": "Battle Elephant",
+        "type": "Cavalry",
+        "counteredBy": [
+            "halberdier",
+            "monk"
+        ],
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Battle_Elephant_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/battle_elephant.png"
     }
 ]

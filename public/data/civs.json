@@ -1624,5 +1624,75 @@
             "elite_skirmisher",
             "trebuchet"
         ]
+    },
+    {
+        "id": "wei",
+        "name": "Wei",
+        "style": "Cavalry",
+        "summary": "Cavalry and Hero civilization",
+        "bonuses": [
+            "Cavalry +10% HP",
+            "Start with +300 food",
+            "Towers fire double arrows in Feudal Age"
+        ],
+        "uniqueUnits": [
+            "unique_tiger_cavalry",
+            "unique_xianbei_raider",
+            "unique_cao_cao"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Tuntian",
+                "effect": "Farms generate food faster"
+            },
+            {
+                "name": "Ming Guang Armor",
+                "effect": "Cavalry +1/+2 armor"
+            }
+        ],
+        "roster": [
+            "paladin",
+            "hussar",
+            "cavalry_archer",
+            "champion",
+            "halberdier",
+            "onager",
+            "bombard_cannon"
+        ]
+    },
+    {
+        "id": "wu",
+        "name": "Wu",
+        "style": "Archer",
+        "summary": "Archer and Naval civilization",
+        "bonuses": [
+            "Archers cost -10% wood",
+            "Ships move 15% faster",
+            "Defensive structures +20% HP"
+        ],
+        "uniqueUnits": [
+            "unique_fire_archer",
+            "unique_jian_swordsman",
+            "unique_sun_jian"
+        ],
+        "uniqueTechs": [
+            {
+                "name": "Red Cliffs Tactics",
+                "effect": "Demo Ships +50% blast radius"
+            },
+            {
+                "name": "Sitting Tiger",
+                "effect": "Unlock Sitting Tiger (Siege Unit)"
+            }
+        ],
+        "roster": [
+            "arbalester",
+            "champion",
+            "halberdier",
+            "elite_skirmisher",
+            "heavy_scorpion",
+            "onager",
+            "siege_ram"
+        ]
     }
 ]

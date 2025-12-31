@@ -1,0 +1,60 @@
+Loading units.json...
+Found 102 units to check.
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Archer_(Age_of_Empires_II)
+[Success] Found Archer
+   + Downloaded image
+   + Updated counters (1 new)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Crossbowman_(Age_of_Empires_II)
+[Success] Found Crossbowman
+   + Downloaded image
+   + Updated counters (2 new)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Arbalester_(Age_of_Empires_II)
+[Success] Found Arbalester
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Skirmisher_(Age_of_Empires_II)
+[Success] Found Skirmisher
+   + Downloaded image
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Elite_Skirmisher_(Age_of_Empires_II)
+[Success] Found Elite Skirmisher
+   + Downloaded image
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Spearman_(Age_of_Empires_II)
+[Success] Found Spearman
+   + Downloaded image
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Pikeman_(Age_of_Empires_II)
+[Success] Found Pikeman
+   + Downloaded image
+   + Updated counters (2 new)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Halberdier_(Age_of_Empires_II)
+[Success] Found Halberdier
+   + Downloaded image
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Militia_(Age_of_Empires_II)
+[Success] Found Militia
+   + Downloaded image
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Man-at-Arms_(Age_of_Empires_II)
+[Success] Found Man-at-Arms
+   + Downloaded image
+   + Updated counters (1 new)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Long_Swordsman_(Age_of_Empires_II)
+[Success] Found Long Swordsman
+   + Downloaded image
+   + Updated counters (5 new)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Two-Handed_Swordsman_(Age_of_Empires_II)
+[Success] Found Two-Handed Swordsman
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Champion_(Age_of_Empires_II)
+[Success] Found Champion
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Scout_Cavalry_(Age_of_Empires_II)
+[Success] Found Scout Cavalry
+   + Downloaded image
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Light_Cavalry_(Age_of_Empires_II)
+[Success] Found Light Cavalry
+   + Downloaded image
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Hussar_(Age_of_Empires_II)
+[Success] Found Hussar
+   + Downloaded image
+   + Updated counters (1 new)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Knight_(Age_of_Empires_II)
+[Success] Found Knight
+   + Downloaded image
+   + Updated counters (8 new)
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Cavalier_(Age_of_Empires_II)
+[Success] Found Cavalier
+[Request] Fetching: https://ageofempires.fandom.com/wiki/Paladin_(Age_of_Empires_II)
