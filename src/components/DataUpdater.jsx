@@ -1,15 +1,19 @@
 import { useState } from 'react';
+import { useLang } from '../i18n/context';
 
 function DataUpdater() {
+    const { t } = useLang();
     const [loading, setLoading] = useState(false);
     const [message, setMessage] = useState("");
+    const [isError, setIsError] = useState(false);
     const [lastUpdated, setLastUpdated] = useState(
-        localStorage.getItem("aoe2_data_last_updated") || "Never"
+        localStorage.getItem("aoe2_data_last_updated") || ""
     );
 
     const updateData = async () => {
         setLoading(true);
-        setMessage("Fetching data...");
+        setIsError(false);
+        setMessage(t('fetching'));
 
         try {
             // Fetch both files in parallel
@@ -36,7 +40,7 @@ function DataUpdater() {
             localStorage.setItem('aoe2_data_last_updated', timestamp);
             setLastUpdated(timestamp);
 
-            setMessage("Data updated successfully! Reloading...");
+            setMessage(t('updateOk'));
 
             // Reload to apply changes
             setTimeout(() => {
@@ -45,7 +49,8 @@ function DataUpdater() {
 
         } catch (error) {
             console.error("Update failed:", error);
-            setMessage("Update failed: " + error.message);
+            setIsError(true);
+            setMessage(t('updateFail') + error.message);
         } finally {
             setLoading(false);
         }
@@ -54,11 +59,11 @@ function DataUpdater() {
     return (
         <div className="mt-4 pt-4 border-t border-slate-800 text-center">
             <div className="text-xs text-slate-500 mb-2">
-                Database Last Updated: {lastUpdated}
+                {t('lastUpdated')} {lastUpdated || t('never')}
             </div>
 
             {message && (
-                <div className={`text-xs mb-2 ${message.includes("failed") ? "text-red-400" : "text-green-400"}`}>
+                <div className={`text-xs mb-2 ${isError ? "text-red-400" : "text-green-400"}`}>
                     {message}
                 </div>
             )}
@@ -67,12 +72,12 @@ function DataUpdater() {
                 onClick={updateData}
                 disabled={loading}
                 className={`
-                    text-xs px-3 py-1 rounded border border-slate-700 
+                    text-xs px-3 py-1 rounded border border-slate-700
                     ${loading ? 'bg-slate-800 text-slate-500' : 'bg-slate-900 text-slate-400 hover:bg-slate-800 hover:text-slate-200'}
                     transition-colors
                 `}
             >
-                {loading ? "Updating..." : "↻ Check for Data Updates"}
+                {loading ? t('updating') : t('checkUpdates')}
             </button>
         </div>
     );

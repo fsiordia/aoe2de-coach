@@ -1,5 +1,6 @@
 import { useState, useMemo, useEffect, useRef } from 'react';
 import { getAllCivs } from '../utils/gameLogic';
+import { useLang, loc } from '../i18n/context';
 
 function CivSelector({
     onSelect,
@@ -11,6 +12,7 @@ function CivSelector({
     activeBgClass = "bg-amber-700/50 border-amber-500 text-amber-200"
 }) {
     const civs = getAllCivs();
+    const { lang, t } = useLang();
     const [isOpen, setIsOpen] = useState(false);
     const [filter, setFilter] = useState("");
     const [favorites, setFavorites] = useState([]);
@@ -50,14 +52,19 @@ function CivSelector({
         return () => document.removeEventListener("mousedown", handleClickOutside);
     }, []);
 
-    // Filter civs
+    // Filter civs (matches both English and Spanish names)
     const filteredCivs = useMemo(() => {
         if (!filter) return civs;
-        return civs.filter(c => c.name.toLowerCase().includes(filter.toLowerCase()));
+        const q = filter.toLowerCase();
+        return civs.filter(c =>
+            c.name.toLowerCase().includes(q) ||
+            (c.nameEs || '').toLowerCase().includes(q)
+        );
     }, [civs, filter]);
 
     // Find selected name
-    const selectedName = civs.find(c => c.id === selectedCivId)?.name || "Choose a civilization...";
+    const selectedCiv = civs.find(c => c.id === selectedCivId);
+    const selectedName = selectedCiv ? loc(selectedCiv, 'name', lang) : t('chooseCiv');
     const isSelectedFavorite = favorites.includes(selectedCivId);
 
     // Get objects for favorite chips
@@ -84,9 +91,9 @@ function CivSelector({
                                     ? activeBgClass
                                     : 'bg-slate-800 border-slate-600 text-slate-400 hover:bg-slate-700 hover:text-slate-200'}
                             `}
-                            title={`Select ${civ.name}`}
+                            title={loc(civ, 'name', lang)}
                         >
-                            <span className={activeColorClass}>{favoriteIcon}</span> {civ.name}
+                            <span className={activeColorClass}>{favoriteIcon}</span> {loc(civ, 'name', lang)}
                         </button>
                     ))}
                 </div>
@@ -116,7 +123,7 @@ function CivSelector({
                                 ? `bg-opacity-40 bg-slate-800 border-slate-600 ${activeColorClass} hover:bg-opacity-60`
                                 : 'bg-slate-800 border-slate-700 text-slate-600 hover:text-slate-400 hover:bg-slate-700'}
                         `}
-                        title={isSelectedFavorite ? "Remove from favorites" : "Add to favorites"}
+                        title={isSelectedFavorite ? t('removeFavorite') : t('addFavorite')}
                     >
                         {isSelectedFavorite ? favoriteIcon : '☆'}
                     </button>
@@ -131,7 +138,7 @@ function CivSelector({
                         <input
                             autoFocus
                             type="text"
-                            placeholder="Filter civilizations..."
+                            placeholder={t('filterCivs')}
                             className="w-full bg-slate-900 border border-slate-700 text-slate-200 px-3 py-2 rounded focus:outline-none focus:border-amber-500 text-sm"
                             value={filter}
                             onChange={(e) => setFilter(e.target.value)}
@@ -156,13 +163,13 @@ function CivSelector({
                                             ${civ.id === selectedCivId ? 'bg-amber-900/60 text-amber-200' : 'text-slate-300'}
                                         `}
                                     >
-                                        <span>{civ.name}</span>
+                                        <span>{loc(civ, 'name', lang)}</span>
                                         {isFav && <span className={`${activeColorClass} text-xs`}>{favoriteIcon}</span>}
                                     </div>
                                 );
                             })
                         ) : (
-                            <div className="px-4 py-3 text-slate-500 text-sm text-center">No results found</div>
+                            <div className="px-4 py-3 text-slate-500 text-sm text-center">{t('noResults')}</div>
                         )}
                     </div>
                 </div>

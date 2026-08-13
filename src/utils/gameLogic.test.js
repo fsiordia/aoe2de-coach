@@ -277,11 +277,17 @@ describe('recommendBuildOrders', () => {
         expect(ranked[0].score).toBeGreaterThan(0);
     });
 
-    it('every recommendation with score > 0 includes at least one reason', () => {
+    it('every recommendation with score > 0 includes structured reasons', () => {
         for (const userCiv of realCivs) {
             const ranked = recommendBuildOrders(userCiv, null, buildOrders);
             for (const r of ranked) {
-                if (r.score > 0) expect(r.reasons.length).toBeGreaterThan(0);
+                if (r.score > 0) {
+                    expect(r.reasons.length).toBeGreaterThan(0);
+                    for (const reason of r.reasons) {
+                        expect(['civ', 'enemy']).toContain(reason.kind);
+                        expect(typeof reason.archetype).toBe('string');
+                    }
+                }
             }
         }
     });
@@ -295,5 +301,33 @@ describe('recommendBuildOrders', () => {
                 expect(ranked[0].score).toBeGreaterThan(0);
             }
         }
+    });
+});
+
+describe('Spanish translations (i18n data)', () => {
+    it('every unit has nameEs and strategyNoteEs', () => {
+        const noName = realUnits.filter(u => !u.nameEs).map(u => u.id);
+        const noNote = realUnits.filter(u => !u.strategyNoteEs).map(u => u.id);
+        expect(noName).toEqual([]);
+        expect(noNote).toEqual([]);
+    });
+
+    it('every civ has nameEs and summaryEs', () => {
+        const noName = realCivs.filter(c => !c.nameEs).map(c => c.id);
+        const noSummary = realCivs.filter(c => !c.summaryEs).map(c => c.id);
+        expect(noName).toEqual([]);
+        expect(noSummary).toEqual([]);
+    });
+
+    it('every build order and step is translated', () => {
+        const missing = [];
+        for (const order of buildOrders) {
+            if (!order.nameEs || !order.summaryEs) missing.push(order.id);
+            order.steps.forEach((s, i) => {
+                if (!s.textEs) missing.push(`${order.id}[${i}].textEs`);
+                if (s.note && !s.noteEs) missing.push(`${order.id}[${i}].noteEs`);
+            });
+        }
+        expect(missing).toEqual([]);
     });
 });

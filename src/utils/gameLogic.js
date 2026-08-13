@@ -202,28 +202,14 @@ export function getKeyThreats(enemyCivId) {
     return getKeyThreatsIn(gameData, enemyCivId);
 }
 
-const ARCHETYPE_LABELS = {
-    cavalry: 'Cavalry',
-    archer: 'Archer',
-    cavalry_archer: 'Cavalry Archer',
-    infantry: 'Infantry',
-    camel: 'Camel',
-    gunpowder: 'Gunpowder',
-    monk: 'Monk',
-    siege: 'Siege',
-    elephant: 'Elephant',
-    eagle: 'Eagle Warrior',
-    naval: 'Naval',
-    defensive: 'Defensive',
-};
-
 /**
  * Ranks build orders for a matchup based on civ archetypes.
- * Pure function — safe to test.
+ * Pure function — safe to test. Reasons are structured
+ * ({kind: 'civ'|'enemy', archetype}) so the UI can localize them.
  * @param {object} userCiv Civ object with an archetypes array
  * @param {object} enemyCiv Civ object with an archetypes array (optional)
  * @param {Array} orders Build order catalog (see src/data/buildOrders.js)
- * @returns {Array<{order: object, score: number, reasons: string[]}>} sorted best-first
+ * @returns {Array<{order: object, score: number, reasons: Array<{kind: string, archetype: string}>}>} sorted best-first
  */
 export function recommendBuildOrders(userCiv, enemyCiv, orders) {
     if (!userCiv || !orders || orders.length === 0) return [];
@@ -238,13 +224,13 @@ export function recommendBuildOrders(userCiv, enemyCiv, orders) {
         for (const a of userArch) {
             if ((order.civBias || []).includes(a)) {
                 score += 2;
-                reasons.push(`Plays to your ${ARCHETYPE_LABELS[a] || a} strength`);
+                reasons.push({ kind: 'civ', archetype: a });
             }
         }
         for (const a of enemyArch) {
             if ((order.vsBias || []).includes(a)) {
                 score += 1;
-                reasons.push(`Good answer to their ${ARCHETYPE_LABELS[a] || a} game plan`);
+                reasons.push({ kind: 'enemy', archetype: a });
             }
         }
 

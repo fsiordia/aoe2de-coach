@@ -1,7 +1,9 @@
 import { useState } from 'react';
+import { useLang, loc } from '../i18n/context';
 
 function CivDashboard({ civ }) {
     const [showDetails, setShowDetails] = useState(false);
+    const { lang, t } = useLang();
 
     if (!civ) return null;
 
@@ -9,24 +11,21 @@ function CivDashboard({ civ }) {
         <div className="bg-slate-800 border-2 border-amber-800 rounded-lg p-6 shadow-xl mb-6 bg-opacity-90">
             <div className="flex justify-between items-start mb-4">
                 <div>
-                    <h2 className="text-3xl font-bold text-amber-500 drop-shadow-md">{civ.name}</h2>
-                    <p className="text-amber-200/80 italic">{civ.summary}</p>
+                    <h2 className="text-3xl font-bold text-amber-500 drop-shadow-md">{loc(civ, 'name', lang)}</h2>
+                    <p className="text-amber-200/80 italic">{loc(civ, 'summary', lang)}</p>
                 </div>
                 <button
                     onClick={() => setShowDetails(!showDetails)}
                     className="text-xs text-amber-500 border border-amber-700 hover:bg-amber-900/50 px-2 py-1 rounded transition-colors"
                 >
-                    {showDetails ? 'Hide Details' : 'Show Details'}
+                    {showDetails ? t('hideDetails') : t('showDetails')}
                 </button>
             </div>
-
-            {/* Main summary always visible? No, request said summary visible, details hidden. */}
-            {/* "First thing to see is summary... also option to see details" */}
 
             {showDetails && (
                 <div className="mt-4 border-t border-amber-800 pt-4 space-y-4 animate-fadeIn">
                     <div>
-                        <h3 className="text-amber-400 font-semibold mb-2">Civilization Bonuses</h3>
+                        <h3 className="text-amber-400 font-semibold mb-2">{t('civBonuses')}</h3>
                         <ul className="list-disc list-inside text-sm text-slate-300 space-y-1">
                             {civ.bonuses.map((bonus, idx) => (
                                 <li key={idx}>{bonus}</li>
@@ -35,7 +34,7 @@ function CivDashboard({ civ }) {
                     </div>
 
                     <div>
-                        <h3 className="text-amber-400 font-semibold mb-2">Unique Techs</h3>
+                        <h3 className="text-amber-400 font-semibold mb-2">{t('uniqueTechs')}</h3>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                             {civ.uniqueTechs.map((tech, idx) => (
                                 <div key={idx} className="bg-slate-900/50 p-2 rounded border border-amber-900/30">

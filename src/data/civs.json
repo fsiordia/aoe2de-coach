@@ -34,7 +34,9 @@
         "archetypes": [
             "infantry",
             "naval"
-        ]
+        ],
+        "nameEs": "Armenios",
+        "summaryEs": "Civilización de infantería y barcos"
     },
     {
         "id": "aztecs",
@@ -72,7 +74,9 @@
         "archetypes": [
             "infantry",
             "eagle"
-        ]
+        ],
+        "nameEs": "Aztecas",
+        "summaryEs": "Civilización de infantería y monjes"
     },
     {
         "id": "bengalis",
@@ -108,7 +112,9 @@
         "archetypes": [
             "naval",
             "elephant"
-        ]
+        ],
+        "nameEs": "Bengalíes",
+        "summaryEs": "Civilización de barcos y elefantes"
     },
     {
         "id": "berbers",
@@ -148,7 +154,9 @@
             "cavalry",
             "camel",
             "cavalry_archer"
-        ]
+        ],
+        "nameEs": "Bereberes",
+        "summaryEs": "Civilización de caballería y barcos"
     },
     {
         "id": "bohemians",
@@ -186,7 +194,9 @@
         "archetypes": [
             "gunpowder",
             "monk"
-        ]
+        ],
+        "nameEs": "Bohemios",
+        "summaryEs": "Civilización de pólvora y monjes"
     },
     {
         "id": "britons",
@@ -221,7 +231,9 @@
         ],
         "archetypes": [
             "archer"
-        ]
+        ],
+        "nameEs": "Britanos",
+        "summaryEs": "Civilización de arqueros a pie"
     },
     {
         "id": "bulgarians",
@@ -257,7 +269,9 @@
         "archetypes": [
             "cavalry",
             "infantry"
-        ]
+        ],
+        "nameEs": "Búlgaros",
+        "summaryEs": "Civilización de infantería y caballería"
     },
     {
         "id": "burgundians",
@@ -294,7 +308,9 @@
         ],
         "archetypes": [
             "cavalry"
-        ]
+        ],
+        "nameEs": "Borgoñones",
+        "summaryEs": "Civilización de caballería"
     },
     {
         "id": "burmese",
@@ -332,7 +348,9 @@
         "archetypes": [
             "monk",
             "elephant"
-        ]
+        ],
+        "nameEs": "Birmanos",
+        "summaryEs": "Civilización de monjes y elefantes"
     },
     {
         "id": "byzantines",
@@ -372,7 +390,9 @@
         "archetypes": [
             "defensive",
             "camel"
-        ]
+        ],
+        "nameEs": "Bizantinos",
+        "summaryEs": "Civilización de defensa"
     },
     {
         "id": "celts",
@@ -409,7 +429,9 @@
         "archetypes": [
             "infantry",
             "siege"
-        ]
+        ],
+        "nameEs": "Celtas",
+        "summaryEs": "Civilización de infantería y asedio"
     },
     {
         "id": "chinese",
@@ -446,7 +468,9 @@
         ],
         "archetypes": [
             "archer"
-        ]
+        ],
+        "nameEs": "Chinos",
+        "summaryEs": "Civilización de arqueros y pólvora"
     },
     {
         "id": "cumans",
@@ -485,7 +509,9 @@
             "cavalry",
             "camel",
             "cavalry_archer"
-        ]
+        ],
+        "nameEs": "Cumanos",
+        "summaryEs": "Civilización de caballería"
     },
     {
         "id": "dravidians",
@@ -522,7 +548,9 @@
         "archetypes": [
             "infantry",
             "naval"
-        ]
+        ],
+        "nameEs": "Drávidas",
+        "summaryEs": "Civilización de infantería y barcos"
     },
     {
         "id": "ethiopians",
@@ -559,7 +587,9 @@
         ],
         "archetypes": [
             "archer"
-        ]
+        ],
+        "nameEs": "Etíopes",
+        "summaryEs": "Civilización de arqueros"
     },
     {
         "id": "franks",
@@ -595,7 +625,9 @@
         ],
         "archetypes": [
             "cavalry"
-        ]
+        ],
+        "nameEs": "Francos",
+        "summaryEs": "Civilización de caballería"
     },
     {
         "id": "georgians",
@@ -632,7 +664,9 @@
         ],
         "archetypes": [
             "cavalry"
-        ]
+        ],
+        "nameEs": "Georgianos",
+        "summaryEs": "Civilización de caballería y defensa"
     },
     {
         "id": "goths",
@@ -669,7 +703,9 @@
         ],
         "archetypes": [
             "infantry"
-        ]
+        ],
+        "nameEs": "Godos",
+        "summaryEs": "Civilización de infantería"
     },
     {
         "id": "gurjaras",
@@ -708,7 +744,9 @@
         "archetypes": [
             "cavalry",
             "camel"
-        ]
+        ],
+        "nameEs": "Gurjaras",
+        "summaryEs": "Civilización de caballería y camellos"
     },
     {
         "id": "hindustanis",
@@ -745,7 +783,9 @@
         "archetypes": [
             "gunpowder",
             "camel"
-        ]
+        ],
+        "nameEs": "Indostaníes",
+        "summaryEs": "Civilización de camellos y pólvora"
     },
     {
         "id": "huns",
@@ -781,7 +821,9 @@
         "archetypes": [
             "cavalry",
             "cavalry_archer"
-        ]
+        ],
+        "nameEs": "Hunos",
+        "summaryEs": "Civilización de caballería"
     },
     {
         "id": "incas",
@@ -820,7 +862,9 @@
         "archetypes": [
             "infantry",
             "eagle"
-        ]
+        ],
+        "nameEs": "Incas",
+        "summaryEs": "Civilización de infantería"
     },
     {
         "id": "italians",
@@ -860,7 +904,9 @@
         "archetypes": [
             "archer",
             "naval"
-        ]
+        ],
+        "nameEs": "Italianos",
+        "summaryEs": "Civilización de arqueros y barcos"
     },
     {
         "id": "japanese",
@@ -898,7 +944,9 @@
         ],
         "archetypes": [
             "infantry"
-        ]
+        ],
+        "nameEs": "Japoneses",
+        "summaryEs": "Civilización de infantería"
     },
     {
         "id": "khmer",
@@ -935,7 +983,9 @@
         "archetypes": [
             "elephant",
             "siege"
-        ]
+        ],
+        "nameEs": "Jemeres",
+        "summaryEs": "Civilización de asedio y elefantes"
     },
     {
         "id": "koreans",
@@ -972,7 +1022,9 @@
         "archetypes": [
             "naval",
             "defensive"
-        ]
+        ],
+        "nameEs": "Coreanos",
+        "summaryEs": "Civilización de torres y barcos"
     },
     {
         "id": "lithuanians",
@@ -1009,7 +1061,9 @@
         ],
         "archetypes": [
             "cavalry"
-        ]
+        ],
+        "nameEs": "Lituanos",
+        "summaryEs": "Civilización de caballería y monjes"
     },
     {
         "id": "magyars",
@@ -1046,7 +1100,9 @@
         "archetypes": [
             "cavalry",
             "cavalry_archer"
-        ]
+        ],
+        "nameEs": "Magiares",
+        "summaryEs": "Civilización de caballería"
     },
     {
         "id": "malians",
@@ -1085,7 +1141,9 @@
         "archetypes": [
             "infantry",
             "camel"
-        ]
+        ],
+        "nameEs": "Malienses",
+        "summaryEs": "Civilización de infantería"
     },
     {
         "id": "malay",
@@ -1120,7 +1178,9 @@
         ],
         "archetypes": [
             "naval"
-        ]
+        ],
+        "nameEs": "Malayos",
+        "summaryEs": "Civilización de barcos"
     },
     {
         "id": "mayans",
@@ -1156,7 +1216,9 @@
         "archetypes": [
             "archer",
             "eagle"
-        ]
+        ],
+        "nameEs": "Mayas",
+        "summaryEs": "Civilización de arqueros"
     },
     {
         "id": "mongols",
@@ -1194,7 +1256,9 @@
         "archetypes": [
             "cavalry_archer",
             "camel"
-        ]
+        ],
+        "nameEs": "Mongoles",
+        "summaryEs": "Civilización de arqueros a caballo"
     },
     {
         "id": "persians",
@@ -1232,7 +1296,9 @@
         "archetypes": [
             "cavalry",
             "camel"
-        ]
+        ],
+        "nameEs": "Persas",
+        "summaryEs": "Civilización de caballería"
     },
     {
         "id": "poles",
@@ -1269,7 +1335,9 @@
         ],
         "archetypes": [
             "cavalry"
-        ]
+        ],
+        "nameEs": "Polacos",
+        "summaryEs": "Civilización de caballería"
     },
     {
         "id": "portuguese",
@@ -1306,7 +1374,9 @@
         "archetypes": [
             "naval",
             "gunpowder"
-        ]
+        ],
+        "nameEs": "Portugueses",
+        "summaryEs": "Civilización de barcos y pólvora"
     },
     {
         "id": "romans",
@@ -1343,7 +1413,9 @@
         ],
         "archetypes": [
             "infantry"
-        ]
+        ],
+        "nameEs": "Romanos",
+        "summaryEs": "Civilización de infantería"
     },
     {
         "id": "saracens",
@@ -1385,7 +1457,9 @@
         "archetypes": [
             "naval",
             "camel"
-        ]
+        ],
+        "nameEs": "Sarracenos",
+        "summaryEs": "Civilización de camellos y barcos"
     },
     {
         "id": "sicilians",
@@ -1421,7 +1495,9 @@
         ],
         "archetypes": [
             "infantry"
-        ]
+        ],
+        "nameEs": "Sicilianos",
+        "summaryEs": "Civilización de infantería"
     },
     {
         "id": "slavs",
@@ -1457,7 +1533,9 @@
         ],
         "archetypes": [
             "infantry"
-        ]
+        ],
+        "nameEs": "Eslavos",
+        "summaryEs": "Civilización de infantería"
     },
     {
         "id": "spanish",
@@ -1498,7 +1576,9 @@
         "archetypes": [
             "gunpowder",
             "monk"
-        ]
+        ],
+        "nameEs": "Españoles",
+        "summaryEs": "Civilización de pólvora y monjes"
     },
     {
         "id": "tatars",
@@ -1535,7 +1615,9 @@
         "archetypes": [
             "cavalry_archer",
             "camel"
-        ]
+        ],
+        "nameEs": "Tártaros",
+        "summaryEs": "Civilización de arqueros a caballo"
     },
     {
         "id": "teutons",
@@ -1572,7 +1654,9 @@
         ],
         "archetypes": [
             "infantry"
-        ]
+        ],
+        "nameEs": "Teutones",
+        "summaryEs": "Civilización de infantería y caballería"
     },
     {
         "id": "turks",
@@ -1613,7 +1697,9 @@
             "gunpowder",
             "camel",
             "cavalry_archer"
-        ]
+        ],
+        "nameEs": "Turcos",
+        "summaryEs": "Civilización de pólvora"
     },
     {
         "id": "vietnamese",
@@ -1650,7 +1736,9 @@
         ],
         "archetypes": [
             "archer"
-        ]
+        ],
+        "nameEs": "Vietnamitas",
+        "summaryEs": "Civilización de arqueros"
     },
     {
         "id": "vikings",
@@ -1687,7 +1775,9 @@
         "archetypes": [
             "infantry",
             "naval"
-        ]
+        ],
+        "nameEs": "Vikingos",
+        "summaryEs": "Civilización de infantería y barcos"
     },
     {
         "id": "jurchens",
@@ -1724,7 +1814,9 @@
         ],
         "archetypes": [
             "cavalry"
-        ]
+        ],
+        "nameEs": "Yurchen",
+        "summaryEs": "Civilización de caballería y pólvora"
     },
     {
         "id": "shu",
@@ -1762,7 +1854,9 @@
         ],
         "archetypes": [
             "archer"
-        ]
+        ],
+        "nameEs": "Shu",
+        "summaryEs": "Civilización de arqueros y asedio"
     },
     {
         "id": "khitans",
@@ -1800,7 +1894,9 @@
         "archetypes": [
             "cavalry_archer",
             "camel"
-        ]
+        ],
+        "nameEs": "Kitán",
+        "summaryEs": "Civilización de arqueros a caballo"
     },
     {
         "id": "wei",
@@ -1839,7 +1935,9 @@
         "archetypes": [
             "cavalry",
             "cavalry_archer"
-        ]
+        ],
+        "nameEs": "Wei",
+        "summaryEs": "Civilización de caballería y hero"
     },
     {
         "id": "wu",
@@ -1877,6 +1975,8 @@
         ],
         "archetypes": [
             "archer"
-        ]
+        ],
+        "nameEs": "Wu",
+        "summaryEs": "Civilización de arqueros y barcos"
     }
 ]
