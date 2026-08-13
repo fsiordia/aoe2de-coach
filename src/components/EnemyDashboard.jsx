@@ -1,48 +1,12 @@
-import { findCounters, getUnitById } from '../utils/gameLogic';
+import { findCounters, getKeyThreats } from '../utils/gameLogic';
 import CounterDisplay from './CounterDisplay';
 
 function EnemyDashboard({ enemyCiv, userCiv }) {
     if (!enemyCiv || !userCiv) return null;
 
-    // Identify units to show counters for.
-    // 1. Unique Units
-    // 2. Strong units based on "style" (simplification).
-
-    // For this prototype, we'll show counters for Unique Units + a few standard threats based on style.
-    // E.g. if Archer civ -> show counters for Arbalester.
-    // If Cavalry civ -> show counters for Paladin/Cavalier.
-
-    const threats = [];
-
-    // Add unique units
-    enemyCiv.uniqueUnits.forEach(uid => {
-        const u = getUnitById(uid);
-        if (u) threats.push(u);
-    });
-
-    // Add standard threats based on style
-    if (enemyCiv.style === "Archer" || enemyCiv.style.includes("Archer")) {
-        if (enemyCiv.roster.includes("arbalester")) threats.push(getUnitById("arbalester"));
-        else if (enemyCiv.roster.includes("crossbowman")) threats.push(getUnitById("crossbowman"));
-    }
-    if (enemyCiv.style === "Cavalry" || enemyCiv.style.includes("Cavalry")) {
-        // Check if they have Paladin or Cavalier in roster
-        if (enemyCiv.roster.includes("paladin")) threats.push(getUnitById("paladin"));
-        else if (enemyCiv.roster.includes("cavalier")) threats.push(getUnitById("cavalier"));
-        else threats.push(getUnitById("knight"));
-    }
-    if (enemyCiv.style === "Infantry" || enemyCiv.style.includes("Infantry")) {
-        if (enemyCiv.roster.includes("champion")) threats.push(getUnitById("champion"));
-        else if (enemyCiv.roster.includes("two_handed_swordsman")) threats.push(getUnitById("two_handed_swordsman"));
-    }
-    if (enemyCiv.summary.includes("Gunpowder")) {
-        if (enemyCiv.roster.includes("hand_cannoneer")) threats.push(getUnitById("hand_cannoneer"));
-        else if (enemyCiv.roster.includes("bombard_cannon")) threats.push(getUnitById("bombard_cannon"));
-    }
-
-    // Deduplicate by ID
-    const uniqueThreats = Array.from(new Set(threats.filter(t => t).map(t => t.id)))
-        .map(id => getUnitById(id));
+    // Key threats: unique units + representative units per civ archetype
+    // (structured data, see getKeyThreatsIn in gameLogic).
+    const threats = getKeyThreats(enemyCiv.id);
 
     return (
         <div className="bg-red-950/20 border-2 border-red-900/50 rounded-lg p-6 shadow-xl mb-6">
@@ -54,13 +18,19 @@ function EnemyDashboard({ enemyCiv, userCiv }) {
                     Key Threats & Counters
                 </h3>
 
-                {uniqueThreats.map(unit => (
+                {threats.map(unit => (
                     <CounterDisplay
                         key={unit.id}
                         enemyUnit={unit}
                         counters={findCounters(unit.id, userCiv.id)}
                     />
                 ))}
+
+                {threats.length === 0 && (
+                    <p className="text-slate-500 italic text-sm">
+                        No key threats identified for this civilization.
+                    </p>
+                )}
             </div>
         </div>
     );

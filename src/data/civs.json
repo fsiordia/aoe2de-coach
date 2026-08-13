@@ -30,6 +30,10 @@
             "elite_skirmisher",
             "onager",
             "hand_cannoneer"
+        ],
+        "archetypes": [
+            "infantry",
+            "naval"
         ]
     },
     {
@@ -64,6 +68,10 @@
             "pikeman",
             "onager",
             "monk"
+        ],
+        "archetypes": [
+            "infantry",
+            "eagle"
         ]
     },
     {
@@ -96,6 +104,10 @@
             "onager",
             "heavy_scorpion",
             "monk"
+        ],
+        "archetypes": [
+            "naval",
+            "elephant"
         ]
     },
     {
@@ -131,6 +143,11 @@
             "bombard_cannon",
             "elite_skirmisher",
             "cavalry_archer"
+        ],
+        "archetypes": [
+            "cavalry",
+            "camel",
+            "cavalry_archer"
         ]
     },
     {
@@ -165,6 +182,10 @@
             "elite_skirmisher",
             "onager",
             "monk"
+        ],
+        "archetypes": [
+            "gunpowder",
+            "monk"
         ]
     },
     {
@@ -197,6 +218,9 @@
             "champion",
             "onager",
             "elite_skirmisher"
+        ],
+        "archetypes": [
+            "archer"
         ]
     },
     {
@@ -229,6 +253,10 @@
             "onager",
             "halberdier",
             "elite_skirmisher"
+        ],
+        "archetypes": [
+            "cavalry",
+            "infantry"
         ]
     },
     {
@@ -263,6 +291,9 @@
             "onager",
             "hussar",
             "elite_skirmisher"
+        ],
+        "archetypes": [
+            "cavalry"
         ]
     },
     {
@@ -297,6 +328,10 @@
             "onager",
             "monk",
             "bombard_cannon"
+        ],
+        "archetypes": [
+            "monk",
+            "elephant"
         ]
     },
     {
@@ -333,6 +368,10 @@
             "hussar",
             "elite_skirmisher",
             "monk"
+        ],
+        "archetypes": [
+            "defensive",
+            "camel"
         ]
     },
     {
@@ -366,6 +405,10 @@
             "onager",
             "heavy_scorpion",
             "elite_skirmisher"
+        ],
+        "archetypes": [
+            "infantry",
+            "siege"
         ]
     },
     {
@@ -400,6 +443,9 @@
             "heavy_scorpion",
             "onager",
             "elite_skirmisher"
+        ],
+        "archetypes": [
+            "archer"
         ]
     },
     {
@@ -434,6 +480,11 @@
             "onager",
             "elite_skirmisher",
             "cavalry_archer"
+        ],
+        "archetypes": [
+            "cavalry",
+            "camel",
+            "cavalry_archer"
         ]
     },
     {
@@ -467,6 +518,10 @@
             "elite_skirmisher",
             "heavy_scorpion",
             "onager"
+        ],
+        "archetypes": [
+            "infantry",
+            "naval"
         ]
     },
     {
@@ -501,6 +556,9 @@
             "onager",
             "elite_skirmisher",
             "bombard_cannon"
+        ],
+        "archetypes": [
+            "archer"
         ]
     },
     {
@@ -534,6 +592,9 @@
             "champion",
             "onager",
             "elite_skirmisher"
+        ],
+        "archetypes": [
+            "cavalry"
         ]
     },
     {
@@ -568,6 +629,9 @@
             "heavy_scorpion",
             "onager",
             "elite_skirmisher"
+        ],
+        "archetypes": [
+            "cavalry"
         ]
     },
     {
@@ -602,6 +666,9 @@
             "hussar",
             "onager",
             "elite_skirmisher"
+        ],
+        "archetypes": [
+            "infantry"
         ]
     },
     {
@@ -637,6 +704,10 @@
             "hand_cannoneer",
             "onager",
             "bombard_cannon"
+        ],
+        "archetypes": [
+            "cavalry",
+            "camel"
         ]
     },
     {
@@ -670,6 +741,10 @@
             "onager",
             "elite_skirmisher",
             "bombard_cannon"
+        ],
+        "archetypes": [
+            "gunpowder",
+            "camel"
         ]
     },
     {
@@ -702,6 +777,10 @@
             "hussar",
             "onager",
             "elite_skirmisher"
+        ],
+        "archetypes": [
+            "cavalry",
+            "cavalry_archer"
         ]
     },
     {
@@ -737,6 +816,10 @@
             "champion",
             "onager",
             "monk"
+        ],
+        "archetypes": [
+            "infantry",
+            "eagle"
         ]
     },
     {
@@ -773,6 +856,10 @@
             "champion",
             "onager",
             "elite_skirmisher"
+        ],
+        "archetypes": [
+            "archer",
+            "naval"
         ]
     },
     {
@@ -808,6 +895,9 @@
             "onager",
             "elite_skirmisher",
             "monk"
+        ],
+        "archetypes": [
+            "infantry"
         ]
     },
     {
@@ -841,6 +931,10 @@
             "heavy_scorpion",
             "onager",
             "elite_skirmisher"
+        ],
+        "archetypes": [
+            "elephant",
+            "siege"
         ]
     },
     {
@@ -874,6 +968,10 @@
             "onager",
             "elite_skirmisher",
             "champion"
+        ],
+        "archetypes": [
+            "naval",
+            "defensive"
         ]
     },
     {
@@ -908,6 +1006,9 @@
             "champion",
             "hussar",
             "onager"
+        ],
+        "archetypes": [
+            "cavalry"
         ]
     },
     {
@@ -941,6 +1042,10 @@
             "onager",
             "elite_skirmisher",
             "arbalester"
+        ],
+        "archetypes": [
+            "cavalry",
+            "cavalry_archer"
         ]
     },
     {
@@ -976,6 +1081,10 @@
             "elite_skirmisher",
             "hand_cannoneer",
             "bombard_cannon"
+        ],
+        "archetypes": [
+            "infantry",
+            "camel"
         ]
     },
     {
@@ -1008,6 +1117,9 @@
             "elite_skirmisher",
             "bombard_cannon",
             "onager"
+        ],
+        "archetypes": [
+            "naval"
         ]
     },
     {
@@ -1040,6 +1152,10 @@
             "elite_skirmisher",
             "onager",
             "monk"
+        ],
+        "archetypes": [
+            "archer",
+            "eagle"
         ]
     },
     {
@@ -1074,6 +1190,10 @@
             "elite_skirmisher",
             "arbalester",
             "cavalry_archer"
+        ],
+        "archetypes": [
+            "cavalry_archer",
+            "camel"
         ]
     },
     {
@@ -1108,6 +1228,10 @@
             "hussar",
             "elite_skirmisher",
             "crossbowman"
+        ],
+        "archetypes": [
+            "cavalry",
+            "camel"
         ]
     },
     {
@@ -1142,6 +1266,9 @@
             "onager",
             "hussar",
             "elite_skirmisher"
+        ],
+        "archetypes": [
+            "cavalry"
         ]
     },
     {
@@ -1175,6 +1302,10 @@
             "bombard_cannon",
             "onager",
             "elite_skirmisher"
+        ],
+        "archetypes": [
+            "naval",
+            "gunpowder"
         ]
     },
     {
@@ -1209,6 +1340,9 @@
             "heavy_scorpion",
             "onager",
             "elite_skirmisher"
+        ],
+        "archetypes": [
+            "infantry"
         ]
     },
     {
@@ -1247,6 +1381,10 @@
             "hand_cannoneer",
             "bombard_cannon",
             "monk"
+        ],
+        "archetypes": [
+            "naval",
+            "camel"
         ]
     },
     {
@@ -1280,6 +1418,9 @@
             "siege_ram",
             "onager",
             "elite_skirmisher"
+        ],
+        "archetypes": [
+            "infantry"
         ]
     },
     {
@@ -1313,6 +1454,9 @@
             "onager",
             "elite_skirmisher",
             "siege_ram"
+        ],
+        "archetypes": [
+            "infantry"
         ]
     },
     {
@@ -1350,6 +1494,10 @@
             "elite_skirmisher",
             "bombard_cannon",
             "monk"
+        ],
+        "archetypes": [
+            "gunpowder",
+            "monk"
         ]
     },
     {
@@ -1383,6 +1531,10 @@
             "cavalry_archer",
             "halberdier",
             "onager"
+        ],
+        "archetypes": [
+            "cavalry_archer",
+            "camel"
         ]
     },
     {
@@ -1417,6 +1569,9 @@
             "onager",
             "elite_skirmisher",
             "bombard_cannon"
+        ],
+        "archetypes": [
+            "infantry"
         ]
     },
     {
@@ -1453,6 +1608,11 @@
             "elite_skirmisher",
             "bombard_cannon",
             "cavalry_archer"
+        ],
+        "archetypes": [
+            "gunpowder",
+            "camel",
+            "cavalry_archer"
         ]
     },
     {
@@ -1487,6 +1647,9 @@
             "onager",
             "elite_skirmisher",
             "bombard_cannon"
+        ],
+        "archetypes": [
+            "archer"
         ]
     },
     {
@@ -1520,6 +1683,10 @@
             "elite_skirmisher",
             "cavalier",
             "hand_cannoneer"
+        ],
+        "archetypes": [
+            "infantry",
+            "naval"
         ]
     },
     {
@@ -1554,6 +1721,9 @@
             "halberdier",
             "elite_skirmisher",
             "onager"
+        ],
+        "archetypes": [
+            "cavalry"
         ]
     },
     {
@@ -1589,6 +1759,9 @@
             "halberdier",
             "elite_skirmisher",
             "cavalier"
+        ],
+        "archetypes": [
+            "archer"
         ]
     },
     {
@@ -1623,6 +1796,10 @@
             "onager",
             "elite_skirmisher",
             "trebuchet"
+        ],
+        "archetypes": [
+            "cavalry_archer",
+            "camel"
         ]
     },
     {
@@ -1658,6 +1835,10 @@
             "halberdier",
             "onager",
             "bombard_cannon"
+        ],
+        "archetypes": [
+            "cavalry",
+            "cavalry_archer"
         ]
     },
     {
@@ -1693,6 +1874,9 @@
             "heavy_scorpion",
             "onager",
             "siege_ram"
+        ],
+        "archetypes": [
+            "archer"
         ]
     }
 ]

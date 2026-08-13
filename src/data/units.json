@@ -12,7 +12,8 @@
             "eagle_scout"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Archer_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/archer.png"
+        "imageUrl": "/images/units/archer.png",
+        "strategyNote": "Mass Skirmishers trade for free. If they're massing, add a Mangonel or dive them with Scouts/Eagles before they upgrade."
     },
     {
         "id": "crossbowman",
@@ -29,7 +30,8 @@
             "unique_rattan_archer"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Crossbowman_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/crossbowman.png"
+        "imageUrl": "/images/units/crossbowman.png",
+        "strategyNote": "Skirmishers + one Mangonel behind. Knights force them off gold; don't fight them with slow infantry in the open."
     },
     {
         "id": "arbalester",
@@ -43,7 +45,8 @@
             "unique_shrivamsha_rider"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Arbalester_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/arbalester.png"
+        "imageUrl": "/images/units/arbalester.png",
+        "strategyNote": "Elite Skirms + Onager shots on the clump, or Hussar/Eagle dives from two sides so they can't kite one way."
     },
     {
         "id": "skirmisher",
@@ -56,20 +59,22 @@
             "knight"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Skirmisher_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/skirmisher.png"
+        "imageUrl": "/images/units/skirmisher.png",
+        "strategyNote": "Only hurts archers. Anything melee (Scouts, Men-at-Arms, Eagles) kills them for free — never shoot Skirms with archers."
     },
     {
         "id": "elite_skirmisher",
         "name": "Elite Skirmisher",
         "type": "Archer",
-        "upgradesTo": "imperial_skirmisher",
+        "upgradesTo": "unique_imperial_skirmisher",
         "counteredBy": [
             "light_cavalry",
             "long_swordsman",
             "knight"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Elite_Skirmisher_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/elite_skirmisher.png"
+        "imageUrl": "/images/units/elite_skirmisher.png",
+        "strategyNote": "Melee units beat them for free. If you're an archer civ, add siege or cavalry instead of trading arrows."
     },
     {
         "id": "spearman",
@@ -83,7 +88,8 @@
             "scorpion"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Spearman_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/spearman.png"
+        "imageUrl": "/images/units/spearman.png",
+        "strategyNote": "Never charge cavalry in. Shoot them with Archers/Skirms or fight with your own infantry."
     },
     {
         "id": "pikeman",
@@ -99,7 +105,8 @@
             "unique_cataphract"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Pikeman_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/pikeman.png"
+        "imageUrl": "/images/units/pikeman.png",
+        "strategyNote": "Bait them with cavalry, kill them with ranged units or swordsmen. Onagers erase pike masses."
     },
     {
         "id": "halberdier",
@@ -112,7 +119,8 @@
             "hand_cannoneer"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Halberdier_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/halberdier.png"
+        "imageUrl": "/images/units/halberdier.png",
+        "strategyNote": "Pure counter unit: kite with any ranged unit. Only engage with cavalry after they're thinned out."
     },
     {
         "id": "militia",
@@ -123,7 +131,8 @@
             "archer"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Militia_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/militia.png"
+        "imageUrl": "/images/units/militia.png",
+        "strategyNote": "A couple of Men-at-Arms or archers behind walls stop a Drush. Keep villagers together and garrison if needed."
     },
     {
         "id": "man_at_arms",
@@ -136,7 +145,8 @@
             "scorpion"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Man-at-Arms_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/man_at_arms.png"
+        "imageUrl": "/images/units/man_at_arms.png",
+        "strategyNote": "Archers kite them to death; towers and TC fire blunt the rush. Don't meet them with Skirmishers."
     },
     {
         "id": "long_swordsman",
@@ -154,7 +164,8 @@
             "unique_teutonic_knight"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Long_Swordsman_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/long_swordsman.png"
+        "imageUrl": "/images/units/long_swordsman.png",
+        "strategyNote": "Kite with Crossbows or Cav Archers; they're slow — raid their eco elsewhere while they walk."
     },
     {
         "id": "two_handed_swordsman",
@@ -167,7 +178,9 @@
             "hand_cannoneer",
             "heavy_scorpion"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Two-Handed_Swordsman_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Two-Handed_Swordsman_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/two_handed_swordsman.png",
+        "strategyNote": "Hand Cannoneers or massed Arbalesters shred them; Onagers punish the clump. Avoid prolonged melee."
     },
     {
         "id": "champion",
@@ -180,7 +193,8 @@
             "paladin"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Champion_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/champion.png"
+        "imageUrl": "/images/units/champion.png",
+        "strategyNote": "Hand Cannoneers + a meat shield, or Cav Archers kiting. Never let them reach your Skirms/siege."
     },
     {
         "id": "scout_cavalry",
@@ -193,7 +207,8 @@
             "camel_scout"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Scout_Cavalry_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/scout_cavalry.png"
+        "imageUrl": "/images/units/scout_cavalry.png",
+        "strategyNote": "Spears + TC fire stop the rush. Wall your resources; a few Skirms die to Scouts, so use spears."
     },
     {
         "id": "light_cavalry",
@@ -206,7 +221,8 @@
             "knight"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Light_Cavalry_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/light_cavalry.png"
+        "imageUrl": "/images/units/light_cavalry.png",
+        "strategyNote": "Pikemen at your eco, Camels if you have them. They hunt Monks and siege — screen yours."
     },
     {
         "id": "hussar",
@@ -219,7 +235,8 @@
             "unique_genoese_crossbowman"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Hussar_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/hussar.png"
+        "imageUrl": "/images/units/hussar.png",
+        "strategyNote": "Halberdiers hold the line cheaply; add Camels or your own heavy cavalry to actually kill the mass."
     },
     {
         "id": "knight",
@@ -240,7 +257,8 @@
             "battle_elephant"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Knight_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/knight.png"
+        "imageUrl": "/images/units/knight.png",
+        "strategyNote": "Pikes in front, Monks or Camels behind. Wall your eco — Knights win by raiding, not by fighting Pikes."
     },
     {
         "id": "cavalier",
@@ -253,7 +271,8 @@
             "monk"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Cavalier_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/cavalier.png"
+        "imageUrl": "/images/units/cavalier.png",
+        "strategyNote": "Halberdiers + Monks, or mass Camels. Keep your archers behind the spear wall at all times."
     },
     {
         "id": "paladin",
@@ -265,7 +284,8 @@
             "monk"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Paladin_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/paladin.png"
+        "imageUrl": "/images/units/paladin.png",
+        "strategyNote": "Halberdiers + Monks is the gold-efficient answer; Heavy Camels trade well. Never fight them in the open with archers alone."
     },
     {
         "id": "camel_rider",
@@ -279,19 +299,22 @@
             "unique_cataphract"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Camel_Rider_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/camel_rider.png"
+        "imageUrl": "/images/units/camel_rider.png",
+        "strategyNote": "Anti-cavalry only. Beat them with Pikemen, archers or infantry — never with your Knights."
     },
     {
         "id": "heavy_camel_rider",
         "name": "Heavy Camel Rider",
         "type": "Cavalry",
-        "upgradesTo": "imperial_camel_rider",
+        "upgradesTo": "unique_imperial_camel_rider",
         "counteredBy": [
             "halberdier",
             "two_handed_swordsman",
             "arbalester"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Heavy_Camel_Rider_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Heavy_Camel_Rider_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/heavy_camel_rider.png",
+        "strategyNote": "Keep your cavalry away; kill Camels with Halbs, archers or Champions. They melt to arrows."
     },
     {
         "id": "monk",
@@ -305,7 +328,8 @@
             "archer"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Monk_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/monk.png"
+        "imageUrl": "/images/units/monk.png",
+        "strategyNote": "Spread units, keep Light Cav/Eagles to snipe Monks, or shoot them first — every conversion is a double loss."
     },
     {
         "id": "eagle_scout",
@@ -317,7 +341,8 @@
             "champion"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Eagle_Scout_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/eagle_scout.png"
+        "imageUrl": "/images/units/eagle_scout.png",
+        "strategyNote": "Early Eagle raids: a few Men-at-Arms or spears at each eco spot; wall early."
     },
     {
         "id": "eagle_warrior",
@@ -328,7 +353,9 @@
             "long_swordsman",
             "knight"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Eagle_Warrior_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Eagle_Warrior_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/eagle_warrior.png",
+        "strategyNote": "Swordsmen crush Eagles. Avoid archer-only armies — Eagles are built to eat them and your siege."
     },
     {
         "id": "elite_eagle_warrior",
@@ -339,7 +366,9 @@
             "paladin",
             "hand_cannoneer"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Elite_Eagle_Warrior_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Elite_Eagle_Warrior_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/elite_eagle_warrior.png",
+        "strategyNote": "Champions/Legionaries head-on; garrison siege when the swarm dives. Don't rely on arrows alone."
     },
     {
         "id": "hand_cannoneer",
@@ -352,7 +381,8 @@
             "unique_condottiero"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Hand_Cannoneer_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/hand_cannoneer.png"
+        "imageUrl": "/images/units/hand_cannoneer.png",
+        "strategyNote": "Anti-infantry: charge with Knights/Hussars (they're inaccurate vs fast units) or outrange with Arbalest + Onager."
     },
     {
         "id": "cavalry_archer",
@@ -376,7 +406,8 @@
             "unique_ghulam"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Cavalry_Archer_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/cavalry_archer.png"
+        "imageUrl": "/images/units/cavalry_archer.png",
+        "strategyNote": "Skirmishers + Camels/Hussars to run them down. Fight near your base so they can't kite forever."
     },
     {
         "id": "bombard_cannon",
@@ -386,7 +417,9 @@
             "hussar",
             "unique_magyar_huszar"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Bombard_Cannon_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Bombard_Cannon_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/bombard_cannon.png",
+        "strategyNote": "Fast cavalry snipes it in two hits. Never park siege or massed archers in its range."
     },
     {
         "id": "siege_ram",
@@ -402,7 +435,8 @@
             "unique_magyar_huszar"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Siege_Ram_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/siege_ram.png"
+        "imageUrl": "/images/units/siege_ram.png",
+        "strategyNote": "Melee units (even villagers) chop Rams fast; Mangonels help. Arrows are useless — never defend with archers only."
     },
     {
         "id": "onager",
@@ -418,7 +452,8 @@
             "monk"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Onager_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/onager.png"
+        "imageUrl": "/images/units/onager.png",
+        "strategyNote": "Split your army before engaging; snipe it with cavalry. One good shot erases a Skirm/archer mass."
     },
     {
         "id": "heavy_scorpion",
@@ -435,7 +470,8 @@
             "unique_huskarl"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Heavy_Scorpion_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/heavy_scorpion.png"
+        "imageUrl": "/images/units/heavy_scorpion.png",
+        "strategyNote": "Same: cavalry from two sides or your own Onagers. Never walk infantry into the firing line."
     },
     {
         "id": "unique_imperial_skirmisher",
@@ -447,7 +483,9 @@
             "onager",
             "champion"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Imperial_Skirmisher_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Imperial_Skirmisher_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_imperial_skirmisher.png",
+        "strategyNote": "Same rule as all Skirms: run them down with cavalry or infantry, never with ranged units."
     },
     {
         "id": "unique_genitour",
@@ -464,7 +502,8 @@
             "unique_ghulam"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Genitour_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_genitour.png"
+        "imageUrl": "/images/units/unique_genitour.png",
+        "strategyNote": "Mounted Skirm: only hurts archers. Melee cavalry or infantry deal with it easily."
     },
     {
         "id": "unique_condottiero",
@@ -478,7 +517,8 @@
             "scorpion"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Condottiero_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_condottiero.png"
+        "imageUrl": "/images/units/unique_condottiero.png",
+        "strategyNote": "Anti-gunpowder: if you're going Hand Cannoneers, switch — archers and cavalry handle them."
     },
     {
         "id": "unique_missionary",
@@ -493,7 +533,8 @@
             "halberdier"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Missionary_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_missionary.png"
+        "imageUrl": "/images/units/unique_missionary.png",
+        "strategyNote": "Mobile Monk: same answer — Light Cavalry snipes; don't clump expensive units near it."
     },
     {
         "id": "unique_flemish_militia",
@@ -505,7 +546,9 @@
             "hand_cannoneer",
             "champion"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Flemish_Militia_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Flemish_Militia_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_flemish_militia.png",
+        "strategyNote": "One-time eco army: whittle it with archers/HC and raid — they can't remake villagers."
     },
     {
         "id": "unique_houfnice",
@@ -516,7 +559,9 @@
             "hussar",
             "unique_magyar_huszar"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Houfnice_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Houfnice_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_houfnice.png",
+        "strategyNote": "Upgraded Bombard: snipe it with fast cavalry raids before the push arrives."
     },
     {
         "id": "unique_imperial_camel_rider",
@@ -528,7 +573,9 @@
             "two_handed_swordsman",
             "arbalester"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Imperial_Camel_Rider_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Imperial_Camel_Rider_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_imperial_camel_rider.png",
+        "strategyNote": "Ultimate anti-cavalry: switch off Knights entirely — go archers + Halbs or infantry."
     },
     {
         "id": "unique_chu_ko_nu",
@@ -548,7 +595,8 @@
             "unique_ghulam"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Chu_Ko_Nu_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_chu_ko_nu.png"
+        "imageUrl": "/images/units/unique_chu_ko_nu.png",
+        "strategyNote": "Melts infantry up close: Onagers + Skirms from range, or cavalry dive with armor upgrades."
     },
     {
         "id": "unique_leitis",
@@ -562,7 +610,9 @@
             "arbalester",
             "unique_samurai"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Leitis_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Leitis_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_leitis.png",
+        "strategyNote": "Ignores armor in melee — your Paladins/Teutonic Knights lose value. Halbs, Monks and ranged mass instead."
     },
     {
         "id": "unique_longbowman",
@@ -581,7 +631,8 @@
             "unique_ghulam"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Longbowman_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_longbowman.png"
+        "imageUrl": "/images/units/unique_longbowman.png",
+        "strategyNote": "Outranges everything on foot: close the distance with Knights/Sicilian-style cavalry or Onagers; Skirms need siege support."
     },
     {
         "id": "unique_throwing_axeman",
@@ -604,7 +655,8 @@
             "unique_slinger"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Throwing_Axeman_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_throwing_axeman.png"
+        "imageUrl": "/images/units/unique_throwing_axeman.png",
+        "strategyNote": "Ranged infantry: cavalry closes the gap fast; archers outrange them."
     },
     {
         "id": "unique_huskarl",
@@ -618,7 +670,8 @@
             "mangonel"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Huskarl_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_huskarl.png"
+        "imageUrl": "/images/units/unique_huskarl.png",
+        "strategyNote": "Anti-archer: stop shooting it. Champions, Jaguars, Cataphracts or cavalry in melee."
     },
     {
         "id": "unique_war_elephant",
@@ -638,7 +691,8 @@
             "unique_genoese_crossbowman"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/War_Elephant_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_war_elephant.png"
+        "imageUrl": "/images/units/unique_war_elephant.png",
+        "strategyNote": "Extremely slow: mass Halbs + Monks converts or kills the investment. Raid their eco — they can't defend it."
     },
     {
         "id": "unique_jaguar_warrior",
@@ -650,7 +704,9 @@
             "hand_cannoneer",
             "unique_cataphract"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Jaguar_Warrior_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Jaguar_Warrior_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_jaguar_warrior.png",
+        "strategyNote": "Anti-infantry: never send Champions/Eagles in. Archers and cavalry beat them cleanly."
     },
     {
         "id": "unique_cataphract",
@@ -669,7 +725,8 @@
             "unique_boyar"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Cataphract_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_cataphract.png"
+        "imageUrl": "/images/units/unique_cataphract.png",
+        "strategyNote": "Anti-infantry cavalry: Pikes are NOT the answer. Mass Camels, Monks, or ranged units + siege."
     },
     {
         "id": "unique_samurai",
@@ -686,7 +743,8 @@
             "battle_elephant"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Samurai_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_samurai.png"
+        "imageUrl": "/images/units/unique_samurai.png",
+        "strategyNote": "Anti-unique: keep your unique unit home; fight with generic Knights/archers instead."
     },
     {
         "id": "unique_mangudai",
@@ -705,7 +763,8 @@
             "unique_genoese_crossbowman"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Mangudai_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_mangudai.png"
+        "imageUrl": "/images/units/unique_mangudai.png",
+        "strategyNote": "Kill them before mass: Camels + Hussars chasing, Elite Skirms holding. A slow deathball loses the map."
     },
     {
         "id": "unique_conquistador",
@@ -723,7 +782,8 @@
             "unique_mameluke"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Conquistador_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_conquistador.png"
+        "imageUrl": "/images/units/unique_conquistador.png",
+        "strategyNote": "Mounted gunpowder: Skirms do poorly — use Camels/Knights to close, Onagers on the clump."
     },
     {
         "id": "unique_plumed_archer",
@@ -735,7 +795,9 @@
             "knight",
             "unique_huskarl"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Plumed_Archer_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Plumed_Archer_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_plumed_archer.png",
+        "strategyNote": "Fast archer: Elite Skirms still counter; add Hussars to chase. Don't chase with Champions."
     },
     {
         "id": "unique_tarkan",
@@ -747,7 +809,9 @@
             "paladin",
             "camel_rider"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Tarkan_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Tarkan_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_tarkan.png",
+        "strategyNote": "Building raider. Castle drops and walls suffer — keep Halbs/Camels near your base and repair."
     },
     {
         "id": "unique_berserk",
@@ -765,7 +829,8 @@
             "unique_teutonic_knight"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Berserk_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_berserk.png"
+        "imageUrl": "/images/units/unique_berserk.png",
+        "strategyNote": "Self-healing infantry: burst them down with Hand Cannoneers/Jaguars; don't trade slowly."
     },
     {
         "id": "unique_janissary",
@@ -784,7 +849,8 @@
             "bombard_cannon"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Janissary_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_janissary.png"
+        "imageUrl": "/images/units/unique_janissary.png",
+        "strategyNote": "Outranges Skirms: dive with cavalry in two prongs, or trade with massed Arbalesters + siege."
     },
     {
         "id": "unique_kamayuk",
@@ -796,7 +862,9 @@
             "arbalester",
             "scorpion"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Kamayuk_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Kamayuk_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_kamayuk.png",
+        "strategyNote": "Extra range beats cavalry hard — fight them with Arbalesters/Hand Cannoneers, not with Knights."
     },
     {
         "id": "unique_slinger",
@@ -812,7 +880,8 @@
             "unique_rattan_archer"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Slinger_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_slinger.png"
+        "imageUrl": "/images/units/unique_slinger.png",
+        "strategyNote": "Anti-infantry ranged: cavalry or Eagles dive them; never walk swordsmen in."
     },
     {
         "id": "unique_ballista_elephant",
@@ -834,7 +903,8 @@
             "unique_flaming_camel"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Ballista_Elephant_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_ballista_elephant.png"
+        "imageUrl": "/images/units/unique_ballista_elephant.png",
+        "strategyNote": "Cuts through lines: Halberdiers + Monks (it's still an elephant); avoid tight formations."
     },
     {
         "id": "unique_shotel_warrior",
@@ -851,7 +921,8 @@
             "unique_janissary"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Shotel_Warrior_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_shotel_warrior.png"
+        "imageUrl": "/images/units/unique_shotel_warrior.png",
+        "strategyNote": "Fast shock infantry: TC fire + archers behind walls; they die fast to everything if you don't get surprised."
     },
     {
         "id": "unique_mameluke",
@@ -868,7 +939,8 @@
             "unique_teutonic_knight"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Mameluke_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_mameluke.png"
+        "imageUrl": "/images/units/unique_mameluke.png",
+        "strategyNote": "Ranged camel: archers + Halbs (they still counter cavalry). Onager shots hurt the expensive mass badly."
     },
     {
         "id": "unique_gbeto",
@@ -880,7 +952,9 @@
             "hand_cannoneer",
             "onager"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Gbeto_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Gbeto_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_gbeto.png",
+        "strategyNote": "Ranged infantry, fragile: cavalry dives kill them; don't trade with slow melee."
     },
     {
         "id": "unique_teutonic_knight",
@@ -902,7 +976,8 @@
             "unique_war_elephant"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Teutonic_Knight_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_teutonic_knight.png"
+        "imageUrl": "/images/units/unique_teutonic_knight.png",
+        "strategyNote": "Melee death, but crawls: kite forever with any ranged unit; never ever melee it."
     },
     {
         "id": "unique_war_wagon",
@@ -921,7 +996,8 @@
             "monk"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/War_Wagon_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_war_wagon.png"
+        "imageUrl": "/images/units/unique_war_wagon.png",
+        "strategyNote": "Tanky CA: mass Halbs + Onagers, or Camels diving. Small archer numbers bounce off it."
     },
     {
         "id": "unique_genoese_crossbowman",
@@ -939,7 +1015,8 @@
             "unique_shrivamsha_rider"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Genoese_Crossbowman_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_genoese_crossbowman.png"
+        "imageUrl": "/images/units/unique_genoese_crossbowman.png",
+        "strategyNote": "Anti-cavalry archer: stop making Knights; Skirms + Onagers or infantry win."
     },
     {
         "id": "unique_magyar_huszar",
@@ -950,7 +1027,9 @@
             "halberdier",
             "paladin"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Magyar_Huszar_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Magyar_Huszar_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_magyar_huszar.png",
+        "strategyNote": "Treat as Hussar: Halbs + Camels. Don't waste gold units chasing a trash raid unit."
     },
     {
         "id": "unique_boyar",
@@ -974,7 +1053,8 @@
             "unique_composite_bowman"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Boyar_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_boyar.png"
+        "imageUrl": "/images/units/unique_boyar.png",
+        "strategyNote": "Melee armor tank: arrows do little. Halberdiers and Monks, or mass Camels — don't melee with Knights."
     },
     {
         "id": "unique_woad_raider",
@@ -986,7 +1066,9 @@
             "arbalester",
             "champion"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Woad_Raider_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Woad_Raider_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_woad_raider.png",
+        "strategyNote": "Fastest infantry — it catches your archers: screen with cavalry or meet it with your own swordsmen."
     },
     {
         "id": "unique_arambai",
@@ -998,7 +1080,9 @@
             "camel_rider",
             "arbalester"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Arambai_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Arambai_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_arambai.png",
+        "strategyNote": "Deadly but inaccurate: spread out, rush them with Hussars/Eagles — never clump Skirms."
     },
     {
         "id": "unique_organ_gun",
@@ -1012,7 +1096,8 @@
             "knight"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Organ_Gun_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_organ_gun.png"
+        "imageUrl": "/images/units/unique_organ_gun.png",
+        "strategyNote": "Shreds clumped infantry: send cavalry from the flanks; Bombard Cannons outrange it."
     },
     {
         "id": "unique_rattan_archer",
@@ -1024,7 +1109,9 @@
             "eagle_warrior",
             "siege_ram"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Rattan_Archer_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Rattan_Archer_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_rattan_archer.png",
+        "strategyNote": "Ignores Skirmishers (high pierce armor): use Onagers, cavalry or infantry instead."
     },
     {
         "id": "unique_camel_archer",
@@ -1041,7 +1128,8 @@
             "unique_shrivamsha_rider"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Camel_Archer_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_camel_archer.png"
+        "imageUrl": "/images/units/unique_camel_archer.png",
+        "strategyNote": "Counters other CA; against you: Skirms + Camels, and close the distance with buildings/walls."
     },
     {
         "id": "unique_obuch",
@@ -1053,7 +1141,9 @@
             "hand_cannoneer",
             "heavy_scorpion"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Obuch_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Obuch_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_obuch.png",
+        "strategyNote": "Strips armor: keep expensive melee units away; shoot it down with archers/HC."
     },
     {
         "id": "unique_hussite_wagon",
@@ -1066,7 +1156,9 @@
             "hussar",
             "knight"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Hussite_Wagon_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Hussite_Wagon_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_hussite_wagon.png",
+        "strategyNote": "Mobile wall: get behind it with cavalry or Rams; melee it down — arrows are wasted."
     },
     {
         "id": "unique_coustillier",
@@ -1078,7 +1170,9 @@
             "heavy_camel_rider",
             "monk"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Coustillier_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Coustillier_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_coustillier.png",
+        "strategyNote": "Charge attack hits once, then it's a weak Knight. Absorb the charge with Halbs/tanky units, then swarm."
     },
     {
         "id": "unique_serjeant",
@@ -1103,7 +1197,8 @@
             "unique_composite_bowman"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Serjeant_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_serjeant.png"
+        "imageUrl": "/images/units/unique_serjeant.png",
+        "strategyNote": "Tanky but slow: kite with archers; ignore the Donjons and raid elsewhere."
     },
     {
         "id": "unique_konnik",
@@ -1115,7 +1210,9 @@
             "camel_rider",
             "arbalester"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Konnik_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Konnik_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_konnik.png",
+        "strategyNote": "Kills twice (dismounts to infantry). Halbs + archers clean both forms; Onagers hit the dismounted clump."
     },
     {
         "id": "unique_ratha",
@@ -1127,7 +1224,9 @@
             "camel_rider",
             "halberdier"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Ratha_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Ratha_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_ratha.png",
+        "strategyNote": "Switches melee/ranged: Camels + Elite Skirms cover both modes; Onager the mass."
     },
     {
         "id": "unique_kipchak",
@@ -1139,7 +1238,9 @@
             "camel_rider",
             "eagle_warrior"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Kipchak_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Kipchak_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_kipchak.png",
+        "strategyNote": "Cheap CA spam: Elite Skirms trade great; Hussars force them off. Don't chase with slow units."
     },
     {
         "id": "unique_urumi_swordsman",
@@ -1160,7 +1261,8 @@
             "unique_organ_gun"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Urumi_Swordsman_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_urumi_swordsman.png"
+        "imageUrl": "/images/units/unique_urumi_swordsman.png",
+        "strategyNote": "Splash melee: never clump infantry into it; Hand Cannoneers and Cav Archers kite it."
     },
     {
         "id": "unique_monaspa",
@@ -1172,7 +1274,9 @@
             "heavy_camel_rider",
             "unique_boyar"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Monaspa_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Monaspa_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_monaspa.png",
+        "strategyNote": "Stronger in groups — never fight the ball head-on with cavalry. Halbs + Onagers break the mass."
     },
     {
         "id": "unique_chakram_thrower",
@@ -1186,7 +1290,8 @@
             "unique_shrivamsha_rider"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Chakram_Thrower_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_chakram_thrower.png"
+        "imageUrl": "/images/units/unique_chakram_thrower.png",
+        "strategyNote": "Ranged splash vs infantry: spread out, dive with cavalry, or outrange with Arbalests."
     },
     {
         "id": "unique_ghulam",
@@ -1202,7 +1307,8 @@
             "monk"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Ghulam_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_ghulam.png"
+        "imageUrl": "/images/units/unique_ghulam.png",
+        "strategyNote": "Pierces through lines: don't stack archers in files; use cavalry or your own infantry mass."
     },
     {
         "id": "unique_karambit_warrior",
@@ -1213,7 +1319,9 @@
             "champion",
             "hand_cannoneer"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Karambit_Warrior_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Karambit_Warrior_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_karambit_warrior.png",
+        "strategyNote": "Half-pop swarm: Onagers, Hand Cannoneers and Champions clear crowds; don't fight it with single-target gold units."
     },
     {
         "id": "unique_centurion",
@@ -1238,7 +1346,8 @@
             "unique_leitis"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Centurion_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_centurion.png"
+        "imageUrl": "/images/units/unique_centurion.png",
+        "strategyNote": "Buffs nearby militia — kill the Centurions first with Camels/Halbs, then the infantry folds to archers."
     },
     {
         "id": "unique_shrivamsha_rider",
@@ -1248,9 +1357,13 @@
         "counteredBy": [
             "halberdier",
             "heavy_camel_rider",
-            "monk"
+            "monk",
+            "pikeman",
+            "knight"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Shrivamsha_Rider_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Shrivamsha_Rider_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_shrivamsha_rider.png",
+        "strategyNote": "Dodges arrows — don't shoot it. Halberdiers, Camels and melee engagements shut it down."
     },
     {
         "id": "unique_keshik",
@@ -1275,7 +1388,8 @@
             "unique_genoese_crossbowman"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Keshik_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_keshik.png"
+        "imageUrl": "/images/units/unique_keshik.png",
+        "strategyNote": "Generates gold in melee — refuse melee fights. Kite with archers, hold with Halbs."
     },
     {
         "id": "unique_flaming_camel",
@@ -1287,7 +1401,9 @@
             "onager",
             "halberdier"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Flaming_Camel_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Flaming_Camel_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_flaming_camel.png",
+        "strategyNote": "Suicide anti-cavalry bomb: spread your Knights/Elephants, or screen with one line of cheap Hussars."
     },
     {
         "id": "unique_composite_bowman",
@@ -1302,7 +1418,8 @@
             "unique_shrivamsha_rider"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Composite_Bowman_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_composite_bowman.png"
+        "imageUrl": "/images/units/unique_composite_bowman.png",
+        "strategyNote": "Armor-ignoring arrows: Skirms lose value — dive with cavalry or Onager the mass."
     },
     {
         "id": "unique_savar",
@@ -1316,7 +1433,9 @@
             "unique_leitis",
             "unique_konnik"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Savar_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Savar_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_savar.png",
+        "strategyNote": "A better Paladin: same answer, more of it — Halbs + Monks + Camels, and snipe their eco."
     },
     {
         "id": "unique_iron_pagoda",
@@ -1327,7 +1446,9 @@
             "heavy_camel_rider",
             "unique_kamayuk"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Iron_Pagoda_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Iron_Pagoda_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_iron_pagoda.png",
+        "strategyNote": "Very tanky cavalry: mass Halberdiers + Monks; avoid slow melee trades."
     },
     {
         "id": "unique_white_feather_guard",
@@ -1338,7 +1459,9 @@
             "hand_cannoneer",
             "heavy_scorpion"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/White_Feather_Guard_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/White_Feather_Guard_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_white_feather_guard.png",
+        "strategyNote": "Shu infantry: standard anti-infantry play — Hand Cannoneers, archers, Cav Archers kiting."
     },
     {
         "id": "unique_liao_dao",
@@ -1349,7 +1472,9 @@
             "hand_cannoneer",
             "unique_jaguar_warrior"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Liao_Dao_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Liao_Dao_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_liao_dao.png",
+        "strategyNote": "Anti-cavalry infantry: don't feed Knights; use archers + siege."
     },
     {
         "id": "unique_tiger_cavalry",
@@ -1371,7 +1496,8 @@
             "unique_war_elephant"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Tiger_Cavalry_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_tiger_cavalry.png"
+        "imageUrl": "/images/units/unique_tiger_cavalry.png",
+        "strategyNote": "Anti-archer cavalry: keep a Halb/Camel screen in front of your ranged mass."
     },
     {
         "id": "unique_xianbei_raider",
@@ -1382,7 +1508,9 @@
             "unique_camel_archer",
             "unique_huskarl"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Xianbei_Raider_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Xianbei_Raider_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_xianbei_raider.png",
+        "strategyNote": "Fast raider CA: wall + Skirms at home, Camels to chase. Don't defend with slow infantry."
     },
     {
         "id": "unique_cao_cao",
@@ -1393,7 +1521,9 @@
             "heavy_camel_rider",
             "monk"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Cao_Cao_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Cao_Cao_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_cao_cao.png",
+        "strategyNote": "Hero unit leading Wei cavalry: focus-fire with massed Halbs/Camels; don't chase him with archers."
     },
     {
         "id": "unique_fire_archer",
@@ -1407,7 +1537,8 @@
             "eagle_warrior"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Fire_Archer_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/unique_fire_archer.png"
+        "imageUrl": "/images/units/unique_fire_archer.png",
+        "strategyNote": "Burns buildings from range: cavalry dives and Skirm mass; repair with villagers."
     },
     {
         "id": "unique_jian_swordsman",
@@ -1418,7 +1549,9 @@
             "arbalester",
             "heavy_scorpion"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Jian_Swordsman_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Jian_Swordsman_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_jian_swordsman.png",
+        "strategyNote": "Dueling infantry: kite with ranged units; Onager the mass."
     },
     {
         "id": "unique_sun_jian",
@@ -1429,7 +1562,9 @@
             "heavy_camel_rider",
             "monk"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Sun_Jian_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Sun_Jian_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/unique_sun_jian.png",
+        "strategyNote": "Hero unit: treat like a heavy Knight — spear wall + Monks, and punish the army behind him."
     },
     {
         "id": "scorpion",
@@ -1448,7 +1583,8 @@
             "unique_huskarl"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Scorpion_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/scorpion.png"
+        "imageUrl": "/images/units/scorpion.png",
+        "strategyNote": "Flank with cavalry — scorpions can't turn fights. Onagers delete scorpion lines instantly."
     },
     {
         "id": "mangonel",
@@ -1465,7 +1601,8 @@
             "monk"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Mangonel_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/mangonel.png"
+        "imageUrl": "/images/units/mangonel.png",
+        "strategyNote": "Never clump ranged units. Dive it with Knights/Eagles; it's helpless in melee."
     },
     {
         "id": "trebuchet",
@@ -1476,7 +1613,9 @@
             "hussar",
             "mangonel"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Trebuchet_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Trebuchet_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/trebuchet.png",
+        "strategyNote": "Send fast cavalry the moment it unpacks; screen with your army. Your own Trebs/Bombards answer from range."
     },
     {
         "id": "camel_scout",
@@ -1487,17 +1626,9 @@
             "spearman",
             "archer"
         ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Camel_Scout_(Age_of_Empires_II)"
-    },
-    {
-        "id": "unique_shrivamsha_rider",
-        "name": "Shrivamsha Rider",
-        "type": "Cavalry",
-        "counteredBy": [
-            "pikeman",
-            "knight"
-        ],
-        "wikiUrl": "https://ageofempires.fandom.com/wiki/Shrivamsha_Rider_(Age_of_Empires_II)"
+        "wikiUrl": "https://ageofempires.fandom.com/wiki/Camel_Scout_(Age_of_Empires_II)",
+        "imageUrl": "/images/units/camel_scout.png",
+        "strategyNote": "Feudal camel that beats Scouts. Spearmen + TC fire handle it; don't fight it with your Scouts."
     },
     {
         "id": "battle_elephant",
@@ -1508,6 +1639,7 @@
             "monk"
         ],
         "wikiUrl": "https://ageofempires.fandom.com/wiki/Battle_Elephant_(Age_of_Empires_II)",
-        "imageUrl": "/images/units/battle_elephant.png"
+        "imageUrl": "/images/units/battle_elephant.png",
+        "strategyNote": "Halberdiers + Monks is the answer. Flaming Camels/Camels help. Never trade gold units head-on."
     }
 ]

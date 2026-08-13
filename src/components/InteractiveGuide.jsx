@@ -1,15 +1,16 @@
-import { useState, useEffect } from 'react';
-import { fastCastle, baidotFastCastle } from '../data/buildOrders';
+import { useState, useEffect, useCallback } from 'react';
+import { buildOrders, getBuildOrderById } from '../data/buildOrders';
 
-function InteractiveGuide({ onExit }) {
-    const [selectedStrategy, setSelectedStrategy] = useState('standard');
+function InteractiveGuide({ initialStrategyId }) {
+    const [selectedStrategy, setSelectedStrategy] = useState(initialStrategyId || 'standard');
     const [stepIndex, setStepIndex] = useState(0);
     const [time, setTime] = useState(0);
     const [isRunning, setIsRunning] = useState(false);
     const [finished, setFinished] = useState(false);
 
     // Get current steps based on selection
-    const steps = selectedStrategy === 'baidot' ? baidotFastCastle : fastCastle;
+    const activeOrder = getBuildOrderById(selectedStrategy) || buildOrders[0];
+    const steps = activeOrder.steps;
 
     useEffect(() => {
         let interval = null;
@@ -44,14 +45,21 @@ function InteractiveGuide({ onExit }) {
         setFinished(false);
     };
 
-    const handleNextStep = () => {
+    const handleNextStep = useCallback(() => {
         if (stepIndex < steps.length - 1) {
             setStepIndex(stepIndex + 1);
         } else {
             setFinished(true);
             setIsRunning(false);
         }
-    };
+    }, [stepIndex, steps.length]);
+
+    const handleStartAndAdvance = useCallback(() => {
+        setIsRunning(true);
+        if (stepIndex === 0) {
+            setStepIndex(1);
+        }
+    }, [stepIndex]);
 
     const currentStep = steps[stepIndex];
     const progress = ((stepIndex + (finished ? 1 : 0)) / steps.length) * 100;
@@ -71,33 +79,24 @@ function InteractiveGuide({ onExit }) {
 
         window.addEventListener('keydown', handleKeyDown);
         return () => window.removeEventListener('keydown', handleKeyDown);
-    }, [isRunning, finished, time, stepIndex, steps]);
-
-    const handleStartAndAdvance = () => {
-        setIsRunning(true);
-        if (stepIndex === 0) {
-            setStepIndex(1);
-        }
-    };
+    }, [isRunning, finished, time, handleNextStep, handleStartAndAdvance]);
 
     return (
         <div className="flex flex-col items-center justify-start p-4 h-full w-full max-w-6xl mx-auto md:justify-center transition-all">
 
             {/* Strategy Selector (Only visible at start) */}
             {!isRunning && time === 0 && stepIndex === 0 && (
-                <div className="mb-8 flex gap-4 bg-slate-800/50 p-2 rounded-lg border border-slate-700">
-                    <button
-                        onClick={() => setSelectedStrategy('standard')}
-                        className={`px-4 py-2 rounded-md transition-colors ${selectedStrategy === 'standard' ? 'bg-yellow-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'}`}
-                    >
-                        Standard Fast Castle
-                    </button>
-                    <button
-                        onClick={() => setSelectedStrategy('baidot')}
-                        className={`px-4 py-2 rounded-md transition-colors ${selectedStrategy === 'baidot' ? 'bg-yellow-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'}`}
-                    >
-                        Baidot Fast Castle
-                    </button>
+                <div className="mb-8 flex flex-wrap justify-center gap-2 bg-slate-800/50 p-2 rounded-lg border border-slate-700">
+                    {buildOrders.map(order => (
+                        <button
+                            key={order.id}
+                            onClick={() => setSelectedStrategy(order.id)}
+                            title={order.summary}
+                            className={`px-4 py-2 rounded-md transition-colors text-sm ${selectedStrategy === order.id ? 'bg-yellow-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'}`}
+                        >
+                            {order.name}
+                        </button>
+                    ))}
                 </div>
             )}
 

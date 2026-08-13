@@ -47,6 +47,13 @@ function CounterDisplay({ enemyUnit, counters }) {
                     </div>
                 </div>
             </div>
+
+            {enemyUnit.strategyNote && (
+                <div className="mt-3 pt-3 border-t border-slate-800 text-sm text-sky-300/80 flex gap-2">
+                    <span aria-hidden="true">📋</span>
+                    <span className="italic">{enemyUnit.strategyNote}</span>
+                </div>
+            )}
         </div>
     );
 }

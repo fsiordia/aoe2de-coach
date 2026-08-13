@@ -5,12 +5,14 @@ import EnemyDashboard from './components/EnemyDashboard';
 import UnitSearch from './components/UnitSearch';
 import InteractiveGuide from './components/InteractiveGuide';
 import DataUpdater from './components/DataUpdater';
+import BuildRecommendation from './components/BuildRecommendation';
 import { getCivById } from './utils/gameLogic';
 
 function App() {
     const [userCivId, setUserCivId] = useState("");
     const [enemyCivId, setEnemyCivId] = useState("");
     const [viewMode, setViewMode] = useState("coach"); // "coach" | "guide"
+    const [guideStrategyId, setGuideStrategyId] = useState("standard");
 
 
     const userCiv = userCivId ? getCivById(userCivId) : null;
@@ -25,7 +27,7 @@ function App() {
                         <h1 className="text-2xl md:text-3xl font-bold text-amber-500 drop-shadow-md tracking-wider">
                             AoE2DE Coach
                         </h1>
-                        <div className="text-xs text-amber-700 font-mono hidden md:block">v1.2 - Fast Castle Edition (and baidot's version)</div>
+                        <div className="text-xs text-amber-700 font-mono hidden md:block">v1.2 - Fast Castle Edition (and baidot&apos;s version)</div>
                     </div>
 
                     {/* Mode Toggle Button */}
@@ -47,7 +49,10 @@ function App() {
             <main className={`flex-grow w-full mx-auto p-4 md:p-6 transition-all duration-300 ${viewMode === "guide" ? "max-w-6xl" : "max-w-lg"}`}>
 
                 {viewMode === "guide" ? (
-                    <InteractiveGuide onExit={() => setViewMode("coach")} />
+                    <InteractiveGuide
+                        key={guideStrategyId}
+                        initialStrategyId={guideStrategyId}
+                    />
                 ) : (
                     <>
                         {/* User Civ Section */}
@@ -88,6 +93,17 @@ function App() {
                             </section>
                         )}
 
+                        {userCiv && (
+                            <BuildRecommendation
+                                userCiv={userCiv}
+                                enemyCiv={enemyCiv}
+                                onStart={(orderId) => {
+                                    setGuideStrategyId(orderId);
+                                    setViewMode("guide");
+                                }}
+                            />
+                        )}
+
                         <UnitSearch userCiv={userCiv} />
                     </>
                 )}
@@ -97,7 +113,7 @@ function App() {
             {/* Footer */}
             <footer className="bg-slate-950 text-slate-600 text-center p-4 text-xs">
                 <p>Age of Empires II DE © Microsoft Corporation.</p>
-                <p>AoE2DE Coach v1.2 was created under Microsoft's Game Content Usage Rules.</p>
+                <p>AoE2DE Coach v1.2 was created under Microsoft&apos;s Game Content Usage Rules.</p>
                 <DataUpdater />
             </footer>
         </div>
